@@ -47,10 +47,10 @@ defmodule Tymeslot.Emails.Templates.EmailVerification do
     TemplateHelper.compile_system_template(
       mjml_content,
       dgettext("emails_account", "Account Verification"),
-      dgettext("emails_account", "Welcome to Tymeslot - please verify your email."),
+      dgettext("emails_account", "Welcome to Synantesis - please verify your email."),
       intent: @intent,
       eyebrow: dgettext("emails_account", "Welcome"),
-      stage_title: dgettext("emails_account", "Welcome to Tymeslot"),
+      stage_title: dgettext("emails_account", "Welcome to Synantesis"),
       stage_subtitle: dgettext("emails_account", "Let's get you scheduling in under a minute.")
     )
   end

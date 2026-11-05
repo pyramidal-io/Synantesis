@@ -406,7 +406,7 @@ defmodule Tymeslot.Integrations.Calendar.CalDAV.Http do
       # the specific cause has to reach the operator here or nowhere.
       {:unsupported, detail} ->
         Logger.warning(
-          "CalDAV server requires a Digest challenge Tymeslot cannot answer",
+          "CalDAV server requires a Digest challenge Synantesis cannot answer",
           method: http_method,
           url: HttpLogging.loggable_url(url, include_path: true),
           detail: detail

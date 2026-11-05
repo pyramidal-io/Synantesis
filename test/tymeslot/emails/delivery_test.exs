@@ -26,7 +26,7 @@ defmodule Tymeslot.Emails.DeliveryTest do
     Email.new(
       [
         to: [{"Recipient", "recipient@example.com"}],
-        from: {"Tymeslot", "noreply@example.com"},
+        from: {"Synantesis", "noreply@example.com"},
         subject: "Test subject",
         text_body: "Plain-text body.",
         html_body: "<p>HTML body.</p>"
@@ -94,7 +94,7 @@ defmodule Tymeslot.Emails.DeliveryTest do
     defp invitee_email do
       Email.new(
         to: {"Jane Invitee", "jane.invitee@Guest-Mail.test"},
-        from: {"Tymeslot", "noreply@example.com"},
+        from: {"Synantesis", "noreply@example.com"},
         subject: "Meeting Cancelled with Jane Invitee",
         text_body: "Plain-text body."
       )
@@ -280,7 +280,7 @@ defmodule Tymeslot.Emails.DeliveryTest do
 
       assert sent.to == [{"Ada Bcc: victim@example.com", "ada@example.com"}]
       assert sent.cc == [{"Grace", "grace@example.com"}]
-      assert sent.from == {"Tymeslot", "noreply@example.com"}
+      assert sent.from == {"Synantesis", "noreply@example.com"}
       assert sent.subject == "Meeting X-Injected: yes"
     end
 

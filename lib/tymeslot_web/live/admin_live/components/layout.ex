@@ -58,7 +58,7 @@ defmodule TymeslotWeb.AdminLive.Components.Layout do
               title={dgettext("dashboard_admin", "Admin")}
             />
             <p class="mt-2 text-base text-tymeslot-600 font-medium">
-              {dgettext("dashboard_admin", "Manage this self-hosted Tymeslot install.")}
+              {dgettext("dashboard_admin", "Manage this self-hosted Synantesis install.")}
             </p>
             <p id="admin-version" class="mt-1 mb-8 text-token-sm text-tymeslot-500 font-medium">
               {dgettext("dashboard_admin", "Version %{version}", version: tymeslot_version())}

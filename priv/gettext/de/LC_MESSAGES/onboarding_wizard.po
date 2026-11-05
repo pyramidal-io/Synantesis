@@ -635,13 +635,13 @@ msgstr "Willkommen"
 
 #: lib/tymeslot_web/live/onboarding_live/step_config.ex
 #, elixir-autogen, elixir-format
-msgid "Welcome to Tymeslot"
-msgstr "Willkommen bei Tymeslot"
+msgid "Welcome to Synantesis"
+msgstr "Willkommen bei Synantesis"
 
 #: lib/tymeslot_web/live/onboarding_live/navigation_handlers.ex
 #, elixir-autogen, elixir-format
-msgid "Welcome to Tymeslot! Your account is now set up."
-msgstr "Willkommen bei Tymeslot! Ihr Konto ist jetzt eingerichtet."
+msgid "Welcome to Synantesis! Your account is now set up."
+msgstr "Willkommen bei Synantesis! Ihr Konto ist jetzt eingerichtet."
 
 #: lib/tymeslot_web/live/onboarding_live/preferences_step.ex
 #, elixir-autogen, elixir-format
@@ -751,8 +751,8 @@ msgstr "Wer Ihre Seite heute besucht, kann höchstens %{period} im Voraus buchen
 
 #: lib/tymeslot_web/live/onboarding_live/skip_calendar_modal.ex
 #, elixir-autogen, elixir-format
-msgid "Tymeslot is built around your calendar. Once it's connected, we read your real availability so you're never double-booked and write every new booking back automatically - that's what makes Tymeslot worthwhile."
-msgstr "Tymeslot dreht sich ganz um Ihren Kalender. Sobald er verbunden ist, lesen wir Ihre tatsächliche Verfügbarkeit, damit Sie nie doppelt gebucht werden, und tragen jede neue Buchung automatisch zurück ein - genau das macht Tymeslot wertvoll."
+msgid "Synantesis is built around your calendar. Once it's connected, we read your real availability so you're never double-booked and write every new booking back automatically - that's what makes Synantesis worthwhile."
+msgstr "Synantesis dreht sich ganz um Ihren Kalender. Sobald er verbunden ist, lesen wir Ihre tatsächliche Verfügbarkeit, damit Sie nie doppelt gebucht werden, und tragen jede neue Buchung automatisch zurück ein - genau das macht Synantesis wertvoll."
 
 #: lib/tymeslot_web/live/onboarding_live/live_preview.ex
 #, elixir-autogen, elixir-format

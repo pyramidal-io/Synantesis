@@ -42,7 +42,7 @@ defmodule TymeslotWeb.Dashboard.PaymentsSettings.DisconnectModal do
       <p>
         {dgettext(
           "dashboard_payments",
-          "Disconnect your Stripe account from Tymeslot? Existing payments remain visible, but new paid bookings will fail until you reconnect."
+          "Disconnect your Stripe account from Synantesis? Existing payments remain visible, but new paid bookings will fail until you reconnect."
         )}
       </p>
 

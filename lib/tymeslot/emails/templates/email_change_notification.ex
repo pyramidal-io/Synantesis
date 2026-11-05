@@ -37,7 +37,7 @@ defmodule Tymeslot.Emails.Templates.EmailChangeNotification do
     #{Text.centered_html(Greeting.html(user), padding: "8px 0 4px 0", font_size: "16px")}
 
     #{Text.centered_text(dgettext("emails_account",
-    "A request has been made to change the email address on your Tymeslot account. We're letting you know so you can confirm it was you."),
+    "A request has been made to change the email address on your Synantesis account. We're letting you know so you can confirm it was you."),
     padding: "0 0 20px 0")}
 
     #{Callouts.alert_box(@intent,
@@ -59,7 +59,7 @@ defmodule Tymeslot.Emails.Templates.EmailChangeNotification do
     TemplateHelper.compile_system_template(
       mjml_content,
       dgettext("emails_account", "Security notification"),
-      dgettext("emails_account", "A change was requested on your Tymeslot account."),
+      dgettext("emails_account", "A change was requested on your Synantesis account."),
       intent: @intent,
       eyebrow: dgettext("emails_account", "Security"),
       stage_title: dgettext("emails_account", "Email change requested"),
@@ -74,7 +74,7 @@ defmodule Tymeslot.Emails.Templates.EmailChangeNotification do
     #{Greeting.text(user)}
 
     #{dgettext("emails_account",
-    "A request has been made to change the email address on your Tymeslot account. We're letting you know so you can confirm it was you.")}
+    "A request has been made to change the email address on your Synantesis account. We're letting you know so you can confirm it was you.")}
 
     #{dgettext("emails_account", "REQUEST DETAILS:")}
     #{dgettext("emails_account", "New email:")} #{new_email}

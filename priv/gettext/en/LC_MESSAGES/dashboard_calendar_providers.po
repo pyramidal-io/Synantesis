@@ -398,7 +398,7 @@ msgstr ""
 
 #: lib/tymeslot_web/components/dashboard/integrations/calendar/calendar_selection_modal.ex
 #, elixir-autogen, elixir-format
-msgid "How this calendar's events are shown in your Tymeslot calendar."
+msgid "How this calendar's events are shown in your Synantesis calendar."
 msgstr ""
 
 #: lib/tymeslot_web/components/dashboard/integrations/calendar/caldav_reconnect_modal.ex
@@ -520,7 +520,7 @@ msgstr ""
 
 #: lib/tymeslot_web/components/dashboard/integrations/calendar/calendar_selection_modal.ex
 #, elixir-autogen, elixir-format
-msgid "Choose which calendars Tymeslot uses, and which of them block times on your booking page."
+msgid "Choose which calendars Synantesis uses, and which of them block times on your booking page."
 msgstr ""
 
 #: lib/tymeslot_web/components/dashboard/integrations/calendar/calendar_selection_modal.ex
@@ -555,7 +555,7 @@ msgstr ""
 
 #: lib/tymeslot_web/components/dashboard/integrations/calendar/calendar_selection_modal.ex
 #, elixir-autogen, elixir-format
-msgid "Shared with you as busy times only. Tymeslot can block these times but cannot show the events."
+msgid "Shared with you as busy times only. Synantesis can block these times but cannot show the events."
 msgstr ""
 
 #: lib/tymeslot_web/components/dashboard/integrations/calendar/calendar_selection_modal.ex
@@ -638,5 +638,5 @@ msgstr ""
 
 #: lib/tymeslot_web/components/dashboard/integrations/calendar/shared_form_components.ex
 #, elixir-autogen, elixir-format
-msgid "Keep this password for as long as you use Tymeslot. Revoking it, or changing your Apple ID password, disconnects iCloud, and your booking page offers no times until you reconnect."
+msgid "Keep this password for as long as you use Synantesis. Revoking it, or changing your Apple ID password, disconnects iCloud, and your booking page offers no times until you reconnect."
 msgstr ""

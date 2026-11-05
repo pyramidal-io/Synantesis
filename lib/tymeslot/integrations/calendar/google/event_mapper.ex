@@ -113,7 +113,7 @@ defmodule Tymeslot.Integrations.Calendar.Google.EventMapper do
     # self-hoster's Google events used to point their attendees at a site
     # they have nothing to do with.
     Map.merge(body, %{
-      "source" => %{"title" => "Tymeslot", "url" => UrlBuilder.base_url()},
+      "source" => %{"title" => "Synantesis", "url" => UrlBuilder.base_url()},
       "extendedProperties" => Map.put(properties, "private", private)
     })
   end

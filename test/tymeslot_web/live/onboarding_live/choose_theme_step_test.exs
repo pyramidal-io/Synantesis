@@ -72,14 +72,14 @@ defmodule TymeslotWeb.OnboardingLive.ChooseThemeStepTest do
         @choices
         | choices: [
             %{value: "cobalt", name: "Cobalt", swatch: "#2563eb"},
-            %{value: "tymeslot", name: "Tymeslot", swatch: "#0891b2"}
+            %{value: "tymeslot", name: "Synantesis", swatch: "#0891b2"}
           ]
       })
 
     assert swatch_tag(html, "cobalt") =~ ~s(aria-label="Kobalt")
     assert swatch_tag(html, "cobalt") =~ ~s(title="Kobalt")
     # A name the catalogue has no translation for, here the brand, stays as given.
-    assert swatch_tag(html, "tymeslot") =~ ~s(aria-label="Tymeslot")
+    assert swatch_tag(html, "tymeslot") =~ ~s(aria-label="Synantesis")
   end
 
   test "marks the choice the stored setting holds" do

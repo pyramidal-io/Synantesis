@@ -202,7 +202,7 @@ defmodule Tymeslot.Workers.VideoRoomWorkerRoomCreationErrorTest do
       "participantType" => 1,
       "name" => "Stale name",
       "defaultPermissions" => 244,
-      "description" => "Booked through Tymeslot.\n\nReference: " <> reference(booked)
+      "description" => "Booked through Synantesis.\n\nReference: " <> reference(booked)
     }
 
     answer(:get, server, 200, ocs([earlier_attempt]))

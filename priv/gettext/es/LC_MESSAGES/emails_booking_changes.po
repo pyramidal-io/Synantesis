@@ -271,8 +271,8 @@ msgstr "Hola: se te devolvió todo el pago de %{amount}."
 
 #: lib/tymeslot/emails/templates/external_booking_change.ex
 #, elixir-autogen, elixir-format
-msgid "If the meeting is no longer happening, please cancel it in Tymeslot so the attendee is notified and the time slot is freed up."
-msgstr "Si la reunión no se realiza, cancélala en Tymeslot. Así se avisa al asistente y el horario queda libre."
+msgid "If the meeting is no longer happening, please cancel it in Synantesis so the attendee is notified and the time slot is freed up."
+msgstr "Si la reunión no se realiza, cancélala en Synantesis. Así se avisa al asistente y el horario queda libre."
 
 #: lib/tymeslot/emails/templates/appointment_cancellation.ex
 #, elixir-autogen, elixir-format
@@ -393,13 +393,13 @@ msgstr "Reembolso parcial emitido – %{amount}"
 
 #: lib/tymeslot/emails/templates/external_booking_change.ex
 #, elixir-autogen, elixir-format
-msgid "Please review and update the booking in Tymeslot."
-msgstr "Revisa la reserva en Tymeslot y actualízala."
+msgid "Please review and update the booking in Synantesis."
+msgstr "Revisa la reserva en Synantesis y actualízala."
 
 #: lib/tymeslot/emails/templates/external_booking_change.ex
 #, elixir-autogen, elixir-format
-msgid "Please review the group meeting in Tymeslot."
-msgstr "Revisa la reunión de grupo en Tymeslot."
+msgid "Please review the group meeting in Synantesis."
+msgstr "Revisa la reunión de grupo en Synantesis."
 
 #: lib/tymeslot/emails/templates/booking_payment_refunded.ex
 #, elixir-autogen, elixir-format
@@ -498,8 +498,8 @@ msgstr "Se avisó al asistente de la cancelación."
 
 #: lib/tymeslot/emails/templates/external_booking_change.ex
 #, elixir-autogen, elixir-format
-msgid "The group meeting \"%{title}\" was rescheduled in your external calendar. Tymeslot still holds the original time for every participant, and a group meeting cannot be moved for everyone at once."
-msgstr "La reunión de grupo «%{title}» se reprogramó en tu calendario externo. Tymeslot mantiene el horario original para todos los participantes. Una reunión de grupo no se puede cambiar para todos a la vez."
+msgid "The group meeting \"%{title}\" was rescheduled in your external calendar. Synantesis still holds the original time for every participant, and a group meeting cannot be moved for everyone at once."
+msgstr "La reunión de grupo «%{title}» se reprogramó en tu calendario externo. Synantesis mantiene el horario original para todos los participantes. Una reunión de grupo no se puede cambiar para todos a la vez."
 
 #: lib/tymeslot/emails/templates/seat_update_for_organizer.ex
 #, elixir-autogen, elixir-format
@@ -508,23 +508,23 @@ msgstr "El último participante canceló su lugar"
 
 #: lib/tymeslot/emails/templates/external_booking_change.ex
 #, elixir-autogen, elixir-format
-msgid "The meeting \"%{title}\" was deleted from your external calendar but is still active in Tymeslot."
-msgstr "La reunión «%{title}» se eliminó de tu calendario externo, pero sigue activa en Tymeslot."
+msgid "The meeting \"%{title}\" was deleted from your external calendar but is still active in Synantesis."
+msgstr "La reunión «%{title}» se eliminó de tu calendario externo, pero sigue activa en Synantesis."
 
 #: lib/tymeslot/emails/templates/external_booking_change.ex
 #, elixir-autogen, elixir-format
-msgid "The meeting \"%{title}\" was deleted from your external calendar. Tymeslot still has this booking on record - please review and cancel it here if the meeting is no longer taking place."
-msgstr "La reunión «%{title}» se eliminó de tu calendario externo. Tymeslot todavía tiene esta reserva registrada: revísala y cancélala aquí si la reunión ya no se realiza."
+msgid "The meeting \"%{title}\" was deleted from your external calendar. Synantesis still has this booking on record - please review and cancel it here if the meeting is no longer taking place."
+msgstr "La reunión «%{title}» se eliminó de tu calendario externo. Synantesis todavía tiene esta reserva registrada: revísala y cancélala aquí si la reunión ya no se realiza."
 
 #: lib/tymeslot/emails/templates/external_booking_change.ex
 #, elixir-autogen, elixir-format
-msgid "The meeting \"%{title}\" was rescheduled in your external calendar. Tymeslot still holds the original booking - please review the details and update or cancel it accordingly."
-msgstr "La reunión «%{title}» se reprogramó en tu calendario externo. Tymeslot mantiene la reserva original. Revisa los datos y actualiza o cancela la reserva si hace falta."
+msgid "The meeting \"%{title}\" was rescheduled in your external calendar. Synantesis still holds the original booking - please review the details and update or cancel it accordingly."
+msgstr "La reunión «%{title}» se reprogramó en tu calendario externo. Synantesis mantiene la reserva original. Revisa los datos y actualiza o cancela la reserva si hace falta."
 
 #: lib/tymeslot/emails/templates/external_booking_change.ex
 #, elixir-autogen, elixir-format
-msgid "The meeting \"%{title}\" was rescheduled in your external calendar. Tymeslot still holds the original booking shown below."
-msgstr "La reunión «%{title}» se reprogramó en tu calendario externo. Tymeslot mantiene la reserva original que figura abajo."
+msgid "The meeting \"%{title}\" was rescheduled in your external calendar. Synantesis still holds the original booking shown below."
+msgstr "La reunión «%{title}» se reprogramó en tu calendario externo. Synantesis mantiene la reserva original que figura abajo."
 
 #: lib/tymeslot/emails/templates/appointment_cancellation.ex
 #, elixir-autogen, elixir-format
@@ -550,13 +550,13 @@ msgstr[1] "Sus %{count} invitados también recibieron un correo."
 
 #: lib/tymeslot/emails/templates/external_booking_change.ex
 #, elixir-autogen, elixir-format
-msgid "This group meeting was <strong>rescheduled in your external calendar</strong>. Tymeslot still shows the original time above, and its participants still expect it. To keep the original time, move the event back in your calendar. To change it, send the participants a reschedule request from your dashboard, or cancel the meeting there so every participant is notified."
-msgstr "Esta reunión de grupo <strong>se reprogramó en tu calendario externo</strong>. Tymeslot sigue mostrando arriba el horario original, y los participantes siguen contando con ese horario. Para mantenerlo, vuelve a dejar el evento como estaba en tu calendario. Para cambiarlo, envía a los participantes una solicitud de reprogramación desde tu panel. También puedes cancelar allí la reunión: así se avisa a todos."
+msgid "This group meeting was <strong>rescheduled in your external calendar</strong>. Synantesis still shows the original time above, and its participants still expect it. To keep the original time, move the event back in your calendar. To change it, send the participants a reschedule request from your dashboard, or cancel the meeting there so every participant is notified."
+msgstr "Esta reunión de grupo <strong>se reprogramó en tu calendario externo</strong>. Synantesis sigue mostrando arriba el horario original, y los participantes siguen contando con ese horario. Para mantenerlo, vuelve a dejar el evento como estaba en tu calendario. Para cambiarlo, envía a los participantes una solicitud de reprogramación desde tu panel. También puedes cancelar allí la reunión: así se avisa a todos."
 
 #: lib/tymeslot/emails/templates/external_booking_change.ex
 #, elixir-autogen, elixir-format
-msgid "This meeting was <strong>removed from your external calendar</strong> but is still active in Tymeslot. If the meeting is no longer happening, please cancel it in Tymeslot so the attendee is notified and the time slot is freed up."
-msgstr "Esta reunión <strong>se quitó de tu calendario externo</strong>, pero sigue activa en Tymeslot. Si ya no se realiza, cancélala en Tymeslot. Así se avisa al asistente y el horario queda libre."
+msgid "This meeting was <strong>removed from your external calendar</strong> but is still active in Synantesis. If the meeting is no longer happening, please cancel it in Synantesis so the attendee is notified and the time slot is freed up."
+msgstr "Esta reunión <strong>se quitó de tu calendario externo</strong>, pero sigue activa en Synantesis. Si ya no se realiza, cancélala en Synantesis. Así se avisa al asistente y el horario queda libre."
 
 #: lib/tymeslot/emails/templates/external_booking_change.ex
 #, elixir-autogen, elixir-format
@@ -655,8 +655,8 @@ msgstr "¿Quieres reservar una cita nueva?"
 
 #: lib/tymeslot/emails/templates/external_booking_change.ex
 #, elixir-autogen, elixir-format
-msgid "You changed when \"%{title}\" ends in your external calendar, so Tymeslot updated the booking: it now ends at %{to} instead of %{from}."
-msgstr "Cambiaste en tu calendario externo la hora de finalización de «%{title}». Por eso Tymeslot actualizó la reserva: la hora de finalización pasa de %{from} a %{to}."
+msgid "You changed when \"%{title}\" ends in your external calendar, so Synantesis updated the booking: it now ends at %{to} instead of %{from}."
+msgstr "Cambiaste en tu calendario externo la hora de finalización de «%{title}». Por eso Synantesis actualizó la reserva: la hora de finalización pasa de %{from} a %{to}."
 
 #: lib/tymeslot/emails/templates/appointment_cancellation.ex
 #, elixir-autogen, elixir-format
@@ -685,8 +685,8 @@ msgstr "tu anfitrión"
 
 #: lib/tymeslot/emails/templates/external_booking_change.ex
 #, elixir-autogen, elixir-format
-msgid "This meeting was <strong>rescheduled in your external calendar</strong>. Tymeslot still shows the original time above. To move the booking to the new time, open it in your dashboard and choose <strong>Move booking</strong>: Tymeslot then reschedules its reminders and emails the attendee the new time. If <strong>Move booking</strong> is not offered there, send the attendee a reschedule request from your dashboard instead."
-msgstr "Esta reunión <strong>se reprogramó en tu calendario externo</strong>. Tymeslot sigue mostrando arriba el horario original. Para mover la reserva al nuevo horario, ábrela en tu panel y elige <strong>Mover la reserva</strong>. Tymeslot reprogramará entonces sus recordatorios y le enviará el nuevo horario al asistente por correo. Si allí no aparece <strong>Mover la reserva</strong>, envía al asistente una solicitud de reprogramación desde tu panel."
+msgid "This meeting was <strong>rescheduled in your external calendar</strong>. Synantesis still shows the original time above. To move the booking to the new time, open it in your dashboard and choose <strong>Move booking</strong>: Synantesis then reschedules its reminders and emails the attendee the new time. If <strong>Move booking</strong> is not offered there, send the attendee a reschedule request from your dashboard instead."
+msgstr "Esta reunión <strong>se reprogramó en tu calendario externo</strong>. Synantesis sigue mostrando arriba el horario original. Para mover la reserva al nuevo horario, ábrela en tu panel y elige <strong>Mover la reserva</strong>. Synantesis reprogramará entonces sus recordatorios y le enviará el nuevo horario al asistente por correo. Si allí no aparece <strong>Mover la reserva</strong>, envía al asistente una solicitud de reprogramación desde tu panel."
 
 #: lib/tymeslot/emails/templates/appointment_cancellation.ex
 #, elixir-autogen, elixir-format

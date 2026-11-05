@@ -201,7 +201,7 @@ defmodule Tymeslot.Emails.Templates.AppointmentConfirmation.PaymentBlocks do
           dgettext("emails_booking", "Attendee paid: %{amount}",
             amount: strong(payment.attendee_paid)
           ),
-          dgettext("emails_booking", "Tymeslot platform fee: %{amount}",
+          dgettext("emails_booking", "Synantesis platform fee: %{amount}",
             amount: strong(payment.platform_fee)
           ),
           dgettext("emails_booking", "You received: %{amount} (before Stripe processing fees)",
@@ -254,7 +254,7 @@ defmodule Tymeslot.Emails.Templates.AppointmentConfirmation.PaymentBlocks do
       dgettext("emails_booking", "PAYMENT RECEIVED:"),
       dgettext("emails_booking", "You received %{amount}", amount: payment.net_received),
       dgettext("emails_booking", "Attendee paid: %{amount}", amount: payment.attendee_paid),
-      dgettext("emails_booking", "Tymeslot platform fee: %{amount}",
+      dgettext("emails_booking", "Synantesis platform fee: %{amount}",
         amount: payment.platform_fee
       ),
       dgettext("emails_booking", "You received: %{amount} (before Stripe processing fees)",

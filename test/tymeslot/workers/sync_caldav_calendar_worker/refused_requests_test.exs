@@ -144,7 +144,7 @@ defmodule Tymeslot.Workers.SyncCalDavCalendarWorker.RefusedRequestsTest do
                  "calendar_integration_id" => integration.id
                })
 
-      assert reason == "CalDAV server returned more data than Tymeslot can process at once"
+      assert reason == "CalDAV server returned more data than Synantesis can process at once"
       # An expected end of the job: no error report every cycle.
       assert SyncCalDavCalendarWorker.expected_outcome?(reason)
 

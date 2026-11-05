@@ -430,8 +430,8 @@ msgstr "Наближається зустріч із %{organizer}, на яку �
 
 #: lib/tymeslot/emails/templates/appointment_confirmation/payment_blocks.ex
 #, elixir-autogen, elixir-format
-msgid "Tymeslot platform fee: %{amount}"
-msgstr "Комісія платформи Tymeslot: %{amount}"
+msgid "Synantesis platform fee: %{amount}"
+msgstr "Комісія платформи Synantesis: %{amount}"
 
 #: lib/tymeslot/emails/templates/appointment_confirmation/payment_blocks.ex
 #, elixir-autogen, elixir-format

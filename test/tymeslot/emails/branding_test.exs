@@ -54,7 +54,7 @@ defmodule Tymeslot.Emails.BrandingTest do
 
   describe "brand_name/0" do
     test "defaults to Tymeslot when the instance has not set one" do
-      assert Branding.brand_name() == "Tymeslot"
+      assert Branding.brand_name() == "Synantesis"
     end
 
     test "returns the configured name" do
@@ -67,7 +67,7 @@ defmodule Tymeslot.Emails.BrandingTest do
       {:ok, _settings} = AppSettings.update(%{email_brand_name: "Beaver Dental"})
       {:ok, _settings} = AppSettings.update(%{email_brand_name: nil})
 
-      assert Branding.brand_name() == "Tymeslot"
+      assert Branding.brand_name() == "Synantesis"
     end
   end
 
@@ -303,8 +303,8 @@ defmodule Tymeslot.Emails.BrandingTest do
     test "the stock branding renders the Tymeslot name and turquoise accent" do
       mjml = transactional_mjml()
 
-      assert mjml =~ ~s(alt="Tymeslot")
-      assert mjml =~ "Jane Smith via Tymeslot"
+      assert mjml =~ ~s(alt="Synantesis")
+      assert mjml =~ "Jane Smith via Synantesis"
       assert mjml =~ "#0d786c"
     end
 
@@ -315,7 +315,7 @@ defmodule Tymeslot.Emails.BrandingTest do
 
       assert mjml =~ ~s(alt="Beaver Dental")
       assert mjml =~ "Jane Smith via Beaver Dental"
-      refute mjml =~ "via Tymeslot"
+      refute mjml =~ "via Synantesis"
     end
 
     test "a configured accent reaches the rendered stage band" do
@@ -332,7 +332,7 @@ defmodule Tymeslot.Emails.BrandingTest do
       {:ok, _settings} =
         AppSettings.update(%{email_brand_name: "Beaver Dental", email_brand_accent: "#7c3aed"})
 
-      assert transactional_mjml() =~ "Tymeslot</a>"
+      assert transactional_mjml() =~ "Synantesis</a>"
     end
 
     # Regression: the organiser strip is built by `TemplateHelper`, not by the

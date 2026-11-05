@@ -25,7 +25,7 @@ defmodule TymeslotWeb.Themes.Shared.Components.LegalLinksTest do
   defp anchors(html) do
     html
     |> Floki.parse_fragment!()
-    |> Floki.find("footer[data-testid='legal-links'] a")
+    |> Floki.find("footer[data-testid='legal-links'] a:not([data-source-link])")
   end
 
   test "renders both links in order with new-tab attributes" do

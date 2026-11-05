@@ -138,8 +138,8 @@ msgstr "Esta zona horaria se usará para tu disponibilidad y tus reservas."
 
 #: lib/tymeslot_web/components/core_components/brand.ex
 #, elixir-autogen, elixir-format
-msgid "Tymeslot logo"
-msgstr "Logotipo de Tymeslot"
+msgid "Synantesis logo"
+msgstr "Logotipo de Synantesis"
 
 #: lib/tymeslot_web/components/timezone_dropdown.ex
 #, elixir-autogen, elixir-format
@@ -198,8 +198,8 @@ msgstr "Ver en GitHub"
 
 #: lib/tymeslot_web/components/site_components.ex
 #, elixir-autogen, elixir-format
-msgid "© %{year} Tymeslot. All rights reserved."
-msgstr "© %{year} Tymeslot. Todos los derechos reservados."
+msgid "© %{year} Synantesis. All rights reserved."
+msgstr "© %{year} Synantesis. Todos los derechos reservados."
 
 #: lib/tymeslot_web/components/core_components/containers.ex
 #, elixir-autogen, elixir-format
@@ -370,3 +370,11 @@ msgstr "Cargando"
 #, elixir-autogen, elixir-format
 msgid "✓ Acknowledged"
 msgstr "✓ Confirmado"
+
+#: lib/tymeslot_web/components/core_components/brand.ex
+msgid "Source code for this version (AGPLv3)"
+msgstr "Código fuente de esta versión (AGPLv3)"
+
+#: lib/tymeslot_web/components/core_components/brand.ex
+msgid "Source repository (AGPLv3)"
+msgstr "Repositorio de código fuente (AGPLv3)"

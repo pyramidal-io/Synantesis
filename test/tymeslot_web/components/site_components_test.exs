@@ -81,7 +81,7 @@ defmodule TymeslotWeb.Components.SiteComponentsTest do
     test "renders copyright notice" do
       html = render_component(&SiteComponents.site_footer/1, %{})
 
-      assert html =~ "Tymeslot"
+      assert html =~ "Synantesis"
       assert html =~ "All rights reserved"
     end
 

@@ -130,7 +130,7 @@ defmodule TymeslotWeb.Dashboard.Polls.PollList do
     do:
       dgettext(
         "dashboard_polls",
-        "Guests vote on a page that opens once your calendar is connected, so Tymeslot can flag the times you're busy and book the winner without double-booking you."
+        "Guests vote on a page that opens once your calendar is connected, so Synantesis can flag the times you're busy and book the winner without double-booking you."
       )
 
   @doc """

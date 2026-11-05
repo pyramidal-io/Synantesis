@@ -14,7 +14,7 @@ defmodule TymeslotWeb.Dashboard.Automation.WebhookDocumentation do
       description={
         dgettext(
           "dashboard_automation",
-          "Connect Tymeslot to n8n, Zapier, Make, or your custom automation workflows"
+          "Connect Synantesis to n8n, Zapier, Make, or your custom automation workflows"
         )
       }
     >
@@ -49,7 +49,7 @@ defmodule TymeslotWeb.Dashboard.Automation.WebhookDocumentation do
                dgettext("dashboard_automation", "Start a new workflow in your n8n instance")},
               {dgettext("dashboard_automation", "Add webhook trigger"),
                dgettext("dashboard_automation", "Insert a Webhook node and copy its URL")},
-              {dgettext("dashboard_automation", "Configure in Tymeslot"),
+              {dgettext("dashboard_automation", "Configure in Synantesis"),
                dgettext("dashboard_automation", "Create a webhook above and paste the URL")},
               {dgettext("dashboard_automation", "Select events"),
                dgettext("dashboard_automation", "Choose which booking events to monitor")},
@@ -171,7 +171,7 @@ defmodule TymeslotWeb.Dashboard.Automation.WebhookDocumentation do
                   <p class="text-tymeslot-600 text-token-xs font-medium mt-2">
                     {dgettext(
                       "dashboard_automation",
-                      "Verify the token in your automation tool to ensure requests are from Tymeslot."
+                      "Verify the token in your automation tool to ensure requests are from Synantesis."
                     )}
                   </p>
                   <p class="text-tymeslot-600 text-token-xs font-medium mt-2">

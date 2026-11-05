@@ -127,13 +127,13 @@ msgstr "Від'єднати Stripe"
 
 #: lib/tymeslot_web/live/dashboard/payments_settings_component.ex
 #, elixir-autogen, elixir-format
-msgid "Disconnect your Stripe account from Tymeslot. Existing payments remain visible. New paid bookings will fail until you reconnect."
-msgstr "Від'єднати обліковий запис Stripe від Tymeslot. Наявні платежі залишаться видимими. Нові платні бронювання не здійснюватимуться, доки ви не підключите його знову."
+msgid "Disconnect your Stripe account from Synantesis. Existing payments remain visible. New paid bookings will fail until you reconnect."
+msgstr "Від'єднати обліковий запис Stripe від Synantesis. Наявні платежі залишаться видимими. Нові платні бронювання не здійснюватимуться, доки ви не підключите його знову."
 
 #: lib/tymeslot_web/live/dashboard/payments_settings/disconnect_modal.ex
 #, elixir-autogen, elixir-format
-msgid "Disconnect your Stripe account from Tymeslot? Existing payments remain visible, but new paid bookings will fail until you reconnect."
-msgstr "Від'єднати обліковий запис Stripe від Tymeslot? Наявні платежі залишаться видимими, але нові платні бронювання не здійснюватимуться, доки ви не підключите його знову."
+msgid "Disconnect your Stripe account from Synantesis? Existing payments remain visible, but new paid bookings will fail until you reconnect."
+msgstr "Від'єднати обліковий запис Stripe від Synantesis? Наявні платежі залишаться видимими, але нові платні бронювання не здійснюватимуться, доки ви не підключите його знову."
 
 #: lib/tymeslot_web/live/dashboard/payments_settings/status_card.ex
 #, elixir-autogen, elixir-format
@@ -330,8 +330,8 @@ msgstr "Stripe перевіряє ваш обліковий запис. Стяг
 
 #: lib/tymeslot_web/live/dashboard/payments_settings/refund_modal.ex
 #, elixir-autogen, elixir-format
-msgid "The attendee receives the full amount you refund. Tymeslot's platform fee is reversed proportionally; Stripe processing fees on the original charge stay with you."
-msgstr "Учасник отримає повну суму повернення. Комісія платформи Tymeslot буде пропорційно скасована, а комісія Stripe за обробку початкового платежу залишиться за вами."
+msgid "The attendee receives the full amount you refund. Synantesis's platform fee is reversed proportionally; Stripe processing fees on the original charge stay with you."
+msgstr "Учасник отримає повну суму повернення. Комісія платформи Synantesis буде пропорційно скасована, а комісія Stripe за обробку початкового платежу залишиться за вами."
 
 #: lib/tymeslot_web/live/dashboard/payments_settings_component.ex
 #, elixir-autogen, elixir-format
@@ -340,8 +340,8 @@ msgstr "Це бронювання ще не оплачено, тому кошт�
 
 #: lib/tymeslot_web/live/dashboard/payments_settings_component.ex
 #, elixir-autogen, elixir-format
-msgid "This payment can no longer be refunded from Tymeslot. Refunds older than 60 days must be processed in your Stripe dashboard."
-msgstr "Цей платіж більше не можна повернути через Tymeslot. Повернення коштів за платежі, здійснені понад 60 днів тому, потрібно обробляти на панелі керування Stripe."
+msgid "This payment can no longer be refunded from Synantesis. Refunds older than 60 days must be processed in your Stripe dashboard."
+msgstr "Цей платіж більше не можна повернути через Synantesis. Повернення коштів за платежі, здійснені понад 60 днів тому, потрібно обробляти на панелі керування Stripe."
 
 #: lib/tymeslot_web/live/dashboard/payments_settings_component.ex
 #, elixir-autogen, elixir-format

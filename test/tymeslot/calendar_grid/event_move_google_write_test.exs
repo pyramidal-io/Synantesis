@@ -140,7 +140,7 @@ defmodule Tymeslot.CalendarGrid.EventMoveGoogleWriteTest do
       assert [{:post, _url, body}, {:delete, _delete_url, _delete}] = requests()
       sent = Jason.decode!(body)
       assert get_in(sent, ["extendedProperties", "private", "createdBy"]) == "tymeslot"
-      assert sent["source"]["title"] == "Tymeslot"
+      assert sent["source"]["title"] == "Synantesis"
     end
   end
 end

@@ -205,7 +205,7 @@ defmodule Tymeslot.Security.FieldValidators.TLDList do
     do:
       dgettext(
         "errors_input",
-        "Email has an unrecognised domain ending (.%{tld}). If it is correct, this version of Tymeslot predates it and needs updating.",
+        "Email has an unrecognised domain ending (.%{tld}). If it is correct, this version of Synantesis predates it and needs updating.",
         tld: tld
       )
 
@@ -213,7 +213,7 @@ defmodule Tymeslot.Security.FieldValidators.TLDList do
     do:
       dgettext(
         "errors_input",
-        "Domain has an unrecognised domain ending (.%{tld}). If it is correct, this version of Tymeslot predates it and needs updating.",
+        "Domain has an unrecognised domain ending (.%{tld}). If it is correct, this version of Synantesis predates it and needs updating.",
         tld: tld
       )
 

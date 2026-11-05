@@ -97,7 +97,7 @@ defmodule Tymeslot.Emails.Templates.IntegrationReauthRequired do
     do:
       dgettext(
         "emails_integrations",
-        "%{provider} needs reconnecting before Tymeslot can use it again.",
+        "%{provider} needs reconnecting before Synantesis can use it again.",
         provider: provider
       )
 
@@ -148,7 +148,7 @@ defmodule Tymeslot.Emails.Templates.IntegrationReauthRequired do
     do:
       dgettext(
         "emails_integrations",
-        "Tymeslot can no longer use your %{integration} integration, and it will stay that way until you reconnect it. The reason is shown above. Until then your booking page may not offer times or take bookings, because Tymeslot will not offer a time it cannot check against this calendar or book one into it. Your existing bookings are not affected.",
+        "Synantesis can no longer use your %{integration} integration, and it will stay that way until you reconnect it. The reason is shown above. Until then your booking page may not offer times or take bookings, because Synantesis will not offer a time it cannot check against this calendar or book one into it. Your existing bookings are not affected.",
         integration: name
       )
 
@@ -156,7 +156,7 @@ defmodule Tymeslot.Emails.Templates.IntegrationReauthRequired do
     do:
       dgettext(
         "emails_integrations",
-        "Tymeslot can no longer use your %{integration} integration, and it will stay that way until you reconnect it. The reason is shown above. Your existing bookings are not affected.",
+        "Synantesis can no longer use your %{integration} integration, and it will stay that way until you reconnect it. The reason is shown above. Your existing bookings are not affected.",
         integration: name
       )
 
@@ -165,7 +165,7 @@ defmodule Tymeslot.Emails.Templates.IntegrationReauthRequired do
       happening:
         dgettext(
           "emails_integrations",
-          "Tymeslot can no longer use your %{integration} integration, and it will stay that way until you update it. The reason is shown above. Your existing bookings are not affected.",
+          "Synantesis can no longer use your %{integration} integration, and it will stay that way until you update it. The reason is shown above. Your existing bookings are not affected.",
           integration: name
         ),
       steps: [
@@ -190,7 +190,7 @@ defmodule Tymeslot.Emails.Templates.IntegrationReauthRequired do
       happening:
         dgettext(
           "emails_integrations",
-          "Tymeslot can no longer use your %{integration} integration, and it will stay that way until you replace it. The reason is shown above. Until then your booking page may not offer times or take bookings, because Tymeslot will not offer a time it cannot check against this calendar or book one into it. Your existing bookings are not affected.",
+          "Synantesis can no longer use your %{integration} integration, and it will stay that way until you replace it. The reason is shown above. Until then your booking page may not offer times or take bookings, because Synantesis will not offer a time it cannot check against this calendar or book one into it. Your existing bookings are not affected.",
           integration: name
         ),
       steps: [

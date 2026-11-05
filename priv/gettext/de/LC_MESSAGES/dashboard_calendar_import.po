@@ -63,8 +63,8 @@ msgstr "Schließen"
 
 #: lib/tymeslot_web/live/dashboard/calendar_grid/modals/import_ics_modal.ex
 #, elixir-autogen, elixir-format
-msgid "Connect a calendar Tymeslot can write to before importing events."
-msgstr "Verbinden Sie einen Kalender, in den Tymeslot schreiben kann, bevor Sie Ereignisse importieren."
+msgid "Connect a calendar Synantesis can write to before importing events."
+msgstr "Verbinden Sie einen Kalender, in den Synantesis schreiben kann, bevor Sie Ereignisse importieren."
 
 #: lib/tymeslot_web/live/dashboard/calendar_grid/modals/import_ics_modal.ex
 #, elixir-autogen, elixir-format

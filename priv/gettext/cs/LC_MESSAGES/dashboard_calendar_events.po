@@ -158,8 +158,8 @@ msgstr "Vytvořit"
 
 #: lib/tymeslot_web/live/dashboard/calendar_grid/modals/event_detail_modal.ex
 #, elixir-autogen, elixir-format
-msgid "Created by Tymeslot"
-msgstr "Vytvořeno ve službě Tymeslot"
+msgid "Created by Synantesis"
+msgstr "Vytvořeno ve službě Synantesis"
 
 #: lib/tymeslot_web/live/dashboard/calendar_grid/modals/create_event_modal.ex
 #, elixir-autogen, elixir-format
@@ -603,7 +603,7 @@ msgstr "před událostí"
 
 #: lib/tymeslot_web/live/dashboard/calendar_grid/event_handlers/shared.ex
 #, elixir-autogen, elixir-format
-msgid "This calendar is read-only. Events on it can't be changed from Tymeslot."
+msgid "This calendar is read-only. Events on it can't be changed from Synantesis."
 msgstr "Tento kalendář je jen pro čtení. Události v něm nelze měnit z Tymeslotu."
 
 #: lib/tymeslot_web/live/dashboard/calendar_grid/write_outcome_messages.ex
@@ -939,8 +939,8 @@ msgstr[2] "Pro tuto schůzku můžete přidat až %{count} e-mailů s připomín
 
 #: lib/tymeslot_web/live/dashboard/calendar_grid/edit_workflow.ex
 #, elixir-autogen, elixir-format
-msgid "Someone else organises this meeting, so Tymeslot can't move or split a series you were only invited to."
-msgstr "Tuto schůzku organizuje někdo jiný, takže Tymeslot nemůže přesunout ani rozdělit sérii, na kterou jste byli jen pozváni."
+msgid "Someone else organises this meeting, so Synantesis can't move or split a series you were only invited to."
+msgstr "Tuto schůzku organizuje někdo jiný, takže Synantesis nemůže přesunout ani rozdělit sérii, na kterou jste byli jen pozváni."
 
 #: lib/tymeslot_web/live/dashboard/calendar_grid/event_handlers/shared.ex
 #, elixir-autogen, elixir-format

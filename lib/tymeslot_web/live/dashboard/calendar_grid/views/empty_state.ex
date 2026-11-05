@@ -22,7 +22,7 @@ defmodule TymeslotWeb.Dashboard.CalendarGrid.Views.EmptyState do
       </div>
       <div class="flex-1 min-w-[12rem]">
         <p class="text-token-sm font-semibold text-tymeslot-800">
-          {dgettext("dashboard_calendar", "Bring your calendar into Tymeslot")}
+          {dgettext("dashboard_calendar", "Bring your calendar into Synantesis")}
         </p>
         <p class="text-token-xs text-tymeslot-500">
           {dgettext(

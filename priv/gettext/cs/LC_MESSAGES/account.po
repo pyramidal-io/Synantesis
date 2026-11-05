@@ -315,8 +315,8 @@ msgstr "Do té doby je účet zmrazen a vaše rezervační stránka je offline. 
 
 #: lib/tymeslot_web/live/account_live/danger_zone.ex
 #, elixir-autogen, elixir-format
-msgid "Upcoming bookings are deleted from Tymeslot and your guests are not notified."
-msgstr "Nadcházející rezervace se ze služby Tymeslot smažou a vaši hosté nebudou upozorněni."
+msgid "Upcoming bookings are deleted from Synantesis and your guests are not notified."
+msgstr "Nadcházející rezervace se ze služby Synantesis smažou a vaši hosté nebudou upozorněni."
 
 #: lib/tymeslot_web/live/account_live/delete_account_modal.ex
 #, elixir-autogen, elixir-format
@@ -345,8 +345,8 @@ msgstr "Váš účet bude smazán dne %{date}. Pokud si to rozmyslíte, přihlas
 
 #: lib/tymeslot_web/live/account_live/delete_account_modal.ex
 #, elixir-autogen, elixir-format
-msgid "Your upcoming bookings will be deleted from Tymeslot. Your guests will not be notified."
-msgstr "Vaše nadcházející rezervace budou ze služby Tymeslot smazány. Vaši hosté nebudou upozorněni."
+msgid "Your upcoming bookings will be deleted from Synantesis. Your guests will not be notified."
+msgstr "Vaše nadcházející rezervace budou ze služby Synantesis smazány. Vaši hosté nebudou upozorněni."
 
 #: lib/tymeslot_web/live/account_live/danger_zone.ex
 #, elixir-autogen, elixir-format

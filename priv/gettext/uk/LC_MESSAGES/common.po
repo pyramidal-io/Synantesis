@@ -138,8 +138,8 @@ msgstr "Цей часовий пояс використовуватиметьс�
 
 #: lib/tymeslot_web/components/core_components/brand.ex
 #, elixir-autogen, elixir-format
-msgid "Tymeslot logo"
-msgstr "Логотип Tymeslot"
+msgid "Synantesis logo"
+msgstr "Логотип Synantesis"
 
 #: lib/tymeslot_web/components/timezone_dropdown.ex
 #, elixir-autogen, elixir-format
@@ -198,8 +198,8 @@ msgstr "Переглянути на GitHub"
 
 #: lib/tymeslot_web/components/site_components.ex
 #, elixir-autogen, elixir-format
-msgid "© %{year} Tymeslot. All rights reserved."
-msgstr "© %{year} Tymeslot. Усі права захищено."
+msgid "© %{year} Synantesis. All rights reserved."
+msgstr "© %{year} Synantesis. Усі права захищено."
 
 #: lib/tymeslot_web/components/core_components/containers.ex
 #, elixir-autogen, elixir-format
@@ -375,3 +375,11 @@ msgstr "Завантаження"
 #, elixir-autogen, elixir-format
 msgid "✓ Acknowledged"
 msgstr "✓ Підтверджено"
+
+#: lib/tymeslot_web/components/core_components/brand.ex
+msgid "Source code for this version (AGPLv3)"
+msgstr "Вихідний код цієї версії (AGPLv3)"
+
+#: lib/tymeslot_web/components/core_components/brand.ex
+msgid "Source repository (AGPLv3)"
+msgstr "Репозиторій вихідного коду (AGPLv3)"

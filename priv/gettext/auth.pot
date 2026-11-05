@@ -153,7 +153,7 @@ msgstr ""
 
 #: lib/tymeslot_web/components/auth/registration/signup_component.ex
 #, elixir-autogen, elixir-format
-msgid "Join Tymeslot"
+msgid "Join Synantesis"
 msgstr ""
 
 #: lib/tymeslot_web/components/auth/session/password_reset_component.ex
@@ -176,7 +176,7 @@ msgstr ""
 
 #: lib/tymeslot_web/components/auth/session/login_component.ex
 #, elixir-autogen, elixir-format
-msgid "Log in to Tymeslot"
+msgid "Log in to Synantesis"
 msgstr ""
 
 #: lib/tymeslot_web/controllers/auth/session_controller.ex
@@ -479,12 +479,12 @@ msgstr ""
 
 #: lib/tymeslot_web/live/auth_live/page_meta_helper.ex
 #, elixir-autogen, elixir-format
-msgid "Choose a strong new password for your Tymeslot account."
+msgid "Choose a strong new password for your Synantesis account."
 msgstr ""
 
 #: lib/tymeslot_web/live/auth_live/page_meta_helper.ex
 #, elixir-autogen, elixir-format
-msgid "Create a Tymeslot account and start sharing your availability in minutes. No credit card required."
+msgid "Create a Synantesis account and start sharing your availability in minutes. No credit card required."
 msgstr ""
 
 #: lib/tymeslot_web/live/auth_live/page_meta_helper.ex
@@ -504,7 +504,7 @@ msgstr ""
 
 #: lib/tymeslot_web/live/auth_live/page_meta_helper.ex
 #, elixir-autogen, elixir-format
-msgid "Enter your email to receive a password reset link for your Tymeslot account."
+msgid "Enter your email to receive a password reset link for your Synantesis account."
 msgstr ""
 
 #: lib/tymeslot/auth/registration.ex
@@ -535,7 +535,7 @@ msgstr ""
 
 #: lib/tymeslot_web/live/auth_live/page_meta_helper.ex
 #, elixir-autogen, elixir-format
-msgid "Sign in to your Tymeslot account to manage scheduling links, availability, and bookings."
+msgid "Sign in to your Synantesis account to manage scheduling links, availability, and bookings."
 msgstr ""
 
 #: lib/tymeslot/auth/error_formatter.ex

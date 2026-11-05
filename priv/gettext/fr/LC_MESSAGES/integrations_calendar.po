@@ -165,8 +165,8 @@ msgstr "Abonnement à un calendrier"
 
 #: lib/tymeslot/integrations/calendar/ics/feed.ex
 #, elixir-autogen, elixir-format
-msgid "Calendar subscription sync failed while saving a fetched event. Tymeslot will try again on the next sync."
-msgstr "La synchronisation de l’abonnement au calendrier a échoué lors de l’enregistrement d’un événement récupéré. Tymeslot réessaiera à la prochaine synchronisation."
+msgid "Calendar subscription sync failed while saving a fetched event. Synantesis will try again on the next sync."
+msgstr "La synchronisation de l’abonnement au calendrier a échoué lors de l’enregistrement d’un événement récupéré. Synantesis réessaiera à la prochaine synchronisation."
 
 #: lib/tymeslot/integrations/calendar/shared/error_messages.ex
 #, elixir-autogen, elixir-format
@@ -491,8 +491,8 @@ msgstr "Ce flux de calendrier est trop volumineux pour être traité."
 
 #: lib/tymeslot/workers/sync_exchange_calendar_worker.ex
 #, elixir-autogen, elixir-format
-msgid "The Exchange server answered the free/busy request with nothing Tymeslot could read. Retrying rather than treating your diary as free."
-msgstr "Le serveur Exchange a répondu à la demande de disponibilité par un contenu que Tymeslot n’a pas pu lire. Une nouvelle tentative aura lieu plutôt que de considérer votre agenda comme libre."
+msgid "The Exchange server answered the free/busy request with nothing Synantesis could read. Retrying rather than treating your diary as free."
+msgstr "Le serveur Exchange a répondu à la demande de disponibilité par un contenu que Synantesis n’a pas pu lire. Une nouvelle tentative aura lieu plutôt que de considérer votre agenda comme libre."
 
 #: lib/tymeslot/workers/sync_exchange_calendar_worker.ex
 #, elixir-autogen, elixir-format
@@ -557,18 +557,18 @@ msgstr "Le serveur de calendrier a répondu à cette adresse, mais il n’y acce
 
 #: lib/tymeslot/integrations/calendar/shared/error_messages.ex
 #, elixir-autogen, elixir-format
-msgid "The calendar server at %{url} listed more items than Tymeslot can process at once. If this address points at a single calendar, enter your account's server address instead, and Tymeslot will find your calendars there."
-msgstr "Le serveur de calendrier à l’adresse %{url} a listé plus d’éléments que Tymeslot ne peut en traiter en une fois. Si cette adresse pointe vers un seul calendrier, saisissez plutôt l’adresse du serveur de votre compte, et Tymeslot y trouvera vos calendriers."
+msgid "The calendar server at %{url} listed more items than Synantesis can process at once. If this address points at a single calendar, enter your account's server address instead, and Synantesis will find your calendars there."
+msgstr "Le serveur de calendrier à l’adresse %{url} a listé plus d’éléments que Synantesis ne peut en traiter en une fois. Si cette adresse pointe vers un seul calendrier, saisissez plutôt l’adresse du serveur de votre compte, et Synantesis y trouvera vos calendriers."
 
 #: lib/tymeslot/integrations/calendar/caldav/errors.ex
 #, elixir-autogen, elixir-format
-msgid "The calendar server did not respond. Tymeslot will retry automatically."
-msgstr "Le serveur de calendrier n’a pas répondu. Tymeslot réessaiera automatiquement."
+msgid "The calendar server did not respond. Synantesis will retry automatically."
+msgstr "Le serveur de calendrier n’a pas répondu. Synantesis réessaiera automatiquement."
 
 #: lib/tymeslot/integrations/calendar/caldav/errors.ex
 #, elixir-autogen, elixir-format
-msgid "The calendar server is rate-limiting Tymeslot. Tymeslot will retry automatically."
-msgstr "Le serveur de calendrier limite le nombre de requêtes de Tymeslot. Tymeslot réessaiera automatiquement."
+msgid "The calendar server is rate-limiting Synantesis. Synantesis will retry automatically."
+msgstr "Le serveur de calendrier limite le nombre de requêtes de Synantesis. Synantesis réessaiera automatiquement."
 
 #: lib/tymeslot/integrations/calendar/caldav/errors.ex
 #, elixir-autogen, elixir-format
@@ -587,24 +587,24 @@ msgstr "Le serveur de calendrier a rejeté les identifiants enregistrés. Veuill
 
 #: lib/tymeslot/integrations/calendar/caldav/errors.ex
 #, elixir-autogen, elixir-format
-msgid "The calendar server reported an error. Tymeslot will retry automatically."
-msgstr "Le serveur de calendrier a signalé une erreur. Tymeslot réessaiera automatiquement."
+msgid "The calendar server reported an error. Synantesis will retry automatically."
+msgstr "Le serveur de calendrier a signalé une erreur. Synantesis réessaiera automatiquement."
 
 #: lib/tymeslot/integrations/calendar/caldav/errors.ex
 #, elixir-autogen, elixir-format
-msgid "The calendar server returned a response Tymeslot could not understand."
-msgstr "Le serveur de calendrier a renvoyé une réponse que Tymeslot n’a pas pu interpréter."
+msgid "The calendar server returned a response Synantesis could not understand."
+msgstr "Le serveur de calendrier a renvoyé une réponse que Synantesis n’a pas pu interpréter."
 
 #: lib/tymeslot/integrations/calendar/caldav/errors.ex
 #: lib/tymeslot/integrations/calendar/shared/error_messages.ex
 #, elixir-autogen, elixir-format
-msgid "The calendar server returned more data than Tymeslot can process at once."
-msgstr "Le serveur de calendrier a renvoyé plus de données que Tymeslot ne peut en traiter en une fois."
+msgid "The calendar server returned more data than Synantesis can process at once."
+msgstr "Le serveur de calendrier a renvoyé plus de données que Synantesis ne peut en traiter en une fois."
 
 #: lib/tymeslot/integrations/calendar/caldav/errors.ex
 #, elixir-autogen, elixir-format
-msgid "The calendar server took too long to respond. Tymeslot will retry automatically."
-msgstr "Le serveur de calendrier a mis trop de temps à répondre. Tymeslot réessaiera automatiquement."
+msgid "The calendar server took too long to respond. Synantesis will retry automatically."
+msgstr "Le serveur de calendrier a mis trop de temps à répondre. Synantesis réessaiera automatiquement."
 
 #: lib/tymeslot/integrations/calendar/shared/error_handler.ex
 #: lib/tymeslot/integrations/calendar/shared/error_messages.ex
@@ -619,8 +619,8 @@ msgstr "Le service de calendrier est temporairement indisponible. Veuillez rées
 
 #: lib/tymeslot/integrations/calendar/caldav/errors.ex
 #, elixir-autogen, elixir-format
-msgid "The event changed on the calendar server since Tymeslot last synced it."
-msgstr "L’événement a été modifié sur le serveur de calendrier depuis la dernière synchronisation par Tymeslot."
+msgid "The event changed on the calendar server since Synantesis last synced it."
+msgstr "L’événement a été modifié sur le serveur de calendrier depuis la dernière synchronisation par Synantesis."
 
 #: lib/tymeslot/integrations/calendar/caldav/errors.ex
 #, elixir-autogen, elixir-format
@@ -669,28 +669,28 @@ msgstr "Essayez d’utiliser un mot de passe d’application plutôt que votre m
 
 #: lib/tymeslot/integrations/calendar/caldav/errors.ex
 #, elixir-autogen, elixir-format
-msgid "Tymeslot could not complete the request against the calendar server."
-msgstr "Tymeslot n’a pas pu exécuter la requête auprès du serveur de calendrier."
+msgid "Synantesis could not complete the request against the calendar server."
+msgstr "Synantesis n’a pas pu exécuter la requête auprès du serveur de calendrier."
 
 #: lib/tymeslot/integrations/calendar/caldav/errors.ex
 #, elixir-autogen, elixir-format
-msgid "Tymeslot could not reach the calendar server. Tymeslot will retry automatically."
-msgstr "Tymeslot n’a pas pu joindre le serveur de calendrier. Tymeslot réessaiera automatiquement."
+msgid "Synantesis could not reach the calendar server. Synantesis will retry automatically."
+msgstr "Synantesis n’a pas pu joindre le serveur de calendrier. Synantesis réessaiera automatiquement."
 
 #: lib/tymeslot/integrations/calendar/auth/jobs/token_refresh_job.ex
 #, elixir-autogen, elixir-format
-msgid "Tymeslot could not renew its access to this calendar. It will try again shortly."
-msgstr "Tymeslot n’a pas pu renouveler son accès à ce calendrier. Tymeslot réessaiera sous peu."
+msgid "Synantesis could not renew its access to this calendar. It will try again shortly."
+msgstr "Synantesis n’a pas pu renouveler son accès à ce calendrier. Synantesis réessaiera sous peu."
 
 #: lib/tymeslot/integrations/calendar/caldav/offline_queue.ex
 #, elixir-autogen, elixir-format
-msgid "Tymeslot could not send this change to the calendar server."
-msgstr "Tymeslot n’a pas pu envoyer cette modification au serveur de calendrier."
+msgid "Synantesis could not send this change to the calendar server."
+msgstr "Synantesis n’a pas pu envoyer cette modification au serveur de calendrier."
 
 #: lib/tymeslot/workers/sync_exchange_calendar_worker.ex
 #, elixir-autogen, elixir-format
-msgid "Tymeslot needs the mailbox's email address to read its free/busy time. Please reconnect the integration and provide it."
-msgstr "Tymeslot a besoin de l’adresse e-mail de la boîte aux lettres pour lire ses disponibilités. Veuillez reconnecter l’intégration et l’indiquer."
+msgid "Synantesis needs the mailbox's email address to read its free/busy time. Please reconnect the integration and provide it."
+msgstr "Synantesis a besoin de l’adresse e-mail de la boîte aux lettres pour lire ses disponibilités. Veuillez reconnecter l’intégration et l’indiquer."
 
 #: lib/tymeslot/integrations/calendar/shared/error_messages.ex
 #, elixir-autogen, elixir-format
@@ -810,8 +810,8 @@ msgstr "%{provider} a refusé la modification. La connexion fonctionne, mais le 
 
 #: lib/tymeslot/integrations/calendar/domain/management.ex
 #, elixir-autogen, elixir-format
-msgid "Your calendar connection does not allow Tymeslot to add bookings to it. Please reconnect the integration and allow Tymeslot to create and edit events."
-msgstr "Votre connexion de calendrier ne permet pas à Tymeslot d’y ajouter des réservations. Veuillez reconnecter l’intégration et autoriser Tymeslot à créer et modifier des événements."
+msgid "Your calendar connection does not allow Synantesis to add bookings to it. Please reconnect the integration and allow Synantesis to create and edit events."
+msgstr "Votre connexion de calendrier ne permet pas à Synantesis d’y ajouter des réservations. Veuillez reconnecter l’intégration et autoriser Synantesis à créer et modifier des événements."
 
 #: lib/tymeslot/workers/sync_caldav_calendar_worker.ex
 #, elixir-autogen, elixir-format

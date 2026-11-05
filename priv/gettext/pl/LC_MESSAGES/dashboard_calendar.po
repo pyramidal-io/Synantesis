@@ -311,8 +311,8 @@ msgstr "Rezerwacje"
 
 #: lib/tymeslot_web/live/dashboard/calendar_grid/views/empty_state.ex
 #, elixir-autogen, elixir-format
-msgid "Bring your calendar into Tymeslot"
-msgstr "Podłącz swój kalendarz do Tymeslot"
+msgid "Bring your calendar into Synantesis"
+msgstr "Podłącz swój kalendarz do Synantesis"
 
 #: lib/tymeslot_web/live/dashboard/calendar_grid/views/agenda_view.ex
 #, elixir-autogen, elixir-format
@@ -321,8 +321,8 @@ msgstr "Filtruj agendę"
 
 #: lib/tymeslot_web/live/dashboard/calendar_grid/views/agenda_view.ex
 #, elixir-autogen, elixir-format
-msgid "Meetings booked through your Tymeslot page will appear here."
-msgstr "Tutaj pojawią się spotkania zarezerwowane na twojej stronie w Tymeslot."
+msgid "Meetings booked through your Synantesis page will appear here."
+msgstr "Tutaj pojawią się spotkania zarezerwowane na twojej stronie w Synantesis."
 
 #: lib/tymeslot_web/live/dashboard/calendar_grid/views/agenda_view.ex
 #, elixir-autogen, elixir-format

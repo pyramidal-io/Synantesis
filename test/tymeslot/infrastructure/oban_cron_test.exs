@@ -53,7 +53,7 @@ defmodule Tymeslot.Infrastructure.ObanCronTest do
       # evaluated here; its Oban block must not carry a crontab of its own.
       runtime = File.read!(config_file("runtime.exs"))
       assert runtime =~ ~r/^\s*cron: \[\]$/m
-      refute runtime =~ ~r/^\s*\{\s*"[^"]+"\s*,\s*Tymeslot\./m
+      refute runtime =~ ~r/^\s*\{\s*"[^"]+"\s*,\s*Synantesis\./m
     end
 
     test "every entry names a loadable worker with a schedule Oban can parse" do

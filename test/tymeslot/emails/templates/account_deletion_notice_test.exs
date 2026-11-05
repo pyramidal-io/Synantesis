@@ -19,7 +19,7 @@ defmodule Tymeslot.Emails.Templates.AccountDeletionNoticeTest do
 
       assert text =~ "scheduled for deletion on 16 October 2026"
       assert text =~ "sign in before that date and you can restore your account"
-      assert text =~ "upcoming bookings will be deleted from Tymeslot"
+      assert text =~ "upcoming bookings will be deleted from Synantesis"
       assert text =~ "Your guests will not be notified"
       assert text =~ "Calendar events and video links that already exist will stay as they are"
       assert text =~ "contact your guests yourself"
@@ -55,7 +55,7 @@ defmodule Tymeslot.Emails.Templates.AccountDeletionNoticeTest do
       html =
         AccountDeletionNotice.render(recipient, @at, "https://example.com/auth/login").html_body
 
-      assert text =~ "Ihr Tymeslot-Konto am 16. Oktober 2026 gelöscht"
+      assert text =~ "Ihr Synantesis-Konto am 16. Oktober 2026 gelöscht"
       assert text =~ "Ihre Gäste werden nicht benachrichtigt"
       assert html =~ "Am 16. Oktober 2026."
       assert html =~ "Zum Wiederherstellen anmelden"
@@ -71,7 +71,7 @@ defmodule Tymeslot.Emails.Templates.AccountDeletionNoticeTest do
 
       assert text =~ "has been deleted"
       assert text =~ "This cannot be undone"
-      assert text =~ "upcoming bookings have been deleted from Tymeslot"
+      assert text =~ "upcoming bookings have been deleted from Synantesis"
       assert text =~ "Your guests were not notified"
       assert text =~ "have been left as they are"
       assert text =~ "contact your guests yourself"

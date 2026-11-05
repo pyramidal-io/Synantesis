@@ -388,7 +388,7 @@ msgstr ""
 
 #: lib/tymeslot_web/live/dashboard/automation/slack_form_component.ex
 #, elixir-autogen, elixir-format
-msgid "No channels available. Invite the Tymeslot bot to at least one channel in Slack, then click Refresh."
+msgid "No channels available. Invite the Synantesis bot to at least one channel in Slack, then click Refresh."
 msgstr ""
 
 #: lib/tymeslot_web/live/dashboard/automation/telegram_form_component.ex
@@ -414,7 +414,7 @@ msgstr ""
 
 #: lib/tymeslot_web/live/dashboard/automation/slack_form_component.ex
 #, elixir-autogen, elixir-format
-msgid "Pick a channel for Tymeslot to post booking notifications to."
+msgid "Pick a channel for Synantesis to post booking notifications to."
 msgstr ""
 
 #: lib/tymeslot_web/live/dashboard/automation/slack_card.ex
@@ -670,7 +670,7 @@ msgstr ""
 
 #: lib/tymeslot_web/live/dashboard/automation/slack_form_component.ex
 #, elixir-autogen, elixir-format
-msgid "Tymeslot will post booking notifications to this channel. Public channels appear automatically; for a private channel, invite the Tymeslot bot in Slack (%{command}), then click Refresh."
+msgid "Synantesis will post booking notifications to this channel. Public channels appear automatically; for a private channel, invite the Synantesis bot in Slack (%{command}), then click Refresh."
 msgstr ""
 
 #: lib/tymeslot_web/live/dashboard/automation/slack_form_component.ex
@@ -685,7 +685,7 @@ msgstr ""
 
 #: lib/tymeslot_web/live/dashboard/automation/slack_form_component.ex
 #, elixir-autogen, elixir-format
-msgid "Tymeslot posts notifications to this URL. The destination channel is fixed by Slack when the webhook is created - see the full setup guide on %{guide}."
+msgid "Synantesis posts notifications to this URL. The destination channel is fixed by Slack when the webhook is created - see the full setup guide on %{guide}."
 msgstr ""
 
 #: lib/tymeslot_web/live/dashboard/automation/slack_tab.ex
@@ -800,7 +800,7 @@ msgstr ""
 
 #: lib/tymeslot/slack/error_messages.ex
 #, elixir-autogen, elixir-format
-msgid "Channel not accessible. If it's a private channel, invite the Tymeslot bot first."
+msgid "Channel not accessible. If it's a private channel, invite the Synantesis bot first."
 msgstr ""
 
 #: lib/tymeslot/slack/error_messages.ex

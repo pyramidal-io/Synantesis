@@ -47,7 +47,8 @@ defmodule Tymeslot.MixProject do
       ],
       releases: [
         tymeslot: [
-          applications: [tymeslot: :permanent]
+          applications: [tymeslot: :permanent],
+          steps: [&require_source_revision/1, :assemble]
         ]
       ],
       test_coverage: [tool: ExCoveralls],
@@ -56,6 +57,18 @@ defmodule Tymeslot.MixProject do
         "License" => "https://www.gnu.org/licenses/agpl-3.0.html"
       }
     ]
+  end
+
+  defp require_source_revision(release) do
+    revision = Application.get_env(:tymeslot, :source_revision)
+
+    unless is_binary(revision) and Regex.match?(~r/\A[0-9a-f]{40}\z/, revision) do
+      Mix.raise(
+        "Set SYNANTESIS_SOURCE_REVISION to the full Git commit used to build this release"
+      )
+    end
+
+    release
   end
 
   def cli do

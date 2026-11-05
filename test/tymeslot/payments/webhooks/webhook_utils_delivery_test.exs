@@ -23,7 +23,7 @@ defmodule Tymeslot.Payments.Webhooks.WebhookUtilsDeliveryTest do
     def notice(user) do
       Email.new(
         to: {"Payer\r\nBcc: x@example.com", user.email},
-        from: {"Tymeslot", "noreply@example.com"},
+        from: {"Synantesis", "noreply@example.com"},
         subject: "Your refund\r\nX-Injected: yes",
         text_body: "Refunded.",
         html_body: "<p>Refunded.</p>"

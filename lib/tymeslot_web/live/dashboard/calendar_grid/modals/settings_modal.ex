@@ -120,7 +120,7 @@ defmodule TymeslotWeb.Dashboard.CalendarGrid.Modals.SettingsModal do
           <:description>
             {dgettext(
               "dashboard_calendar_settings",
-              "Show browser notifications before events while Tymeslot is open"
+              "Show browser notifications before events while Synantesis is open"
             )}
           </:description>
           <StatusSwitch.status_switch

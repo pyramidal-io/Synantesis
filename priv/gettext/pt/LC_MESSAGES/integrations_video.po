@@ -81,8 +81,8 @@ msgstr "A URL base precisa ser texto"
 
 #: lib/tymeslot/integrations/video/providers/nextcloud_talk/booking_conversation.ex
 #, elixir-autogen, elixir-format
-msgid "Booked through Tymeslot."
-msgstr "Agendado pelo Tymeslot."
+msgid "Booked through Synantesis."
+msgstr "Agendado pelo Synantesis."
 
 #: lib/tymeslot/integrations/video/providers/nextcloud_talk_provider.ex
 #, elixir-autogen, elixir-format
@@ -352,8 +352,8 @@ msgstr "O Nextcloud não encontrou o Talk neste endereço. Confira se o app Talk
 
 #: lib/tymeslot/integrations/video/providers/nextcloud_talk_provider.ex
 #, elixir-autogen, elixir-format
-msgid "Nextcloud is refusing requests from Tymeslot for now, usually after too many failed logins. Wait a few minutes before trying again."
-msgstr "Por enquanto, o Nextcloud está recusando as requisições do Tymeslot, o que costuma acontecer depois de muitas tentativas de login com falha. Espere alguns minutos antes de tentar de novo."
+msgid "Nextcloud is refusing requests from Synantesis for now, usually after too many failed logins. Wait a few minutes before trying again."
+msgstr "Por enquanto, o Nextcloud está recusando as requisições do Synantesis, o que costuma acontecer depois de muitas tentativas de login com falha. Espere alguns minutos antes de tentar de novo."
 
 #: lib/tymeslot/integrations/video/room_creation_error.ex
 #, elixir-autogen, elixir-format
@@ -477,8 +477,8 @@ msgstr "O servidor redirecionou a requisição. Digite o endereço em que seu na
 
 #: lib/tymeslot/integrations/video/providers/nextcloud_talk_provider.ex
 #, elixir-autogen, elixir-format
-msgid "This Nextcloud Talk is too old. Tymeslot needs Talk 21.1 or later."
-msgstr "Este Nextcloud Talk é antigo demais. O Tymeslot precisa do Talk 21.1 ou mais recente."
+msgid "This Nextcloud Talk is too old. Synantesis needs Talk 21.1 or later."
+msgstr "Este Nextcloud Talk é antigo demais. O Synantesis precisa do Talk 21.1 ou mais recente."
 
 #: lib/tymeslot/integrations/video/room_creation_error.ex
 #, elixir-autogen, elixir-format

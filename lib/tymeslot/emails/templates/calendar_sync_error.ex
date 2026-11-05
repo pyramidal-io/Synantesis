@@ -81,7 +81,7 @@ defmodule Tymeslot.Emails.Templates.CalendarSyncError do
   defp do_render_html(error_details, {owner_start_time, clock}, meeting, locale) do
     mjml_content = """
     #{Callouts.alert_box(:cancelled,
-    dgettext("emails_integrations", "I was unable to add this meeting to your calendar. The appointment has been successfully confirmed in Tymeslot and both you and the attendee have received confirmation emails. However, you'll need to manually add it to your calendar."),
+    dgettext("emails_integrations", "I was unable to add this meeting to your calendar. The appointment has been successfully confirmed in Synantesis and both you and the attendee have received confirmation emails. However, you'll need to manually add it to your calendar."),
     title: dgettext("emails_integrations", "Calendar Sync Error"))}
 
     #{Text.title_section(dgettext("emails_integrations", "Meeting Details"))}

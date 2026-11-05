@@ -819,8 +819,8 @@ msgstr "Conecta un calendario para crear una votación"
 
 #: lib/tymeslot_web/live/dashboard/polls/poll_list.ex
 #, elixir-autogen, elixir-format
-msgid "Guests vote on a page that opens once your calendar is connected, so Tymeslot can flag the times you're busy and book the winner without double-booking you."
-msgstr "Los invitados votan en una página que se abre cuando conectas tu calendario. Así, Tymeslot puede marcar los horarios en los que ya tienes algo y reservar el horario ganador sin que tengas dos reservas a la misma hora."
+msgid "Guests vote on a page that opens once your calendar is connected, so Synantesis can flag the times you're busy and book the winner without double-booking you."
+msgstr "Los invitados votan en una página que se abre cuando conectas tu calendario. Así, Synantesis puede marcar los horarios en los que ya tienes algo y reservar el horario ganador sin que tengas dos reservas a la misma hora."
 
 #: lib/tymeslot_web/live/dashboard/polls/confirm_slot_modal.ex
 #, elixir-autogen, elixir-format

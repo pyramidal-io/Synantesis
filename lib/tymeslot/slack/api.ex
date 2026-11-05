@@ -201,7 +201,7 @@ defmodule Tymeslot.Slack.API do
 
   # Extract a fallback text string for accessibility / push notifications.
   defp extract_fallback_text(blocks) do
-    Enum.find_value(blocks, "Tymeslot notification", fn
+    Enum.find_value(blocks, "Synantesis notification", fn
       %{"type" => "header", "text" => %{"text" => text}} -> text
       %{"type" => "section", "text" => %{"text" => text}} -> text
       _block -> nil

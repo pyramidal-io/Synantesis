@@ -184,7 +184,7 @@ defmodule Tymeslot.Emails.Shared.MjmlEmailTest do
       assert mjml =~ "<mjml>"
       assert mjml =~ "</mjml>"
       assert mjml =~ "Test Content"
-      assert mjml =~ "Tymeslot"
+      assert mjml =~ "Synantesis"
     end
 
     test "uses provided organizer details" do
@@ -252,7 +252,7 @@ defmodule Tymeslot.Emails.Shared.MjmlEmailTest do
       assert mjml =~ "<mj-head>"
       assert mjml =~ "<mj-body"
       assert mjml =~ "Sent with care by"
-      assert mjml =~ "Tymeslot"
+      assert mjml =~ "Synantesis"
     end
 
     test "loads no web font, so opening the email contacts no font host" do

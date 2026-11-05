@@ -221,7 +221,7 @@ defmodule Tymeslot.Emails.SMTPDeliveryTest do
   defp email(subject) do
     Email.new(
       to: [{"Guest", "guest@example.com"}],
-      from: {"Tymeslot", "noreply@example.com"},
+      from: {"Synantesis", "noreply@example.com"},
       subject: subject,
       text_body: "Plain-text body.",
       html_body: "<p>HTML body.</p>"

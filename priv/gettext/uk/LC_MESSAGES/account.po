@@ -315,8 +315,8 @@ msgstr "До того часу він заморожений, а ваша сто
 
 #: lib/tymeslot_web/live/account_live/danger_zone.ex
 #, elixir-autogen, elixir-format
-msgid "Upcoming bookings are deleted from Tymeslot and your guests are not notified."
-msgstr "Майбутні бронювання видаляються з Tymeslot, а ваші гості не отримують сповіщення."
+msgid "Upcoming bookings are deleted from Synantesis and your guests are not notified."
+msgstr "Майбутні бронювання видаляються з Synantesis, а ваші гості не отримують сповіщення."
 
 #: lib/tymeslot_web/live/account_live/delete_account_modal.ex
 #, elixir-autogen, elixir-format
@@ -345,8 +345,8 @@ msgstr "Ваш обліковий запис буде видалено %{date}. 
 
 #: lib/tymeslot_web/live/account_live/delete_account_modal.ex
 #, elixir-autogen, elixir-format
-msgid "Your upcoming bookings will be deleted from Tymeslot. Your guests will not be notified."
-msgstr "Ваші майбутні бронювання буде видалено з Tymeslot. Ваші гості не отримають сповіщення."
+msgid "Your upcoming bookings will be deleted from Synantesis. Your guests will not be notified."
+msgstr "Ваші майбутні бронювання буде видалено з Synantesis. Ваші гості не отримають сповіщення."
 
 #: lib/tymeslot_web/live/account_live/danger_zone.ex
 #, elixir-autogen, elixir-format

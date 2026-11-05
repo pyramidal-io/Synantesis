@@ -81,8 +81,8 @@ msgstr "Базова URL-адреса має бути текстом"
 
 #: lib/tymeslot/integrations/video/providers/nextcloud_talk/booking_conversation.ex
 #, elixir-autogen, elixir-format
-msgid "Booked through Tymeslot."
-msgstr "Заброньовано через Tymeslot."
+msgid "Booked through Synantesis."
+msgstr "Заброньовано через Synantesis."
 
 #: lib/tymeslot/integrations/video/providers/nextcloud_talk_provider.ex
 #, elixir-autogen, elixir-format
@@ -352,8 +352,8 @@ msgstr "Nextcloud не знайшов Talk за цією адресою. Пер�
 
 #: lib/tymeslot/integrations/video/providers/nextcloud_talk_provider.ex
 #, elixir-autogen, elixir-format
-msgid "Nextcloud is refusing requests from Tymeslot for now, usually after too many failed logins. Wait a few minutes before trying again."
-msgstr "Nextcloud тимчасово відхиляє запити від Tymeslot, зазвичай після забагатьох невдалих спроб входу. Зачекайте кілька хвилин, перш ніж спробувати ще раз."
+msgid "Nextcloud is refusing requests from Synantesis for now, usually after too many failed logins. Wait a few minutes before trying again."
+msgstr "Nextcloud тимчасово відхиляє запити від Synantesis, зазвичай після забагатьох невдалих спроб входу. Зачекайте кілька хвилин, перш ніж спробувати ще раз."
 
 #: lib/tymeslot/integrations/video/room_creation_error.ex
 #, elixir-autogen, elixir-format
@@ -477,8 +477,8 @@ msgstr "Сервер переспрямував запит. Введіть ад�
 
 #: lib/tymeslot/integrations/video/providers/nextcloud_talk_provider.ex
 #, elixir-autogen, elixir-format
-msgid "This Nextcloud Talk is too old. Tymeslot needs Talk 21.1 or later."
-msgstr "Ця версія Nextcloud Talk застаріла. Tymeslot потребує Talk 21.1 або новішої версії."
+msgid "This Nextcloud Talk is too old. Synantesis needs Talk 21.1 or later."
+msgstr "Ця версія Nextcloud Talk застаріла. Synantesis потребує Talk 21.1 або новішої версії."
 
 #: lib/tymeslot/integrations/video/room_creation_error.ex
 #, elixir-autogen, elixir-format

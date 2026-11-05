@@ -829,13 +829,13 @@ msgstr "Esta reserva ya no se puede mover al horario de tu calendario."
 
 #: lib/tymeslot_web/live/dashboard/bookings_management/calendar_move.ex
 #, elixir-autogen, elixir-format
-msgid "Tymeslot is still updating your calendar for this booking. Please try again in a moment."
-msgstr "Tymeslot todavía está actualizando tu calendario para esta reserva. Inténtalo de nuevo en un momento."
+msgid "Synantesis is still updating your calendar for this booking. Please try again in a moment."
+msgstr "Synantesis todavía está actualizando tu calendario para esta reserva. Inténtalo de nuevo en un momento."
 
 #: lib/tymeslot_web/components/dashboard/meetings/calendar_move_modal.ex
 #, elixir-autogen, elixir-format
-msgid "Your calendar now has this meeting at %{time}. Tymeslot will move the booking there, reschedule its reminders and email %{attendee_name} and any guests the new time."
-msgstr "Ahora tu calendario tiene esta reunión en este horario: %{time}. Tymeslot moverá la reserva a ese horario, reprogramará sus recordatorios y enviará el nuevo horario por correo a %{attendee_name} y a los invitados, si los hay."
+msgid "Your calendar now has this meeting at %{time}. Synantesis will move the booking there, reschedule its reminders and email %{attendee_name} and any guests the new time."
+msgstr "Ahora tu calendario tiene esta reunión en este horario: %{time}. Synantesis moverá la reserva a ese horario, reprogramará sus recordatorios y enviará el nuevo horario por correo a %{attendee_name} y a los invitados, si los hay."
 
 #: lib/tymeslot_web/live/dashboard/bookings_management/calendar_move.ex
 #, elixir-autogen, elixir-format
@@ -844,13 +844,13 @@ msgstr "La reunión cambió otra vez de horario en tu calendario. Revisa el nuev
 
 #: lib/tymeslot_web/live/dashboard/bookings_management/calendar_move.ex
 #, elixir-autogen, elixir-format
-msgid "Tymeslot could not move this booking. Another booking already starts at that time."
-msgstr "Tymeslot no pudo mover esta reserva. Ya hay otra reserva que empieza a esa hora."
+msgid "Synantesis could not move this booking. Another booking already starts at that time."
+msgstr "Synantesis no pudo mover esta reserva. Ya hay otra reserva que empieza a esa hora."
 
 #: lib/tymeslot_web/live/dashboard/bookings_management/calendar_move.ex
 #, elixir-autogen, elixir-format
-msgid "Tymeslot could not move this booking. Please try again."
-msgstr "Tymeslot no pudo mover esta reserva. Inténtalo de nuevo."
+msgid "Synantesis could not move this booking. Please try again."
+msgstr "Synantesis no pudo mover esta reserva. Inténtalo de nuevo."
 
 #: lib/tymeslot_web/components/dashboard/meetings/host_move_modal.ex
 #, elixir-autogen, elixir-format

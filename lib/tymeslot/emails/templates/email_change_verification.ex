@@ -73,7 +73,7 @@ defmodule Tymeslot.Emails.Templates.EmailChangeVerification do
     TemplateHelper.compile_system_template(
       mjml_content,
       dgettext("emails_account", "Verify your new email address"),
-      dgettext("emails_account", "Confirm the new email address on your Tymeslot account."),
+      dgettext("emails_account", "Confirm the new email address on your Synantesis account."),
       intent: @intent,
       eyebrow: dgettext("emails_account", "Verify"),
       stage_title: dgettext("emails_account", "Confirm your new email"),

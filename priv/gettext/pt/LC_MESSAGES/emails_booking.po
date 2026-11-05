@@ -430,8 +430,8 @@ msgstr "A reunião com %{organizer} para a qual %{booker} convidou você está c
 
 #: lib/tymeslot/emails/templates/appointment_confirmation/payment_blocks.ex
 #, elixir-autogen, elixir-format
-msgid "Tymeslot platform fee: %{amount}"
-msgstr "Taxa de plataforma do Tymeslot: %{amount}"
+msgid "Synantesis platform fee: %{amount}"
+msgstr "Taxa de plataforma do Synantesis: %{amount}"
 
 #: lib/tymeslot/emails/templates/appointment_confirmation/payment_blocks.ex
 #, elixir-autogen, elixir-format

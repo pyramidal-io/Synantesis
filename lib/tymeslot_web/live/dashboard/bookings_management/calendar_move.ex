@@ -146,7 +146,7 @@ defmodule TymeslotWeb.Dashboard.BookingsManagement.CalendarMove do
   defp refusal_message(:calendar_write_pending) do
     dgettext(
       "dashboard_bookings",
-      "Tymeslot is still updating your calendar for this booking. Please try again in a moment."
+      "Synantesis is still updating your calendar for this booking. Please try again in a moment."
     )
   end
 
@@ -160,12 +160,12 @@ defmodule TymeslotWeb.Dashboard.BookingsManagement.CalendarMove do
   defp refusal_message(:slot_taken) do
     dgettext(
       "dashboard_bookings",
-      "Tymeslot could not move this booking. Another booking already starts at that time."
+      "Synantesis could not move this booking. Another booking already starts at that time."
     )
   end
 
   defp refusal_message(:failed_to_update_meeting) do
-    dgettext("dashboard_bookings", "Tymeslot could not move this booking. Please try again.")
+    dgettext("dashboard_bookings", "Synantesis could not move this booking. Please try again.")
   end
 
   defp refusal_message(_reason) do

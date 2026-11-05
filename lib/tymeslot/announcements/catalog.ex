@@ -59,12 +59,12 @@ defmodule Tymeslot.Announcements.Catalog do
   defp spanish do
     %Announcement{
       key: "spanish_language",
-      title: dgettext("onboarding", "Tymeslot now speaks Spanish"),
+      title: dgettext("onboarding", "Synantesis now speaks Spanish"),
       body:
         dgettext(
           "onboarding",
           "Your dashboard, booking pages and every email are now available in Spanish. " <>
-            "Tymeslot follows your browser's language, or you can choose one yourself in " <>
+            "Synantesis follows your browser's language, or you can choose one yourself in " <>
             "Account Settings. People who book you see booking pages and confirmations in " <>
             "their own language too."
         ),
@@ -160,7 +160,7 @@ defmodule Tymeslot.Announcements.Catalog do
         dgettext(
           "onboarding",
           "Three more video providers join Zoom, Google Meet, Teams and MiroTalk in the " <>
-            "integrations picker. Point Tymeslot at your own Jitsi or Nextcloud and every " <>
+            "integrations picker. Point Synantesis at your own Jitsi or Nextcloud and every " <>
             "booking gets a room of its own: a Talk conversation keeps its lobby shut until " <>
             "the meeting starts, moves when you reschedule and is deleted when you cancel. " <>
             "kMeet needs no setup at all."

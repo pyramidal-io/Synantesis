@@ -103,7 +103,7 @@ defmodule TymeslotWeb.Dashboard.CalendarSettings.SyncErrorNoticeTest do
     assert {:discard, _reason} = run(integration)
 
     assert notices(conn) == [
-             "The calendar server reported an error. Tymeslot will retry automatically."
+             "The calendar server reported an error. Synantesis will retry automatically."
            ]
 
     stub_full_sync()
