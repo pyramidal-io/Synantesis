@@ -828,8 +828,8 @@ msgstr "Podłącz kalendarz, aby utworzyć ankietę"
 
 #: lib/tymeslot_web/live/dashboard/polls/poll_list.ex
 #, elixir-autogen, elixir-format
-msgid "Guests vote on a page that opens once your calendar is connected, so Tymeslot can flag the times you're busy and book the winner without double-booking you."
-msgstr "Goście głosują na stronie, która otwiera się dopiero po podłączeniu kalendarza. Dzięki temu Tymeslot może oznaczyć zajęte terminy i zarezerwować zwycięski termin bez podwójnej rezerwacji."
+msgid "Guests vote on a page that opens once your calendar is connected, so Synantesis can flag the times you're busy and book the winner without double-booking you."
+msgstr "Goście głosują na stronie, która otwiera się dopiero po podłączeniu kalendarza. Dzięki temu Synantesis może oznaczyć zajęte terminy i zarezerwować zwycięski termin bez podwójnej rezerwacji."
 
 #: lib/tymeslot_web/live/dashboard/polls/confirm_slot_modal.ex
 #, elixir-autogen, elixir-format

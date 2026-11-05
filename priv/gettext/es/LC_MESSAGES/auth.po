@@ -153,8 +153,8 @@ msgstr "Token de restablecimiento no válido"
 
 #: lib/tymeslot_web/components/auth/registration/signup_component.ex
 #, elixir-autogen, elixir-format
-msgid "Join Tymeslot"
-msgstr "Únete a Tymeslot"
+msgid "Join Synantesis"
+msgstr "Únete a Synantesis"
 
 #: lib/tymeslot_web/components/auth/session/password_reset_component.ex
 #, elixir-autogen, elixir-format
@@ -176,8 +176,8 @@ msgstr "Iniciar sesión"
 
 #: lib/tymeslot_web/components/auth/session/login_component.ex
 #, elixir-autogen, elixir-format
-msgid "Log in to Tymeslot"
-msgstr "Inicia sesión en Tymeslot"
+msgid "Log in to Synantesis"
+msgstr "Inicia sesión en Synantesis"
 
 #: lib/tymeslot_web/controllers/auth/session_controller.ex
 #, elixir-autogen, elixir-format
@@ -479,13 +479,13 @@ msgstr "Elige una contraseña nueva"
 
 #: lib/tymeslot_web/live/auth_live/page_meta_helper.ex
 #, elixir-autogen, elixir-format
-msgid "Choose a strong new password for your Tymeslot account."
-msgstr "Elige una contraseña nueva y segura para tu cuenta de Tymeslot."
+msgid "Choose a strong new password for your Synantesis account."
+msgstr "Elige una contraseña nueva y segura para tu cuenta de Synantesis."
 
 #: lib/tymeslot_web/live/auth_live/page_meta_helper.ex
 #, elixir-autogen, elixir-format
-msgid "Create a Tymeslot account and start sharing your availability in minutes. No credit card required."
-msgstr "Crea una cuenta de Tymeslot y comparte tu disponibilidad en unos minutos. Sin tarjeta de crédito."
+msgid "Create a Synantesis account and start sharing your availability in minutes. No credit card required."
+msgstr "Crea una cuenta de Synantesis y comparte tu disponibilidad en unos minutos. Sin tarjeta de crédito."
 
 #: lib/tymeslot_web/live/auth_live/page_meta_helper.ex
 #, elixir-autogen, elixir-format
@@ -504,8 +504,8 @@ msgstr "Hace falta un correo electrónico para completar el registro. Indica el 
 
 #: lib/tymeslot_web/live/auth_live/page_meta_helper.ex
 #, elixir-autogen, elixir-format
-msgid "Enter your email to receive a password reset link for your Tymeslot account."
-msgstr "Escribe tu correo y te enviaremos un enlace para restablecer la contraseña de tu cuenta de Tymeslot."
+msgid "Enter your email to receive a password reset link for your Synantesis account."
+msgstr "Escribe tu correo y te enviaremos un enlace para restablecer la contraseña de tu cuenta de Synantesis."
 
 #: lib/tymeslot/auth/registration.ex
 #: lib/tymeslot_web/controllers/auth/helpers/controller_helpers.ex
@@ -535,8 +535,8 @@ msgstr "No se pudo completar el registro porque algunos datos no son válidos. R
 
 #: lib/tymeslot_web/live/auth_live/page_meta_helper.ex
 #, elixir-autogen, elixir-format
-msgid "Sign in to your Tymeslot account to manage scheduling links, availability, and bookings."
-msgstr "Inicia sesión en tu cuenta de Tymeslot para gestionar tus enlaces de reservas, tu disponibilidad y tus reservas."
+msgid "Sign in to your Synantesis account to manage scheduling links, availability, and bookings."
+msgstr "Inicia sesión en tu cuenta de Synantesis para gestionar tus enlaces de reservas, tu disponibilidad y tus reservas."
 
 #: lib/tymeslot/auth/error_formatter.ex
 #, elixir-autogen, elixir-format

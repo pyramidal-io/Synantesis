@@ -105,7 +105,7 @@ defmodule Tymeslot.Telegram.MessageBuilder do
 
   @spec build_test_message() :: String.t()
   def build_test_message do
-    "#{emoji(:check)} <b>Tymeslot Test</b>\n\nThis is a test message from your Tymeslot integration. If you see this, notifications are working correctly!"
+    "#{emoji(:check)} <b>Synantesis Test</b>\n\nThis is a test message from your Synantesis integration. If you see this, notifications are working correctly!"
   end
 
   # Private helpers

@@ -298,14 +298,14 @@ defmodule TymeslotWeb.AuthLiveTest do
     # name="description">` tag on its own says nothing about what the page
     # actually claims to be.
     @indexable_auth_pages [
-      {"login", "/auth/login", "Log In · Tymeslot",
-       "Sign in to your Tymeslot account to manage scheduling links, availability, and bookings."},
-      {"signup", "/auth/signup", "Create an Account · Tymeslot",
-       "Create a Tymeslot account and start sharing your availability in minutes. No credit card required."},
-      {"reset password", "/auth/reset-password", "Reset Password · Tymeslot",
-       "Enter your email to receive a password reset link for your Tymeslot account."},
-      {"reset password form", :token, "Choose a New Password · Tymeslot",
-       "Choose a strong new password for your Tymeslot account."}
+      {"login", "/auth/login", "Log In · Synantesis",
+       "Sign in to your Synantesis account to manage scheduling links, availability, and bookings."},
+      {"signup", "/auth/signup", "Create an Account · Synantesis",
+       "Create a Synantesis account and start sharing your availability in minutes. No credit card required."},
+      {"reset password", "/auth/reset-password", "Reset Password · Synantesis",
+       "Enter your email to receive a password reset link for your Synantesis account."},
+      {"reset password form", :token, "Choose a New Password · Synantesis",
+       "Choose a strong new password for your Synantesis account."}
     ]
 
     for {name, path, title, description} <- @indexable_auth_pages do
@@ -338,7 +338,7 @@ defmodule TymeslotWeb.AuthLiveTest do
         })
 
       {:ok, view, html} = live(conn, ~p"/auth/complete-registration")
-      assert page_title(view) == "Schedule a Meeting · Tymeslot"
+      assert page_title(view) == "Schedule a Meeting · Synantesis"
       refute html =~ ~s(<meta name="description")
     end
   end

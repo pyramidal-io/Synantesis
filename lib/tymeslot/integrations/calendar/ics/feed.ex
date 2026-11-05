@@ -128,7 +128,7 @@ defmodule Tymeslot.Integrations.Calendar.Ics.Feed do
   def sync_error_message(exception) when is_exception(exception) do
     dgettext_noop(
       "integrations_calendar",
-      "Calendar subscription sync failed while saving a fetched event. Tymeslot will try again on the next sync."
+      "Calendar subscription sync failed while saving a fetched event. Synantesis will try again on the next sync."
     )
   end
 

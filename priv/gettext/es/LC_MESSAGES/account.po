@@ -315,8 +315,8 @@ msgstr "Hasta entonces queda congelada y tu página de reservas está fuera de l
 
 #: lib/tymeslot_web/live/account_live/danger_zone.ex
 #, elixir-autogen, elixir-format
-msgid "Upcoming bookings are deleted from Tymeslot and your guests are not notified."
-msgstr "Las próximas reservas se eliminan de Tymeslot y no se avisa a tus invitados."
+msgid "Upcoming bookings are deleted from Synantesis and your guests are not notified."
+msgstr "Las próximas reservas se eliminan de Synantesis y no se avisa a tus invitados."
 
 #: lib/tymeslot_web/live/account_live/delete_account_modal.ex
 #, elixir-autogen, elixir-format
@@ -345,8 +345,8 @@ msgstr "Tu cuenta se eliminará el %{date}. Si cambias de opinión, inicia sesi�
 
 #: lib/tymeslot_web/live/account_live/delete_account_modal.ex
 #, elixir-autogen, elixir-format
-msgid "Your upcoming bookings will be deleted from Tymeslot. Your guests will not be notified."
-msgstr "Tus próximas reservas se eliminarán de Tymeslot. No se avisará a tus invitados."
+msgid "Your upcoming bookings will be deleted from Synantesis. Your guests will not be notified."
+msgstr "Tus próximas reservas se eliminarán de Synantesis. No se avisará a tus invitados."
 
 #: lib/tymeslot_web/live/account_live/danger_zone.ex
 #, elixir-autogen, elixir-format

@@ -207,7 +207,7 @@ defmodule TymeslotWeb.Dashboard.CalendarGrid.GridViews do
                   <img
                     :if={Map.get(event, :created_by_tymeslot)}
                     src="/images/brand/logo.svg"
-                    alt="Tymeslot"
+                    alt="Synantesis"
                     class="absolute top-0.5 right-0.5 w-3 h-3 opacity-60"
                   />
                   <EventBadges.event_guest_badge summary={

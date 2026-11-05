@@ -25,7 +25,7 @@ defmodule Tymeslot.Integrations.Calendar.Management do
 
   @write_unauthorized_message dgettext_noop(
                                 "integrations_calendar",
-                                "Your calendar connection does not allow Tymeslot to add bookings to it. Please reconnect the integration and allow Tymeslot to create and edit events."
+                                "Your calendar connection does not allow Synantesis to add bookings to it. Please reconnect the integration and allow Synantesis to create and edit events."
                               )
 
   @type user_id :: integer()

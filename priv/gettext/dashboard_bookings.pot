@@ -829,12 +829,12 @@ msgstr ""
 
 #: lib/tymeslot_web/live/dashboard/bookings_management/calendar_move.ex
 #, elixir-autogen, elixir-format
-msgid "Tymeslot is still updating your calendar for this booking. Please try again in a moment."
+msgid "Synantesis is still updating your calendar for this booking. Please try again in a moment."
 msgstr ""
 
 #: lib/tymeslot_web/components/dashboard/meetings/calendar_move_modal.ex
 #, elixir-autogen, elixir-format
-msgid "Your calendar now has this meeting at %{time}. Tymeslot will move the booking there, reschedule its reminders and email %{attendee_name} and any guests the new time."
+msgid "Your calendar now has this meeting at %{time}. Synantesis will move the booking there, reschedule its reminders and email %{attendee_name} and any guests the new time."
 msgstr ""
 
 #: lib/tymeslot_web/live/dashboard/bookings_management/calendar_move.ex
@@ -844,12 +844,12 @@ msgstr ""
 
 #: lib/tymeslot_web/live/dashboard/bookings_management/calendar_move.ex
 #, elixir-autogen, elixir-format
-msgid "Tymeslot could not move this booking. Another booking already starts at that time."
+msgid "Synantesis could not move this booking. Another booking already starts at that time."
 msgstr ""
 
 #: lib/tymeslot_web/live/dashboard/bookings_management/calendar_move.ex
 #, elixir-autogen, elixir-format
-msgid "Tymeslot could not move this booking. Please try again."
+msgid "Synantesis could not move this booking. Please try again."
 msgstr ""
 
 #: lib/tymeslot_web/components/dashboard/meetings/host_move_modal.ex

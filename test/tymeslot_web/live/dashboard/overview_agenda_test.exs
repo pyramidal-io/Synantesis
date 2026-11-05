@@ -121,7 +121,7 @@ defmodule TymeslotWeb.Dashboard.OverviewAgendaTest do
     assert modal =~ "Room 3B"
     # A Tymeslot booking is labelled as such and offers both smart actions.
     assert modal =~ "Calendar"
-    assert modal =~ "Tymeslot"
+    assert modal =~ "Synantesis"
     assert modal =~ "Manage booking"
 
     assert has_element?(

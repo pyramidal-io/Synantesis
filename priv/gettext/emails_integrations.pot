@@ -103,7 +103,7 @@ msgstr ""
 
 #: lib/tymeslot/emails/templates/calendar_sync_error.ex
 #, elixir-autogen, elixir-format
-msgid "I was unable to add this meeting to your calendar. The appointment has been successfully confirmed in Tymeslot and both you and the attendee have received confirmation emails. However, you'll need to manually add it to your calendar."
+msgid "I was unable to add this meeting to your calendar. The appointment has been successfully confirmed in Synantesis and both you and the attendee have received confirmation emails. However, you'll need to manually add it to your calendar."
 msgstr ""
 
 #: lib/tymeslot/emails/templates/calendars_removed.ex
@@ -221,13 +221,13 @@ msgstr ""
 
 #: lib/tymeslot/emails/templates/calendars_removed.ex
 #, elixir-autogen, elixir-format
-msgid "These calendars are no longer on your calendar server, so Tymeslot has stopped using them:"
+msgid "These calendars are no longer on your calendar server, so Synantesis has stopped using them:"
 msgstr ""
 
 #: lib/tymeslot/emails/templates/calendars_removed.ex
 #, elixir-autogen, elixir-format
-msgid "Tymeslot checked %{integration} and the server no longer has the calendar listed above. This usually means it was deleted, or stopped being shared with you, on the server. Your other calendars on %{integration} are unaffected."
-msgid_plural "Tymeslot checked %{integration} and the server no longer has the calendars listed above. This usually means they were deleted, or stopped being shared with you, on the server. Your other calendars on %{integration} are unaffected."
+msgid "Synantesis checked %{integration} and the server no longer has the calendar listed above. This usually means it was deleted, or stopped being shared with you, on the server. Your other calendars on %{integration} are unaffected."
+msgid_plural "Synantesis checked %{integration} and the server no longer has the calendars listed above. This usually means they were deleted, or stopped being shared with you, on the server. Your other calendars on %{integration} are unaffected."
 msgstr[0] ""
 msgstr[1] ""
 
@@ -243,7 +243,7 @@ msgstr ""
 
 #: lib/tymeslot/emails/templates/calendars_removed.ex
 #, elixir-autogen, elixir-format
-msgid "“%{calendar}” is no longer on your calendar server, so Tymeslot has stopped using it."
+msgid "“%{calendar}” is no longer on your calendar server, so Synantesis has stopped using it."
 msgstr ""
 
 #: lib/tymeslot/emails/templates/calendar_sync_error.ex
@@ -263,7 +263,7 @@ msgstr ""
 
 #: lib/tymeslot/emails/templates/integration_reauth_required.ex
 #, elixir-autogen, elixir-format
-msgid "%{provider} needs reconnecting before Tymeslot can use it again."
+msgid "%{provider} needs reconnecting before Synantesis can use it again."
 msgstr ""
 
 #: lib/tymeslot/emails/shared/integration_labels.ex
@@ -430,12 +430,12 @@ msgstr ""
 
 #: lib/tymeslot/emails/templates/integration_reauth_required.ex
 #, elixir-autogen, elixir-format
-msgid "Tymeslot can no longer use your %{integration} integration, and it will stay that way until you reconnect it. The reason is shown above. Your existing bookings are not affected."
+msgid "Synantesis can no longer use your %{integration} integration, and it will stay that way until you reconnect it. The reason is shown above. Your existing bookings are not affected."
 msgstr ""
 
 #: lib/tymeslot/emails/templates/integration_reauth_required.ex
 #, elixir-autogen, elixir-format
-msgid "Tymeslot can no longer use your %{integration} integration, and it will stay that way until you update it. The reason is shown above. Your existing bookings are not affected."
+msgid "Synantesis can no longer use your %{integration} integration, and it will stay that way until you update it. The reason is shown above. Your existing bookings are not affected."
 msgstr ""
 
 #: lib/tymeslot/emails/templates/integration_unhealthy.ex
@@ -538,10 +538,15 @@ msgstr ""
 
 #: lib/tymeslot/emails/templates/integration_reauth_required.ex
 #, elixir-autogen, elixir-format
-msgid "Tymeslot can no longer use your %{integration} integration, and it will stay that way until you reconnect it. The reason is shown above. Until then your booking page may not offer times or take bookings, because Tymeslot will not offer a time it cannot check against this calendar or book one into it. Your existing bookings are not affected."
+msgid "Synantesis can no longer use your %{integration} integration, and it will stay that way until you reconnect it. The reason is shown above. Until then your booking page may not offer times or take bookings, because Synantesis will not offer a time it cannot check against this calendar or book one into it. Your existing bookings are not affected."
 msgstr ""
 
 #: lib/tymeslot/emails/templates/integration_reauth_required.ex
 #, elixir-autogen, elixir-format
-msgid "Tymeslot can no longer use your %{integration} integration, and it will stay that way until you replace it. The reason is shown above. Until then your booking page may not offer times or take bookings, because Tymeslot will not offer a time it cannot check against this calendar or book one into it. Your existing bookings are not affected."
+msgid "Synantesis can no longer use your %{integration} integration, and it will stay that way until you replace it. The reason is shown above. Until then your booking page may not offer times or take bookings, because Synantesis will not offer a time it cannot check against this calendar or book one into it. Your existing bookings are not affected."
+msgstr ""
+
+#: lib/tymeslot/emails/templates/calendar_sync_error.ex
+#, elixir-autogen, elixir-format
+msgid "I was unable to add this meeting to your calendar. The appointment has been successfully confirmed in Tymeslot and both you and the attendee have received confirmation emails. However, you'll need to manually add it to your calendar."
 msgstr ""

@@ -88,8 +88,8 @@ msgstr "Domena ma nierozpoznaną końcówkę (.%{tld}). Czy chodziło o .%{sugge
 
 #: lib/tymeslot/security/field_validators/tld_list.ex
 #, elixir-autogen, elixir-format
-msgid "Domain has an unrecognised domain ending (.%{tld}). If it is correct, this version of Tymeslot predates it and needs updating."
-msgstr "Domena ma nierozpoznaną końcówkę (.%{tld}). Jeśli jest poprawna, ta wersja Tymeslot jej jeszcze nie zna i wymaga aktualizacji."
+msgid "Domain has an unrecognised domain ending (.%{tld}). If it is correct, this version of Synantesis predates it and needs updating."
+msgstr "Domena ma nierozpoznaną końcówkę (.%{tld}). Jeśli jest poprawna, ta wersja Synantesis jej jeszcze nie zna i wymaga aktualizacji."
 
 #: lib/tymeslot/security/field_validators/email_validator.ex
 #, elixir-autogen, elixir-format
@@ -153,8 +153,8 @@ msgstr "Adres e-mail ma nierozpoznaną końcówkę (.%{tld}). Czy chodziło o .%
 
 #: lib/tymeslot/security/field_validators/tld_list.ex
 #, elixir-autogen, elixir-format
-msgid "Email has an unrecognised domain ending (.%{tld}). If it is correct, this version of Tymeslot predates it and needs updating."
-msgstr "Adres e-mail ma nierozpoznaną końcówkę (.%{tld}). Jeśli jest poprawna, ta wersja Tymeslot jej jeszcze nie zna i wymaga aktualizacji."
+msgid "Email has an unrecognised domain ending (.%{tld}). If it is correct, this version of Synantesis predates it and needs updating."
+msgstr "Adres e-mail ma nierozpoznaną końcówkę (.%{tld}). Jeśli jest poprawna, ta wersja Synantesis jej jeszcze nie zna i wymaga aktualizacji."
 
 #: lib/tymeslot/security/field_validators/email_validator.ex
 #, elixir-autogen, elixir-format

@@ -164,7 +164,7 @@ defmodule TymeslotWeb.Dashboard.CalendarGrid.Modals.EventDetailModal do
         class="flex items-center gap-1 text-token-xs text-tymeslot-500 mb-2"
       >
         <img src="/images/brand/logo.svg" alt="" class="w-3.5 h-3.5" />
-        <span>{dgettext("dashboard_calendar_events", "Created by Tymeslot")}</span>
+        <span>{dgettext("dashboard_calendar_events", "Created by Synantesis")}</span>
       </div>
 
       <%!-- Time --%>

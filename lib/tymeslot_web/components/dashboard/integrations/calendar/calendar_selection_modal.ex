@@ -115,7 +115,7 @@ defmodule TymeslotWeb.Components.Dashboard.Integrations.Calendar.CalendarSelecti
             <p class="mb-2 text-token-sm text-tymeslot-500">
               {dgettext(
                 "dashboard_calendar_providers",
-                "How this calendar's events are shown in your Tymeslot calendar."
+                "How this calendar's events are shown in your Synantesis calendar."
               )}
             </p>
             <ColourSwatches.colour_swatches
@@ -130,7 +130,7 @@ defmodule TymeslotWeb.Components.Dashboard.Integrations.Calendar.CalendarSelecti
           <p class="mb-4 text-token-sm text-tymeslot-500">
             {dgettext(
               "dashboard_calendar_providers",
-              "Choose which calendars Tymeslot uses, and which of them block times on your booking page."
+              "Choose which calendars Synantesis uses, and which of them block times on your booking page."
             )}
           </p>
 
@@ -377,7 +377,7 @@ defmodule TymeslotWeb.Components.Dashboard.Integrations.Calendar.CalendarSelecti
     do:
       dgettext(
         "dashboard_calendar_providers",
-        "Shared with you as busy times only. Tymeslot can block these times but cannot show the events."
+        "Shared with you as busy times only. Synantesis can block these times but cannot show the events."
       )
 
   defp helper(:exchange_main, _whole_mailbox?),

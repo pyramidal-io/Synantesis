@@ -40,6 +40,10 @@
   text-underline-offset: 0.2em;
 }
 
+.source-offer {
+  font-weight: 700;
+}
+
 .legal-links__link:hover {
   text-decoration-thickness: var(--border-width-medium);
 }

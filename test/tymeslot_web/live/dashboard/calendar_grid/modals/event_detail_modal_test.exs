@@ -199,7 +199,7 @@ defmodule TymeslotWeb.Dashboard.CalendarGrid.Modals.EventDetailModalTest do
         base_assigns(%{selected_event: event})
       )
 
-    assert html =~ "Created by Tymeslot"
+    assert html =~ "Created by Synantesis"
   end
 
   describe "video integration selector" do
@@ -265,6 +265,6 @@ defmodule TymeslotWeb.Dashboard.CalendarGrid.Modals.EventDetailModalTest do
         base_assigns(%{selected_event: event})
       )
 
-    refute html =~ "Created by Tymeslot"
+    refute html =~ "Created by Synantesis"
   end
 end

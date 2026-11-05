@@ -224,7 +224,7 @@ defmodule TymeslotWeb.Dashboard.IntegrationsHubComponent do
         message:
           dgettext(
             "dashboard_integrations",
-            "%{name}: “%{calendar}” is no longer on your calendar server, so Tymeslot has stopped using it.",
+            "%{name}: “%{calendar}” is no longer on your calendar server, so Synantesis has stopped using it.",
             name: integration.name,
             calendar: calendar
           )
@@ -239,8 +239,8 @@ defmodule TymeslotWeb.Dashboard.IntegrationsHubComponent do
         message:
           dngettext(
             "dashboard_integrations",
-            "%{name}: %{count} calendar is no longer on your calendar server, so Tymeslot has stopped using it.",
-            "%{name}: %{count} calendars are no longer on your calendar server, so Tymeslot has stopped using them.",
+            "%{name}: %{count} calendar is no longer on your calendar server, so Synantesis has stopped using it.",
+            "%{name}: %{count} calendars are no longer on your calendar server, so Synantesis has stopped using them.",
             length(removed),
             name: integration.name
           )

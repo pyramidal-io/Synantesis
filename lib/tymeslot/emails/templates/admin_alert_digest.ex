@@ -34,18 +34,18 @@ defmodule Tymeslot.Emails.Templates.AdminAlertDigest do
   @spec render(String.t(), map()) :: Email.t()
   def render(recipient, digest) do
     MjmlEmail.base_email()
-    |> Email.to({"Tymeslot Operator", recipient})
+    |> Email.to({"Synantesis Operator", recipient})
     |> Email.subject(subject(digest))
     |> Email.html_body(html_body(digest))
     |> Email.text_body(text_body(digest))
   end
 
   defp subject(%{"kind" => "errors"} = digest) do
-    "[ERROR] Tymeslot: #{pluralise(total_alerts(digest), "more error alert")} this hour"
+    "[ERROR] Synantesis: #{pluralise(total_alerts(digest), "more error alert")} this hour"
   end
 
   defp subject(digest) do
-    "[INFO] Tymeslot: daily digest (#{pluralise(total_alerts(digest), "alert")})"
+    "[INFO] Synantesis: daily digest (#{pluralise(total_alerts(digest), "alert")})"
   end
 
   defp html_body(digest) do
@@ -69,7 +69,7 @@ defmodule Tymeslot.Emails.Templates.AdminAlertDigest do
 
     TemplateHelper.compile_system_template(
       mjml_content,
-      "Tymeslot Admin Alert Digest",
+      "Synantesis Admin Alert Digest",
       subject(digest),
       intent: copy.intent,
       eyebrow: "Admin",
@@ -104,7 +104,7 @@ defmodule Tymeslot.Emails.Templates.AdminAlertDigest do
         "#{pluralise(total_alerts(digest), "error alert")} held back after this hour's " <>
           "first ones, newest first",
       footer:
-        "Tymeslot emails the first few new or returning errors of an hour at once and " <>
+        "Synantesis emails the first few new or returning errors of an hour at once and " <>
           "collects the rest here, so a bad deploy sends one email rather than one per error.",
       text_title: "TYMESLOT ERROR ALERT ROLL-UP",
       stage_title: "Error alert roll-up",
@@ -116,7 +116,7 @@ defmodule Tymeslot.Emails.Templates.AdminAlertDigest do
     %{
       headline: "#{pluralise(total_alerts(digest), "info alert")} since the last digest",
       footer:
-        "This is an automated daily digest from Tymeslot. Warnings and errors are emailed " <>
+        "This is an automated daily digest from Synantesis. Warnings and errors are emailed " <>
           "as they happen; informational alerts are collected here.",
       text_title: "TYMESLOT ADMIN ALERT DIGEST",
       stage_title: "Daily alert digest",

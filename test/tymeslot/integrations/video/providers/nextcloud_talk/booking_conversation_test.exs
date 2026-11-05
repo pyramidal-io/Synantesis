@@ -33,7 +33,7 @@ defmodule Tymeslot.Integrations.Video.Providers.NextcloudTalk.BookingConversatio
   # which is the reference its conversation carries.
   @meeting_id "0b7f2c9e-5d41-4c1a-9e3b-7a6f1d2c8e90"
   @reference "88348006c521d01e"
-  @description "Booked through Tymeslot.\n\nReference: " <> @reference
+  @description "Booked through Synantesis.\n\nReference: " <> @reference
 
   # As Talk lists the conversation an earlier attempt made for the booking:
   # public (type 3), owned by the integration's account (participant type 1).
@@ -142,7 +142,7 @@ defmodule Tymeslot.Integrations.Video.Providers.NextcloudTalk.BookingConversatio
 
       expect(HTTPClientMock, :request, fn :post, @room_api, body, _headers, _opts ->
         assert Jason.decode!(body)["description"] ==
-                 "Über Tymeslot gebucht.\n\nReference: " <> @reference
+                 "Über Synantesis gebucht.\n\nReference: " <> @reference
 
         created(%{"token" => "abc123xy"})
       end)
@@ -220,7 +220,7 @@ defmodule Tymeslot.Integrations.Video.Providers.NextcloudTalk.BookingConversatio
         listed([
           %{
             @made_earlier
-            | "description" => "Über Tymeslot gebucht.\r\n\r\n  Reference: #{@reference}\nNotes"
+            | "description" => "Über Synantesis gebucht.\r\n\r\n  Reference: #{@reference}\nNotes"
           }
         ])
       end)

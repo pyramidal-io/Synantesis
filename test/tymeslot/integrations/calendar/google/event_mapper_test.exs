@@ -470,7 +470,7 @@ defmodule Tymeslot.Integrations.Calendar.Google.EventMapperTest do
       # The instance's own URL, not the hosted service's: a self-hoster's
       # events must not point their attendees at a site they have no part in.
       assert result["source"] ==
-               %{"title" => "Tymeslot", "url" => Endpoint.url()}
+               %{"title" => "Synantesis", "url" => Endpoint.url()}
 
       assert result["extendedProperties"] == %{"private" => %{"createdBy" => "tymeslot"}}
     end

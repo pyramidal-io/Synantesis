@@ -70,7 +70,7 @@ defmodule TymeslotWeb.Dashboard.CalendarGrid.Views.AgendaView do
             do:
               dgettext(
                 "dashboard_calendar",
-                "Meetings booked through your Tymeslot page will appear here."
+                "Meetings booked through your Synantesis page will appear here."
               ),
             else:
               dgettext(

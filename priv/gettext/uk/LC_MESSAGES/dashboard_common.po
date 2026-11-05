@@ -279,8 +279,8 @@ msgstr "Цілий день"
 
 #: lib/tymeslot_web/components/dashboard/appointments/appointment_details.ex
 #, elixir-autogen, elixir-format
-msgid "Booked through your Tymeslot page"
-msgstr "Заброньовано через вашу сторінку Tymeslot"
+msgid "Booked through your Synantesis page"
+msgstr "Заброньовано через вашу сторінку Synantesis"
 
 #: lib/tymeslot_web/components/dashboard/appointments/appointment_details.ex
 #, elixir-autogen, elixir-format

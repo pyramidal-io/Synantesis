@@ -257,7 +257,7 @@ defmodule TymeslotWeb.Components.Dashboard.Integrations.Calendar.SharedFormCompo
     do:
       dgettext(
         "dashboard_calendar_providers",
-        "Keep this password for as long as you use Tymeslot. Revoking it, or changing your Apple ID password, disconnects iCloud, and your booking page offers no times until you reconnect."
+        "Keep this password for as long as you use Synantesis. Revoking it, or changing your Apple ID password, disconnects iCloud, and your booking page offers no times until you reconnect."
       )
 
   defp apple_password_lifetime(true),

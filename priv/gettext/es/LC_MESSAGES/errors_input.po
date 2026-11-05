@@ -88,8 +88,8 @@ msgstr "El dominio tiene una terminación desconocida (.%{tld}). ¿Quisiste deci
 
 #: lib/tymeslot/security/field_validators/tld_list.ex
 #, elixir-autogen, elixir-format
-msgid "Domain has an unrecognised domain ending (.%{tld}). If it is correct, this version of Tymeslot predates it and needs updating."
-msgstr "El dominio tiene una terminación desconocida (.%{tld}). Si es correcta, esta versión de Tymeslot es anterior a ella y hay que actualizarla."
+msgid "Domain has an unrecognised domain ending (.%{tld}). If it is correct, this version of Synantesis predates it and needs updating."
+msgstr "El dominio tiene una terminación desconocida (.%{tld}). Si es correcta, esta versión de Synantesis es anterior a ella y hay que actualizarla."
 
 #: lib/tymeslot/security/field_validators/email_validator.ex
 #, elixir-autogen, elixir-format
@@ -153,8 +153,8 @@ msgstr "El correo tiene una terminación de dominio desconocida (.%{tld}). ¿Qui
 
 #: lib/tymeslot/security/field_validators/tld_list.ex
 #, elixir-autogen, elixir-format
-msgid "Email has an unrecognised domain ending (.%{tld}). If it is correct, this version of Tymeslot predates it and needs updating."
-msgstr "El correo tiene una terminación de dominio desconocida (.%{tld}). Si es correcta, esta versión de Tymeslot es anterior a ella y hay que actualizarla."
+msgid "Email has an unrecognised domain ending (.%{tld}). If it is correct, this version of Synantesis predates it and needs updating."
+msgstr "El correo tiene una terminación de dominio desconocida (.%{tld}). Si es correcta, esta versión de Synantesis es anterior a ella y hay que actualizarla."
 
 #: lib/tymeslot/security/field_validators/email_validator.ex
 #, elixir-autogen, elixir-format

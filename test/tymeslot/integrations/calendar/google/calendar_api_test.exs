@@ -138,7 +138,7 @@ defmodule Tymeslot.Integrations.Calendar.Google.CalendarAPITest do
         assert decoded_body["summary"] == "New Meeting"
 
         assert decoded_body["source"] == %{
-                 "title" => "Tymeslot",
+                 "title" => "Synantesis",
                  "url" => Endpoint.url()
                }
 
@@ -364,7 +364,7 @@ defmodule Tymeslot.Integrations.Calendar.Google.CalendarAPITest do
         assert decoded_body["summary"] == "Updated Meeting"
 
         assert decoded_body["source"] == %{
-                 "title" => "Tymeslot",
+                 "title" => "Synantesis",
                  "url" => Endpoint.url()
                }
 

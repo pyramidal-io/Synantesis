@@ -254,8 +254,8 @@ msgstr "Video"
 
 #: lib/tymeslot_web/controllers/integrations/oauth_callback_handler.ex
 #, elixir-autogen, elixir-format
-msgid "Your Microsoft organisation requires admin approval before Tymeslot can be connected. Please ask your IT administrator to grant consent for the app."
-msgstr "Ihre Microsoft-Organisation erfordert eine Administratorgenehmigung, bevor Tymeslot verbunden werden kann. Bitte wenden Sie sich an Ihren IT-Administrator, damit dieser der App die Zustimmung erteilt."
+msgid "Your Microsoft organisation requires admin approval before Synantesis can be connected. Please ask your IT administrator to grant consent for the app."
+msgstr "Ihre Microsoft-Organisation erfordert eine Administratorgenehmigung, bevor Synantesis verbunden werden kann. Bitte wenden Sie sich an Ihren IT-Administrator, damit dieser der App die Zustimmung erteilt."
 
 #: lib/tymeslot_web/live/dashboard/integrations_hub_component.ex
 #, elixir-autogen, elixir-format
@@ -306,8 +306,8 @@ msgstr[1] "%{count} Verbindungen erfordern Aufmerksamkeit - %{message}"
 
 #: lib/tymeslot_web/controllers/integrations/oauth_callback_handler.ex
 #, elixir-autogen, elixir-format
-msgid "%{service} wasn't connected because Calendar permission was not granted. Please try again and tick the box for \"See, edit, share, and permanently delete all the calendars you can access using Google Calendar\" - Tymeslot needs this to create meetings and Google Meet links."
-msgstr "%{service} wurde nicht verbunden, weil die Kalenderberechtigung nicht erteilt wurde. Bitte versuchen Sie es erneut und aktivieren Sie das Kontrollkästchen für \"See, edit, share, and permanently delete all the calendars you can access using Google Calendar\" - Tymeslot benötigt dies, um Termine und Google-Meet-Links zu erstellen."
+msgid "%{service} wasn't connected because Calendar permission was not granted. Please try again and tick the box for \"See, edit, share, and permanently delete all the calendars you can access using Google Calendar\" - Synantesis needs this to create meetings and Google Meet links."
+msgstr "%{service} wurde nicht verbunden, weil die Kalenderberechtigung nicht erteilt wurde. Bitte versuchen Sie es erneut und aktivieren Sie das Kontrollkästchen für \"See, edit, share, and permanently delete all the calendars you can access using Google Calendar\" - Synantesis benötigt dies, um Termine und Google-Meet-Links zu erstellen."
 
 #: lib/tymeslot_web/live/dashboard/integrations_hub_component.ex
 #, elixir-autogen, elixir-format
@@ -447,15 +447,15 @@ msgstr[1] "%{name}: %{count} hier vorgenommene Änderungen wurden nicht im Kalen
 
 #: lib/tymeslot_web/live/dashboard/integrations_hub_component.ex
 #, elixir-autogen, elixir-format
-msgid "%{name}: %{count} calendar is no longer on your calendar server, so Tymeslot has stopped using it."
-msgid_plural "%{name}: %{count} calendars are no longer on your calendar server, so Tymeslot has stopped using them."
-msgstr[0] "%{name}: %{count} Kalender ist auf Ihrem Kalenderserver nicht mehr vorhanden, daher verwendet Tymeslot ihn nicht mehr."
-msgstr[1] "%{name}: %{count} Kalender sind auf Ihrem Kalenderserver nicht mehr vorhanden, daher verwendet Tymeslot sie nicht mehr."
+msgid "%{name}: %{count} calendar is no longer on your calendar server, so Synantesis has stopped using it."
+msgid_plural "%{name}: %{count} calendars are no longer on your calendar server, so Synantesis has stopped using them."
+msgstr[0] "%{name}: %{count} Kalender ist auf Ihrem Kalenderserver nicht mehr vorhanden, daher verwendet Synantesis ihn nicht mehr."
+msgstr[1] "%{name}: %{count} Kalender sind auf Ihrem Kalenderserver nicht mehr vorhanden, daher verwendet Synantesis sie nicht mehr."
 
 #: lib/tymeslot_web/live/dashboard/integrations_hub_component.ex
 #, elixir-autogen, elixir-format
-msgid "%{name}: “%{calendar}” is no longer on your calendar server, so Tymeslot has stopped using it."
-msgstr "%{name}: Der Kalender „%{calendar}“ ist auf Ihrem Kalenderserver nicht mehr vorhanden, daher verwendet Tymeslot ihn nicht mehr."
+msgid "%{name}: “%{calendar}” is no longer on your calendar server, so Synantesis has stopped using it."
+msgstr "%{name}: Der Kalender „%{calendar}“ ist auf Ihrem Kalenderserver nicht mehr vorhanden, daher verwendet Synantesis ihn nicht mehr."
 
 #: lib/tymeslot_web/controllers/integrations/oauth_callback_handler.ex
 #, elixir-autogen, elixir-format

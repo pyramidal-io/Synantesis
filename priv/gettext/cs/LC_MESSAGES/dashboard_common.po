@@ -279,8 +279,8 @@ msgstr "Celý den"
 
 #: lib/tymeslot_web/components/dashboard/appointments/appointment_details.ex
 #, elixir-autogen, elixir-format
-msgid "Booked through your Tymeslot page"
-msgstr "Zarezervováno přes vaši stránku Tymeslot"
+msgid "Booked through your Synantesis page"
+msgstr "Zarezervováno přes vaši stránku Synantesis"
 
 #: lib/tymeslot_web/components/dashboard/appointments/appointment_details.ex
 #, elixir-autogen, elixir-format

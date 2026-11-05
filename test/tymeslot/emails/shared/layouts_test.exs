@@ -24,7 +24,7 @@ defmodule Tymeslot.Emails.Shared.LayoutsTest do
           "<mj-section><mj-column><mj-text>Body</mj-text></mj-column></mj-section>",
           intent: :confirmed,
           eyebrow: "Notification",
-          title: "Tymeslot",
+          title: "Synantesis",
           stage_title: "R&D Update"
         )
 

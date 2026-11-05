@@ -640,13 +640,13 @@ msgstr "Вітаємо"
 
 #: lib/tymeslot_web/live/onboarding_live/step_config.ex
 #, elixir-autogen, elixir-format
-msgid "Welcome to Tymeslot"
-msgstr "Вітаємо в Tymeslot"
+msgid "Welcome to Synantesis"
+msgstr "Вітаємо в Synantesis"
 
 #: lib/tymeslot_web/live/onboarding_live/navigation_handlers.ex
 #, elixir-autogen, elixir-format
-msgid "Welcome to Tymeslot! Your account is now set up."
-msgstr "Вітаємо в Tymeslot! Ваш обліковий запис налаштовано."
+msgid "Welcome to Synantesis! Your account is now set up."
+msgstr "Вітаємо в Synantesis! Ваш обліковий запис налаштовано."
 
 #: lib/tymeslot_web/live/onboarding_live/preferences_step.ex
 #, elixir-autogen, elixir-format
@@ -756,8 +756,8 @@ msgstr "Відвідувачі вашої сторінки сьогодні мо
 
 #: lib/tymeslot_web/live/onboarding_live/skip_calendar_modal.ex
 #, elixir-autogen, elixir-format
-msgid "Tymeslot is built around your calendar. Once it's connected, we read your real availability so you're never double-booked and write every new booking back automatically - that's what makes Tymeslot worthwhile."
-msgstr "Tymeslot працює на основі вашого календаря. Після підключення ми бачимо вашу реальну зайнятість, щоб уникнути накладок, і автоматично додаємо туди кожне нове бронювання - саме в цьому головна перевага Tymeslot."
+msgid "Synantesis is built around your calendar. Once it's connected, we read your real availability so you're never double-booked and write every new booking back automatically - that's what makes Synantesis worthwhile."
+msgstr "Synantesis працює на основі вашого календаря. Після підключення ми бачимо вашу реальну зайнятість, щоб уникнути накладок, і автоматично додаємо туди кожне нове бронювання - саме в цьому головна перевага Synantesis."
 
 #: lib/tymeslot_web/live/onboarding_live/live_preview.ex
 #, elixir-autogen, elixir-format

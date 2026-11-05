@@ -37,6 +37,10 @@ RUN mix deps.compile
 # Wipe any locally-built assets first so the image build is hermetic —
 # assets are always produced by mix assets.deploy below.
 COPY . .
+ARG SYNANTESIS_SOURCE_REVISION
+ARG RAILWAY_GIT_COMMIT_SHA
+ENV SYNANTESIS_SOURCE_REVISION=${SYNANTESIS_SOURCE_REVISION} \
+    RAILWAY_GIT_COMMIT_SHA=${RAILWAY_GIT_COMMIT_SHA}
 RUN rm -rf priv/static/assets/
 RUN mix compile
 RUN mix assets.setup
@@ -72,7 +76,7 @@ ENV LANG=en_US.UTF-8 \
 # config/runtime.exs, one missing variable per restart. Override in the Railway
 # dashboard to send real mail; "test" discards it.
 ENV EMAIL_ADAPTER=test \
-    EMAIL_FROM_NAME=Tymeslot \
+    EMAIL_FROM_NAME=Synantesis \
     EMAIL_FROM_ADDRESS=hello@localhost
 
 WORKDIR /app

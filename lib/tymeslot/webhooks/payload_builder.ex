@@ -49,7 +49,7 @@ defmodule Tymeslot.Webhooks.PayloadBuilder do
       webhook_id: "test",
       data: %{
         message:
-          "This is a test webhook from Tymeslot. If you receive this, your webhook is configured correctly!",
+          "This is a test webhook from Synantesis. If you receive this, your webhook is configured correctly!",
         test: true
       }
     }

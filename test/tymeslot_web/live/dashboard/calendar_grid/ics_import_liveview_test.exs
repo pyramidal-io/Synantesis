@@ -600,7 +600,7 @@ defmodule TymeslotWeb.Dashboard.CalendarGrid.IcsImportLiveviewTest do
     {:ok, lv, _html} = live(conn, ~p"/dashboard")
     html = open_import(lv)
 
-    assert html =~ "Connect a calendar Tymeslot can write to before importing events."
+    assert html =~ "Connect a calendar Synantesis can write to before importing events."
     refute has_element?(lv, "#import-ics-panel")
   end
 

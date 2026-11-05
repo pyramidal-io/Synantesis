@@ -66,7 +66,7 @@ defmodule Tymeslot.Integrations.Video.Providers.ZoomProvider.Reauth do
       flag_for_reauth(config, "zoom_missing_scope", Scopes.reauth_message(operation))
     else
       Logger.error(
-        "Zoom app does not request a scope Tymeslot needs; reconnecting cannot fix this",
+        "Zoom app does not request a scope Synantesis needs; reconnecting cannot fix this",
         operation: operation,
         required_scope: Scopes.required_description(operation)
       )

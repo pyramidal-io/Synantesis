@@ -85,8 +85,8 @@ msgstr "Nehmen Sie sich 30 Sekunden Zeit, um zu erfahren, wo Sie was finden."
 
 #: lib/tymeslot/onboarding/dashboard_tour.ex
 #, elixir-autogen, elixir-format
-msgid "Welcome to your Tymeslot dashboard"
-msgstr "Willkommen in Ihrem Tymeslot-Dashboard"
+msgid "Welcome to your Synantesis dashboard"
+msgstr "Willkommen in Ihrem Synantesis-Dashboard"
 
 #: lib/tymeslot/onboarding/dashboard_tour.ex
 #, elixir-autogen, elixir-format
@@ -150,8 +150,8 @@ msgstr "Per Jitsi, kMeet oder Nextcloud Talk treffen"
 
 #: lib/tymeslot/announcements/catalog.ex
 #, elixir-autogen, elixir-format
-msgid "Three more video providers join Zoom, Google Meet, Teams and MiroTalk in the integrations picker. Point Tymeslot at your own Jitsi or Nextcloud and every booking gets a room of its own: a Talk conversation keeps its lobby shut until the meeting starts, moves when you reschedule and is deleted when you cancel. kMeet needs no setup at all."
-msgstr "Drei weitere Videoanbieter stehen jetzt neben Zoom, Google Meet, Teams und MiroTalk in der Integrationsauswahl. Verweisen Sie Tymeslot auf Ihr eigenes Jitsi oder Nextcloud, und jede Buchung bekommt einen eigenen Raum: Ein Talk-Gespräch hält seinen Warteraum geschlossen, bis der Termin beginnt, wandert mit, wenn Sie verschieben, und wird gelöscht, wenn Sie absagen. kMeet braucht überhaupt keine Einrichtung."
+msgid "Three more video providers join Zoom, Google Meet, Teams and MiroTalk in the integrations picker. Point Synantesis at your own Jitsi or Nextcloud and every booking gets a room of its own: a Talk conversation keeps its lobby shut until the meeting starts, moves when you reschedule and is deleted when you cancel. kMeet needs no setup at all."
+msgstr "Drei weitere Videoanbieter stehen jetzt neben Zoom, Google Meet, Teams und MiroTalk in der Integrationsauswahl. Verweisen Sie Synantesis auf Ihr eigenes Jitsi oder Nextcloud, und jede Buchung bekommt einen eigenen Raum: Ein Talk-Gespräch hält seinen Warteraum geschlossen, bis der Termin beginnt, wandert mit, wenn Sie verschieben, und wird gelöscht, wenn Sie absagen. kMeet braucht überhaupt keine Einrichtung."
 
 #: lib/tymeslot/announcements/catalog.ex
 #, elixir-autogen, elixir-format
@@ -195,10 +195,10 @@ msgstr "Eine Umfrage kann offen sein, sodass jeder mit dem Link per E-Mail einen
 
 #: lib/tymeslot/announcements/catalog.ex
 #, elixir-autogen, elixir-format
-msgid "Tymeslot now speaks Spanish"
-msgstr "Tymeslot spricht jetzt Spanisch"
+msgid "Synantesis now speaks Spanish"
+msgstr "Synantesis spricht jetzt Spanisch"
 
 #: lib/tymeslot/announcements/catalog.ex
 #, elixir-autogen, elixir-format
-msgid "Your dashboard, booking pages and every email are now available in Spanish. Tymeslot follows your browser's language, or you can choose one yourself in Account Settings. People who book you see booking pages and confirmations in their own language too."
-msgstr "Ihr Dashboard, Ihre Buchungsseiten und alle E-Mails gibt es jetzt auch auf Spanisch. Tymeslot folgt der Sprache Ihres Browsers, oder Sie wählen selbst eine in den Kontoeinstellungen. Wer bei Ihnen bucht, sieht Buchungsseiten und Bestätigungen ebenfalls in der eigenen Sprache."
+msgid "Your dashboard, booking pages and every email are now available in Spanish. Synantesis follows your browser's language, or you can choose one yourself in Account Settings. People who book you see booking pages and confirmations in their own language too."
+msgstr "Ihr Dashboard, Ihre Buchungsseiten und alle E-Mails gibt es jetzt auch auf Spanisch. Synantesis folgt der Sprache Ihres Browsers, oder Sie wählen selbst eine in den Kontoeinstellungen. Wer bei Ihnen bucht, sieht Buchungsseiten und Bestätigungen ebenfalls in der eigenen Sprache."

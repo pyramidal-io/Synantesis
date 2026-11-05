@@ -315,8 +315,8 @@ msgstr "Бронювання"
 
 #: lib/tymeslot_web/live/dashboard/calendar_grid/views/empty_state.ex
 #, elixir-autogen, elixir-format
-msgid "Bring your calendar into Tymeslot"
-msgstr "Додайте свій календар у Tymeslot"
+msgid "Bring your calendar into Synantesis"
+msgstr "Додайте свій календар у Synantesis"
 
 #: lib/tymeslot_web/live/dashboard/calendar_grid/views/agenda_view.ex
 #, elixir-autogen, elixir-format
@@ -325,8 +325,8 @@ msgstr "Фільтрувати розклад"
 
 #: lib/tymeslot_web/live/dashboard/calendar_grid/views/agenda_view.ex
 #, elixir-autogen, elixir-format
-msgid "Meetings booked through your Tymeslot page will appear here."
-msgstr "Зустрічі, заброньовані через вашу сторінку Tymeslot, з’являться тут."
+msgid "Meetings booked through your Synantesis page will appear here."
+msgstr "Зустрічі, заброньовані через вашу сторінку Synantesis, з’являться тут."
 
 #: lib/tymeslot_web/live/dashboard/calendar_grid/views/agenda_view.ex
 #, elixir-autogen, elixir-format

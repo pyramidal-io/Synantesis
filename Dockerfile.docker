@@ -47,6 +47,8 @@ RUN mix deps.get --only prod
 # so the image build is hermetic — assets are always produced by mix assets.deploy
 # below, never snuck in from the developer's local priv/static/assets/ directory.
 COPY . .
+ARG SYNANTESIS_SOURCE_REVISION
+ENV SYNANTESIS_SOURCE_REVISION=${SYNANTESIS_SOURCE_REVISION}
 RUN rm -rf priv/static/assets/
 
 # Compile dependencies and application code

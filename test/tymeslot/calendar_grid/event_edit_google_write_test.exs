@@ -242,7 +242,7 @@ defmodule Tymeslot.CalendarGrid.EventEditGoogleWriteTest do
                "shared" => %{"room" => "4.12"}
              }
 
-      assert sent["source"]["title"] == "Tymeslot"
+      assert sent["source"]["title"] == "Synantesis"
     end
   end
 end

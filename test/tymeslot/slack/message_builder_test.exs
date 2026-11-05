@@ -63,7 +63,7 @@ defmodule Tymeslot.Slack.MessageBuilderTest do
       assert json =~ "john@example.com"
       assert json =~ "14:00"
       assert json =~ "14:30"
-      assert json =~ "Open in Tymeslot"
+      assert json =~ "Open in Synantesis"
       assert json =~ "Meeting"
     end
   end
@@ -100,7 +100,7 @@ defmodule Tymeslot.Slack.MessageBuilderTest do
       assert json =~ "Booking rescheduled"
       assert json =~ "New time"
       assert json =~ "14:00"
-      assert json =~ "Open in Tymeslot"
+      assert json =~ "Open in Synantesis"
     end
   end
 
@@ -121,7 +121,7 @@ defmodule Tymeslot.Slack.MessageBuilderTest do
       assert json =~ "John Smith"
       assert json =~ "Respond by"
       assert json =~ "12 Mar 2026"
-      assert json =~ "Open in Tymeslot"
+      assert json =~ "Open in Synantesis"
       refute json =~ "Meeting update"
     end
 
@@ -242,7 +242,7 @@ defmodule Tymeslot.Slack.MessageBuilderTest do
     test "returns a header + section block referencing Tymeslot" do
       blocks = MessageBuilder.build_test_blocks()
       json = Jason.encode!(blocks)
-      assert json =~ "Tymeslot test message"
+      assert json =~ "Synantesis test message"
       assert json =~ "configured correctly"
     end
   end

@@ -242,8 +242,8 @@ msgstr "Muitas alterações. Salvando em instantes…"
 
 #: lib/tymeslot_web/live/dashboard/theme_settings/booking_text_form.ex
 #, elixir-autogen, elixir-format
-msgid "Turn this off to go back to the built-in text, which is translated into every language Tymeslot supports. Your own wording is discarded."
-msgstr "Desative para voltar ao texto embutido, que é traduzido para todos os idiomas que o Tymeslot oferece. Seu texto é descartado."
+msgid "Turn this off to go back to the built-in text, which is translated into every language Synantesis supports. Your own wording is discarded."
+msgstr "Desative para voltar ao texto embutido, que é traduzido para todos os idiomas que o Synantesis oferece. Seu texto é descartado."
 
 #: lib/tymeslot_web/live/dashboard/theme_settings/booking_text_form.ex
 #, elixir-autogen, elixir-format

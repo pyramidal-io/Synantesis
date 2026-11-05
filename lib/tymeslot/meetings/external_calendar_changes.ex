@@ -291,7 +291,7 @@ defmodule Tymeslot.Meetings.ExternalCalendarChanges do
 
       # Deletions stay unguarded: a removed event is gone whatever is queued.
       signal == :modified and own_write_unseen?(meeting, snapshot_at) ->
-        ignore(meeting, signal, "the event read may predate a Tymeslot calendar write")
+        ignore(meeting, signal, "the event read may predate a Synantesis calendar write")
 
       true ->
         update_calendar_sync_status(meeting, new_status, signal)

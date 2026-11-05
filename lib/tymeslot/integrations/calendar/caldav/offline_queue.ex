@@ -531,7 +531,7 @@ defmodule Tymeslot.Integrations.Calendar.CalDAV.OfflineQueue do
   defp unsendable_change_message do
     dgettext(
       "integrations_calendar",
-      "Tymeslot could not send this change to the calendar server."
+      "Synantesis could not send this change to the calendar server."
     )
   end
 

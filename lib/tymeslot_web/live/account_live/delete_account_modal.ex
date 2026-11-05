@@ -70,7 +70,7 @@ defmodule TymeslotWeb.AccountLive.DeleteAccountModal do
           <p>
             {dgettext(
               "account",
-              "Your upcoming bookings will be deleted from Tymeslot. Your guests will not be notified."
+              "Your upcoming bookings will be deleted from Synantesis. Your guests will not be notified."
             )}
           </p>
           <p class="mt-2">

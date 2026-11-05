@@ -85,7 +85,7 @@ msgstr ""
 
 #: lib/tymeslot/onboarding/dashboard_tour.ex
 #, elixir-autogen, elixir-format
-msgid "Welcome to your Tymeslot dashboard"
+msgid "Welcome to your Synantesis dashboard"
 msgstr ""
 
 #: lib/tymeslot/onboarding/dashboard_tour.ex
@@ -145,7 +145,7 @@ msgstr ""
 
 #: lib/tymeslot/announcements/catalog.ex
 #, elixir-autogen, elixir-format
-msgid "Three more video providers join Zoom, Google Meet, Teams and MiroTalk in the integrations picker. Point Tymeslot at your own Jitsi or Nextcloud and every booking gets a room of its own: a Talk conversation keeps its lobby shut until the meeting starts, moves when you reschedule and is deleted when you cancel. kMeet needs no setup at all."
+msgid "Three more video providers join Zoom, Google Meet, Teams and MiroTalk in the integrations picker. Point Synantesis at your own Jitsi or Nextcloud and every booking gets a room of its own: a Talk conversation keeps its lobby shut until the meeting starts, moves when you reschedule and is deleted when you cancel. kMeet needs no setup at all."
 msgstr ""
 
 #: lib/tymeslot/announcements/catalog.ex
@@ -190,10 +190,10 @@ msgstr ""
 
 #: lib/tymeslot/announcements/catalog.ex
 #, elixir-autogen, elixir-format
-msgid "Tymeslot now speaks Spanish"
+msgid "Synantesis now speaks Spanish"
 msgstr ""
 
 #: lib/tymeslot/announcements/catalog.ex
 #, elixir-autogen, elixir-format
-msgid "Your dashboard, booking pages and every email are now available in Spanish. Tymeslot follows your browser's language, or you can choose one yourself in Account Settings. People who book you see booking pages and confirmations in their own language too."
+msgid "Your dashboard, booking pages and every email are now available in Spanish. Synantesis follows your browser's language, or you can choose one yourself in Account Settings. People who book you see booking pages and confirmations in their own language too."
 msgstr ""

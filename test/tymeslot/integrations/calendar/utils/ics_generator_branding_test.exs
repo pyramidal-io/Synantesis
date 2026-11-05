@@ -1,6 +1,6 @@
 defmodule Tymeslot.Integrations.Calendar.IcsGeneratorBrandingTest do
   @moduledoc """
-  The free-tier "Scheduled with Tymeslot" footer in an `.ics` description:
+  The free-tier "Scheduled with Synantesis" footer in an `.ics` description:
   present only when the instance shows branding, has a footer link, and the
   organiser's subscription calls for it.
   """
@@ -19,7 +19,7 @@ defmodule Tymeslot.Integrations.Calendar.IcsGeneratorBrandingTest do
   alias Tymeslot.Notifications.Email.CalendarEventDetails
 
   @url "https://tymeslot.example.com/?utm_source=ics"
-  @footer "Scheduled with Tymeslot: #{@url}"
+  @footer "Scheduled with Synantesis: #{@url}"
 
   setup :verify_on_exit!
 
@@ -66,7 +66,7 @@ defmodule Tymeslot.Integrations.Calendar.IcsGeneratorBrandingTest do
 
   test "a free-tier organiser's event ends its description with the footer" do
     assert ics(%{organizer_user_id: 42}) =~
-             "Agenda\\n\\nScheduled with Tymeslot: #{@url}\r\nLOCATION"
+             "Agenda\\n\\nScheduled with Synantesis: #{@url}\r\nLOCATION"
   end
 
   test "a paying organiser's event carries no footer" do
@@ -107,7 +107,7 @@ defmodule Tymeslot.Integrations.Calendar.IcsGeneratorBrandingTest do
         "de"
       )
 
-    assert unfold(ics) =~ "Geplant mit Tymeslot: #{@url}"
+    assert unfold(ics) =~ "Geplant mit Synantesis: #{@url}"
   end
 
   test "a dashboard event's invitation email carries its organiser's footer" do

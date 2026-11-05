@@ -42,7 +42,7 @@ defmodule Tymeslot.Emails.Templates.SignupAttemptNotice do
     RecipientLocale.with_user_locale(user, fn ->
       MjmlEmail.base_email()
       |> Email.to({user.name || user.email, user.email})
-      |> Email.subject(dgettext("emails_account", "You already have a Tymeslot account"))
+      |> Email.subject(dgettext("emails_account", "You already have a Synantesis account"))
       |> Email.html_body(html_body(user, sign_in_url, reset_url))
       |> Email.text_body(text_body(user, sign_in_url, reset_url))
     end)
@@ -92,7 +92,7 @@ defmodule Tymeslot.Emails.Templates.SignupAttemptNotice do
   defp explanation(%{deletion_scheduled_at: %DateTime{} = at} = user) do
     dgettext(
       "emails_account",
-      "Someone just tried to create a new Tymeslot account with this email address. It belongs to an account that is scheduled for deletion on %{date}. If it was you, sign in before then to restore that account, or sign up again after that date.",
+      "Someone just tried to create a new Synantesis account with this email address. It belongs to an account that is scheduled for deletion on %{date}. If it was you, sign in before then to restore that account, or sign up again after that date.",
       date:
         at
         |> Policy.user_local_date(user.id)
@@ -106,13 +106,13 @@ defmodule Tymeslot.Emails.Templates.SignupAttemptNotice do
     if SignInProvider.social?(user) do
       dgettext(
         "emails_account",
-        "Someone just tried to create a new Tymeslot account with this email address, which already has an account. If it was you, sign in with %{provider} below.",
+        "Someone just tried to create a new Synantesis account with this email address, which already has an account. If it was you, sign in with %{provider} below.",
         provider: SignInProvider.display_name(user)
       )
     else
       dgettext(
         "emails_account",
-        "Someone just tried to create a new Tymeslot account with this email address, which already has an account. If it was you, sign in below, or reset your password if you can't remember it."
+        "Someone just tried to create a new Synantesis account with this email address, which already has an account. If it was you, sign in below, or reset your password if you can't remember it."
       )
     end
   end

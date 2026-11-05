@@ -466,7 +466,7 @@ defmodule Tymeslot.Integrations.Calendar.CalDAV.EventProcessorTest do
     test "detects Tymeslot-created event via UID domain" do
       raw = %{
         uid: "abc123def456@tymeslot.com",
-        summary: "Tymeslot Booking",
+        summary: "Synantesis Booking",
         dtstart: ~U[2030-06-15 09:00:00Z],
         dtend: ~U[2030-06-15 10:00:00Z]
       }

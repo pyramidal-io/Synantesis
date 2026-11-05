@@ -15,7 +15,7 @@ defmodule Tymeslot.ThemeCustomizations.Presets.Accents do
   @type preset :: %{required(:name) => String.t(), required(:color) => String.t()}
 
   @accents %{
-    "tymeslot" => %{name: "Tymeslot", color: "#0891b2"},
+    "tymeslot" => %{name: "Synantesis", color: "#0891b2"},
     "cobalt" => %{name: dgettext_noop("dashboard_appearance", "Cobalt"), color: "#2563eb"},
     "indigo" => %{name: dgettext_noop("dashboard_appearance", "Indigo"), color: "#4f46e5"},
     "violet" => %{name: dgettext_noop("dashboard_appearance", "Violet"), color: "#7c3aed"},

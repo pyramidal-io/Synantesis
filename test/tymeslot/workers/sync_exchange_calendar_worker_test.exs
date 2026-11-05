@@ -379,7 +379,7 @@ defmodule Tymeslot.Workers.SyncExchangeCalendarWorkerTest do
       assert reason =~ "server error"
 
       assert %{sync_error: message} = Repo.reload!(integration)
-      assert message =~ "Tymeslot will retry automatically"
+      assert message =~ "Synantesis will retry automatically"
     end
 
     test "discards a response past the EWS byte budget, tells the owner and keeps the cache", %{
@@ -395,12 +395,12 @@ defmodule Tymeslot.Workers.SyncExchangeCalendarWorkerTest do
       end)
 
       assert {:discard, reason} = run(integration)
-      assert reason == "Exchange server returned more data than Tymeslot can process at once"
+      assert reason == "Exchange server returned more data than Synantesis can process at once"
       # An expected end of the job: no error report every cycle.
       assert SyncExchangeCalendarWorker.expected_outcome?(reason)
 
       assert %{sync_error: message} = Repo.reload!(integration)
-      assert message =~ "more data than Tymeslot can process at once"
+      assert message =~ "more data than Synantesis can process at once"
 
       assert [_busy] = availability_events(integration)
       assert [_item] = grid_rows(integration)

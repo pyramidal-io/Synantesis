@@ -281,7 +281,7 @@ defmodule Tymeslot.Integrations.Video.Providers.NextcloudTalk.BookingConversatio
   defp description_params(reference) do
     %{
       "description" =>
-        dgettext("integrations_video", "Booked through Tymeslot.") <>
+        dgettext("integrations_video", "Booked through Synantesis.") <>
           "\n\n" <> @reference_label <> reference
     }
   end

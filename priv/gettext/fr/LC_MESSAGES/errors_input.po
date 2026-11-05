@@ -88,8 +88,8 @@ msgstr "Le domaine a une extension non reconnue (.%{tld}). Vouliez-vous dire .%{
 
 #: lib/tymeslot/security/field_validators/tld_list.ex
 #, elixir-autogen, elixir-format
-msgid "Domain has an unrecognised domain ending (.%{tld}). If it is correct, this version of Tymeslot predates it and needs updating."
-msgstr "Le domaine a une extension non reconnue (.%{tld}). Si elle est correcte, cette version de Tymeslot ne la connaît pas encore et doit être mise à jour."
+msgid "Domain has an unrecognised domain ending (.%{tld}). If it is correct, this version of Synantesis predates it and needs updating."
+msgstr "Le domaine a une extension non reconnue (.%{tld}). Si elle est correcte, cette version de Synantesis ne la connaît pas encore et doit être mise à jour."
 
 #: lib/tymeslot/security/field_validators/email_validator.ex
 #, elixir-autogen, elixir-format
@@ -153,8 +153,8 @@ msgstr "L’e-mail a une extension non reconnue (.%{tld}). Vouliez-vous dire .%{
 
 #: lib/tymeslot/security/field_validators/tld_list.ex
 #, elixir-autogen, elixir-format
-msgid "Email has an unrecognised domain ending (.%{tld}). If it is correct, this version of Tymeslot predates it and needs updating."
-msgstr "L’e-mail a une extension non reconnue (.%{tld}). Si elle est correcte, cette version de Tymeslot ne la connaît pas encore et doit être mise à jour."
+msgid "Email has an unrecognised domain ending (.%{tld}). If it is correct, this version of Synantesis predates it and needs updating."
+msgstr "L’e-mail a une extension non reconnue (.%{tld}). Si elle est correcte, cette version de Synantesis ne la connaît pas encore et doit être mise à jour."
 
 #: lib/tymeslot/security/field_validators/email_validator.ex
 #, elixir-autogen, elixir-format

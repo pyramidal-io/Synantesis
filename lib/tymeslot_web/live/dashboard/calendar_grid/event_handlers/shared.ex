@@ -261,7 +261,7 @@ defmodule TymeslotWeb.Dashboard.CalendarGrid.EventHandlers.Shared do
        {:error,
         dgettext(
           "dashboard_calendar_events",
-          "This calendar is read-only. Events on it can't be changed from Tymeslot."
+          "This calendar is read-only. Events on it can't be changed from Synantesis."
         )}}
     )
 

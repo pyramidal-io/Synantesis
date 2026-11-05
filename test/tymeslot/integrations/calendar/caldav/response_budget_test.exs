@@ -56,8 +56,8 @@ defmodule Tymeslot.Integrations.Calendar.CalDAV.ResponseBudgetTest do
 
       assert message ==
                "The calendar server at https://caldav.example.com listed more items than " <>
-                 "Tymeslot can process at once. If this address points at a single calendar, " <>
-                 "enter your account's server address instead, and Tymeslot will find your " <>
+                 "Synantesis can process at once. If this address points at a single calendar, " <>
+                 "enter your account's server address instead, and Synantesis will find your " <>
                  "calendars there."
     end
 
