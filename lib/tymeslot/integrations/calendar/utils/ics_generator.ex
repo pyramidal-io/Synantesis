@@ -345,7 +345,7 @@ defmodule Tymeslot.Integrations.Calendar.IcsGenerator do
   defp build_branding_section(meeting_details) do
     with url when is_binary(url) <- Application.get_env(:tymeslot, :ics_branding_url),
          true <- Payments.show_branding?(Map.get(meeting_details, :organizer_user_id)) do
-      dgettext("emails", "Scheduled with %{brand}: %{url}", brand: "Tymeslot", url: url)
+      dgettext("emails", "Scheduled with %{brand}: %{url}", brand: "Synantesis", url: url)
     else
       _no_branding -> nil
     end

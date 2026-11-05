@@ -38,7 +38,7 @@ defmodule TymeslotWeb.Components.Dashboard.Meetings.CalendarMoveModal do
       <p :if={@data} class="text-tymeslot-600 font-medium text-lg leading-relaxed">
         {dgettext(
           "dashboard_bookings",
-          "Your calendar now has this meeting at %{time}. Tymeslot will move the booking there, reschedule its reminders and email %{attendee_name} and any guests the new time.",
+          "Your calendar now has this meeting at %{time}. Synantesis will move the booking there, reschedule its reminders and email %{attendee_name} and any guests the new time.",
           time: Helpers.format_move_time(@data.offer, @timezone, @time_format),
           attendee_name: @data.meeting.attendee_name
         )}

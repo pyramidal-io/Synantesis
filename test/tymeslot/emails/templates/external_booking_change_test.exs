@@ -155,7 +155,7 @@ defmodule Tymeslot.Emails.ExternalBookingChangeTest do
         ExternalBookingChange.render(meeting, "john@example.com", :modified, "Europe/London")
 
       for body <- [email.text_body, email.html_body] do
-        refute body =~ "reschedule the booking in Tymeslot"
+        refute body =~ "reschedule the booking in Synantesis"
         refute body =~ "the attendee receives updated details"
         assert body =~ "move the event back in your calendar"
         assert body =~ "send the participants a reschedule request"

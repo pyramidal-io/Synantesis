@@ -65,7 +65,7 @@ defmodule Tymeslot.Emails.Branding do
   The brand name substituted into email copy: the logo's alt text, the inbox
   preview line, the document title, and the organiser strip's fallback title.
 
-  Never returns nil — an instance that has not set one gets "Tymeslot".
+  Never returns nil — an instance that has not set one gets "Synantesis".
   """
   @spec brand_name() :: String.t()
   def brand_name, do: AppSettings.get(:email_brand_name)

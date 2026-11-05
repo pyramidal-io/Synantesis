@@ -85,7 +85,7 @@ defmodule Tymeslot.Emails.AccountDeletionNoticeDeliveryTest do
 
     assert_received {:email, email}
     assert email.to == [{"Ada", "ada@example.com"}]
-    assert email.subject == "Your Tymeslot account has been deleted"
+    assert email.subject == "Your Synantesis account has been deleted"
 
     assert {:ok, _result} =
              AuthEmails.send_account_deletion_notice(
@@ -95,6 +95,6 @@ defmodule Tymeslot.Emails.AccountDeletionNoticeDeliveryTest do
              )
 
     assert_received {:email, scheduled}
-    assert scheduled.subject == "Your Tymeslot account is scheduled for deletion"
+    assert scheduled.subject == "Your Synantesis account is scheduled for deletion"
   end
 end

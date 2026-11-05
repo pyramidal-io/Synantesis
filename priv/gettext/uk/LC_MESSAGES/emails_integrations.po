@@ -103,8 +103,8 @@ msgstr "Деталі помилки"
 
 #: lib/tymeslot/emails/templates/calendar_sync_error.ex
 #, elixir-autogen, elixir-format
-msgid "I was unable to add this meeting to your calendar. The appointment has been successfully confirmed in Tymeslot and both you and the attendee have received confirmation emails. However, you'll need to manually add it to your calendar."
-msgstr "Не вдалося додати цю зустріч до вашого календаря. Її успішно підтверджено в Tymeslot, і ви та інший учасник отримали листи з підтвердженням. Однак вам потрібно буде додати її до свого календаря вручну."
+msgid "I was unable to add this meeting to your calendar. The appointment has been successfully confirmed in Synantesis and both you and the attendee have received confirmation emails. However, you'll need to manually add it to your calendar."
+msgstr "Не вдалося додати цю зустріч до вашого календаря. Її успішно підтверджено в Synantesis, і ви та інший учасник отримали листи з підтвердженням. Однак вам потрібно буде додати її до свого календаря вручну."
 
 #: lib/tymeslot/emails/templates/calendars_removed.ex
 #: lib/tymeslot/emails/templates/integration_paused.ex
@@ -224,16 +224,16 @@ msgstr "Відкрити налаштування календаря"
 
 #: lib/tymeslot/emails/templates/calendars_removed.ex
 #, elixir-autogen, elixir-format
-msgid "These calendars are no longer on your calendar server, so Tymeslot has stopped using them:"
-msgstr "Ці календарі зникли з вашого сервера календаря, тому Tymeslot більше їх не використовує:"
+msgid "These calendars are no longer on your calendar server, so Synantesis has stopped using them:"
+msgstr "Ці календарі зникли з вашого сервера календаря, тому Synantesis більше їх не використовує:"
 
 #: lib/tymeslot/emails/templates/calendars_removed.ex
 #, elixir-autogen, elixir-format
-msgid "Tymeslot checked %{integration} and the server no longer has the calendar listed above. This usually means it was deleted, or stopped being shared with you, on the server. Your other calendars on %{integration} are unaffected."
-msgid_plural "Tymeslot checked %{integration} and the server no longer has the calendars listed above. This usually means they were deleted, or stopped being shared with you, on the server. Your other calendars on %{integration} are unaffected."
-msgstr[0] "Tymeslot перевірив інтеграцію %{integration}: календаря, зазначеного вище, на сервері більше немає. Зазвичай це означає, що його видалили на сервері або перестали надавати вам до нього доступ. Інших ваших календарів в інтеграції %{integration} це не стосується."
-msgstr[1] "Tymeslot перевірив інтеграцію %{integration}: календарів, зазначених вище, на сервері більше немає. Зазвичай це означає, що їх видалили на сервері або перестали надавати вам до них доступ. Інших ваших календарів в інтеграції %{integration} це не стосується."
-msgstr[2] "Tymeslot перевірив інтеграцію %{integration}: календарів, зазначених вище, на сервері більше немає. Зазвичай це означає, що їх видалили на сервері або перестали надавати вам до них доступ. Інших ваших календарів в інтеграції %{integration} це не стосується."
+msgid "Synantesis checked %{integration} and the server no longer has the calendar listed above. This usually means it was deleted, or stopped being shared with you, on the server. Your other calendars on %{integration} are unaffected."
+msgid_plural "Synantesis checked %{integration} and the server no longer has the calendars listed above. This usually means they were deleted, or stopped being shared with you, on the server. Your other calendars on %{integration} are unaffected."
+msgstr[0] "Synantesis перевірив інтеграцію %{integration}: календаря, зазначеного вище, на сервері більше немає. Зазвичай це означає, що його видалили на сервері або перестали надавати вам до нього доступ. Інших ваших календарів в інтеграції %{integration} це не стосується."
+msgstr[1] "Synantesis перевірив інтеграцію %{integration}: календарів, зазначених вище, на сервері більше немає. Зазвичай це означає, що їх видалили на сервері або перестали надавати вам до них доступ. Інших ваших календарів в інтеграції %{integration} це не стосується."
+msgstr[2] "Synantesis перевірив інтеграцію %{integration}: календарів, зазначених вище, на сервері більше немає. Зазвичай це означає, що їх видалили на сервері або перестали надавати вам до них доступ. Інших ваших календарів в інтеграції %{integration} це не стосується."
 
 #: lib/tymeslot/emails/templates/calendars_removed.ex
 #, elixir-autogen, elixir-format
@@ -247,8 +247,8 @@ msgstr "Календар «%{calendar}» зник з вашого сервера
 
 #: lib/tymeslot/emails/templates/calendars_removed.ex
 #, elixir-autogen, elixir-format
-msgid "“%{calendar}” is no longer on your calendar server, so Tymeslot has stopped using it."
-msgstr "Календар «%{calendar}» зник з вашого сервера календаря, тому Tymeslot більше його не використовує."
+msgid "“%{calendar}” is no longer on your calendar server, so Synantesis has stopped using it."
+msgstr "Календар «%{calendar}» зник з вашого сервера календаря, тому Synantesis більше його не використовує."
 
 #: lib/tymeslot/emails/templates/calendar_sync_error.ex
 #, elixir-autogen, elixir-format
@@ -267,8 +267,8 @@ msgstr "%{provider} (календар)"
 
 #: lib/tymeslot/emails/templates/integration_reauth_required.ex
 #, elixir-autogen, elixir-format
-msgid "%{provider} needs reconnecting before Tymeslot can use it again."
-msgstr "Доки ви не перепідключите %{provider}, Tymeslot не зможе працювати з цією інтеграцією."
+msgid "%{provider} needs reconnecting before Synantesis can use it again."
+msgstr "Доки ви не перепідключите %{provider}, Synantesis не зможе працювати з цією інтеграцією."
 
 #: lib/tymeslot/emails/shared/integration_labels.ex
 #, elixir-autogen, elixir-format
@@ -434,13 +434,13 @@ msgstr "Це сповіщення надсилається, коли інтег�
 
 #: lib/tymeslot/emails/templates/integration_reauth_required.ex
 #, elixir-autogen, elixir-format
-msgid "Tymeslot can no longer use your %{integration} integration, and it will stay that way until you reconnect it. The reason is shown above. Your existing bookings are not affected."
-msgstr "Tymeslot більше не може використовувати вашу інтеграцію %{integration} і не зможе, доки ви її не перепідключите. Причину вказано вище. Наявних бронювань це не стосується."
+msgid "Synantesis can no longer use your %{integration} integration, and it will stay that way until you reconnect it. The reason is shown above. Your existing bookings are not affected."
+msgstr "Synantesis більше не може використовувати вашу інтеграцію %{integration} і не зможе, доки ви її не перепідключите. Причину вказано вище. Наявних бронювань це не стосується."
 
 #: lib/tymeslot/emails/templates/integration_reauth_required.ex
 #, elixir-autogen, elixir-format
-msgid "Tymeslot can no longer use your %{integration} integration, and it will stay that way until you update it. The reason is shown above. Your existing bookings are not affected."
-msgstr "Tymeslot більше не може використовувати вашу інтеграцію %{integration} і не зможе, доки ви не оновите її налаштування. Причину вказано вище. Наявних бронювань це не стосується."
+msgid "Synantesis can no longer use your %{integration} integration, and it will stay that way until you update it. The reason is shown above. Your existing bookings are not affected."
+msgstr "Synantesis більше не може використовувати вашу інтеграцію %{integration} і не зможе, доки ви не оновите її налаштування. Причину вказано вище. Наявних бронювань це не стосується."
 
 #: lib/tymeslot/emails/templates/integration_unhealthy.ex
 #, elixir-autogen, elixir-format
@@ -546,10 +546,10 @@ msgstr "Ваш календарний сервіс був недоступний
 
 #: lib/tymeslot/emails/templates/integration_reauth_required.ex
 #, elixir-autogen, elixir-format
-msgid "Tymeslot can no longer use your %{integration} integration, and it will stay that way until you reconnect it. The reason is shown above. Until then your booking page may not offer times or take bookings, because Tymeslot will not offer a time it cannot check against this calendar or book one into it. Your existing bookings are not affected."
-msgstr "Tymeslot більше не може використовувати вашу інтеграцію %{integration} і не зможе, доки ви її не перепідключите. Причину вказано вище. До того часу ваша сторінка бронювання може не пропонувати слотів і не приймати бронювань, бо Tymeslot не пропонує час, який не може звірити з цим календарем або внести до нього. Наявних бронювань це не стосується."
+msgid "Synantesis can no longer use your %{integration} integration, and it will stay that way until you reconnect it. The reason is shown above. Until then your booking page may not offer times or take bookings, because Synantesis will not offer a time it cannot check against this calendar or book one into it. Your existing bookings are not affected."
+msgstr "Synantesis більше не може використовувати вашу інтеграцію %{integration} і не зможе, доки ви її не перепідключите. Причину вказано вище. До того часу ваша сторінка бронювання може не пропонувати слотів і не приймати бронювань, бо Synantesis не пропонує час, який не може звірити з цим календарем або внести до нього. Наявних бронювань це не стосується."
 
 #: lib/tymeslot/emails/templates/integration_reauth_required.ex
 #, elixir-autogen, elixir-format
-msgid "Tymeslot can no longer use your %{integration} integration, and it will stay that way until you replace it. The reason is shown above. Until then your booking page may not offer times or take bookings, because Tymeslot will not offer a time it cannot check against this calendar or book one into it. Your existing bookings are not affected."
-msgstr "Tymeslot більше не може використовувати вашу інтеграцію %{integration} і не зможе, доки ви її не заміните. Причину вказано вище. До того часу ваша сторінка бронювання може не пропонувати слотів і не приймати бронювань, бо Tymeslot не пропонує час, який не може звірити з цим календарем або внести до нього. Наявних бронювань це не стосується."
+msgid "Synantesis can no longer use your %{integration} integration, and it will stay that way until you replace it. The reason is shown above. Until then your booking page may not offer times or take bookings, because Synantesis will not offer a time it cannot check against this calendar or book one into it. Your existing bookings are not affected."
+msgstr "Synantesis більше не може використовувати вашу інтеграцію %{integration} і не зможе, доки ви її не заміните. Причину вказано вище. До того часу ваша сторінка бронювання може не пропонувати слотів і не приймати бронювань, бо Synantesis не пропонує час, який не може звірити з цим календарем або внести до нього. Наявних бронювань це не стосується."

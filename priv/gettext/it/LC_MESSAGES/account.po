@@ -315,8 +315,8 @@ msgstr "Fino ad allora è congelato e la tua pagina di prenotazione è offline. 
 
 #: lib/tymeslot_web/live/account_live/danger_zone.ex
 #, elixir-autogen, elixir-format
-msgid "Upcoming bookings are deleted from Tymeslot and your guests are not notified."
-msgstr "Le prenotazioni future vengono eliminate da Tymeslot e i tuoi ospiti non vengono avvisati."
+msgid "Upcoming bookings are deleted from Synantesis and your guests are not notified."
+msgstr "Le prenotazioni future vengono eliminate da Synantesis e i tuoi ospiti non vengono avvisati."
 
 #: lib/tymeslot_web/live/account_live/delete_account_modal.ex
 #, elixir-autogen, elixir-format
@@ -345,8 +345,8 @@ msgstr "Il tuo account verrà eliminato il %{date}. Accedi prima di quella data 
 
 #: lib/tymeslot_web/live/account_live/delete_account_modal.ex
 #, elixir-autogen, elixir-format
-msgid "Your upcoming bookings will be deleted from Tymeslot. Your guests will not be notified."
-msgstr "Le tue prenotazioni future verranno eliminate da Tymeslot. I tuoi ospiti non verranno avvisati."
+msgid "Your upcoming bookings will be deleted from Synantesis. Your guests will not be notified."
+msgstr "Le tue prenotazioni future verranno eliminate da Synantesis. I tuoi ospiti non verranno avvisati."
 
 #: lib/tymeslot_web/live/account_live/danger_zone.ex
 #, elixir-autogen, elixir-format

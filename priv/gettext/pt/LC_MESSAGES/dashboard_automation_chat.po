@@ -388,8 +388,8 @@ msgstr "Nenhuma integração com o Telegram"
 
 #: lib/tymeslot_web/live/dashboard/automation/slack_form_component.ex
 #, elixir-autogen, elixir-format
-msgid "No channels available. Invite the Tymeslot bot to at least one channel in Slack, then click Refresh."
-msgstr "Nenhum canal disponível. Convide o bot do Tymeslot para pelo menos um canal no Slack e clique em Recarregar."
+msgid "No channels available. Invite the Synantesis bot to at least one channel in Slack, then click Refresh."
+msgstr "Nenhum canal disponível. Convide o bot do Synantesis para pelo menos um canal no Slack e clique em Recarregar."
 
 #: lib/tymeslot_web/live/dashboard/automation/telegram_form_component.ex
 #, elixir-autogen, elixir-format
@@ -414,8 +414,8 @@ msgstr "Escolha um canal"
 
 #: lib/tymeslot_web/live/dashboard/automation/slack_form_component.ex
 #, elixir-autogen, elixir-format
-msgid "Pick a channel for Tymeslot to post booking notifications to."
-msgstr "Escolha um canal para o Tymeslot publicar as notificações de agendamento."
+msgid "Pick a channel for Synantesis to post booking notifications to."
+msgstr "Escolha um canal para o Synantesis publicar as notificações de agendamento."
 
 #: lib/tymeslot_web/live/dashboard/automation/slack_card.ex
 #, elixir-autogen, elixir-format
@@ -670,8 +670,8 @@ msgstr "Para descobrir seu ID do chat, envie uma mensagem para %{bot} ou adicion
 
 #: lib/tymeslot_web/live/dashboard/automation/slack_form_component.ex
 #, elixir-autogen, elixir-format
-msgid "Tymeslot will post booking notifications to this channel. Public channels appear automatically; for a private channel, invite the Tymeslot bot in Slack (%{command}), then click Refresh."
-msgstr "O Tymeslot vai publicar as notificações de agendamento neste canal. Canais públicos aparecem automaticamente; para um canal privado, convide o bot do Tymeslot no Slack (%{command}) e clique em Recarregar."
+msgid "Synantesis will post booking notifications to this channel. Public channels appear automatically; for a private channel, invite the Synantesis bot in Slack (%{command}), then click Refresh."
+msgstr "O Synantesis vai publicar as notificações de agendamento neste canal. Canais públicos aparecem automaticamente; para um canal privado, convide o bot do Synantesis no Slack (%{command}) e clique em Recarregar."
 
 #: lib/tymeslot_web/live/dashboard/automation/slack_form_component.ex
 #, elixir-autogen, elixir-format
@@ -685,8 +685,8 @@ msgstr "Slack conectado. Escolha um canal para concluir a configuração."
 
 #: lib/tymeslot_web/live/dashboard/automation/slack_form_component.ex
 #, elixir-autogen, elixir-format
-msgid "Tymeslot posts notifications to this URL. The destination channel is fixed by Slack when the webhook is created - see the full setup guide on %{guide}."
-msgstr "O Tymeslot publica notificações nesta URL. O canal de destino é definido pelo Slack quando o webhook é criado. Veja o guia completo na %{guide}."
+msgid "Synantesis posts notifications to this URL. The destination channel is fixed by Slack when the webhook is created - see the full setup guide on %{guide}."
+msgstr "O Synantesis publica notificações nesta URL. O canal de destino é definido pelo Slack quando o webhook é criado. Veja o guia completo na %{guide}."
 
 #: lib/tymeslot_web/live/dashboard/automation/slack_tab.ex
 #, elixir-autogen, elixir-format
@@ -800,8 +800,8 @@ msgstr "Não foi possível salvar a integração com o Slack."
 
 #: lib/tymeslot/slack/error_messages.ex
 #, elixir-autogen, elixir-format
-msgid "Channel not accessible. If it's a private channel, invite the Tymeslot bot first."
-msgstr "Canal inacessível. Se for um canal privado, convide primeiro o bot do Tymeslot."
+msgid "Channel not accessible. If it's a private channel, invite the Synantesis bot first."
+msgstr "Canal inacessível. Se for um canal privado, convide primeiro o bot do Synantesis."
 
 #: lib/tymeslot/slack/error_messages.ex
 #, elixir-autogen, elixir-format

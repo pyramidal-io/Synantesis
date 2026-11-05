@@ -46,8 +46,8 @@ defmodule Tymeslot.Emails.EmailServiceAdminAlertTest do
                )
 
       assert_received {:email, email}
-      assert email.to == [{"Tymeslot Operator", "ops@example.com"}]
-      assert email.subject == "[WARNING] Tymeslot: Webhook"
+      assert email.to == [{"Synantesis Operator", "ops@example.com"}]
+      assert email.subject == "[WARNING] Synantesis: Webhook"
       assert email.text_body =~ "Category: Webhook"
       assert email.text_body =~ "Unhandled webhook event received"
       assert email.text_body =~ "event_id: evt_001"
@@ -83,7 +83,7 @@ defmodule Tymeslot.Emails.EmailServiceAdminAlertTest do
                )
 
       assert_received {:email, email}
-      assert email.subject == "[ERROR] ⚠️ Tymeslot: Payment"
+      assert email.subject == "[ERROR] ⚠️ Synantesis: Payment"
     end
 
     test "an info alert's subject names its severity without the warning sign" do
@@ -91,7 +91,7 @@ defmodule Tymeslot.Emails.EmailServiceAdminAlertTest do
                EmailService.send_admin_alert("ops@example.com", "Payment", :info, "Refund", %{})
 
       assert_received {:email, email}
-      assert email.subject == "[INFO] Tymeslot: Payment"
+      assert email.subject == "[INFO] Synantesis: Payment"
     end
 
     test "marks the context section as empty when there is no metadata" do
@@ -105,7 +105,7 @@ defmodule Tymeslot.Emails.EmailServiceAdminAlertTest do
                )
 
       assert_received {:email, email}
-      assert email.subject == "[WARNING] Tymeslot: General"
+      assert email.subject == "[WARNING] Synantesis: General"
       assert email.text_body =~ "Alert with no metadata"
       assert email.text_body =~ "(none)"
     end

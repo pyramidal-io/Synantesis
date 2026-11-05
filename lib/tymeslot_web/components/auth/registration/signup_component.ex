@@ -31,7 +31,7 @@ defmodule TymeslotWeb.Registration.SignupComponent do
 
     ~H"""
     <.auth_card_layout
-      title={dgettext("auth", "Join Tymeslot")}
+      title={dgettext("auth", "Join Synantesis")}
       subtitle={
         dgettext("auth", "Start scheduling your meetings with ease. Zero friction, total control.")
       }

@@ -94,7 +94,7 @@ defmodule Tymeslot.Emails.Shared.Layouts do
           line-height="1.7"
           letter-spacing="0.02em"
         >
-          © #{Date.utc_today().year} <a href="#{Urls.get_app_url()}" class="wordmark" style="color: #{Styles.ink()}; text-decoration: none; font-weight: 800;">Tymeslot</a> · #{dgettext("emails", "scheduling that respects your time")}
+          © #{Date.utc_today().year} <a href="#{Urls.get_app_url()}" class="wordmark" style="color: #{Styles.ink()}; text-decoration: none; font-weight: 800;">Synantesis</a> · #{dgettext("emails", "scheduling that respects your time")}
         </mj-text>
       </mj-column>
     </mj-section>

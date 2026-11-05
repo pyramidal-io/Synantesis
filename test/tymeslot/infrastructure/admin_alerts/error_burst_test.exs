@@ -136,8 +136,8 @@ defmodule Tymeslot.Infrastructure.AdminAlerts.ErrorBurstTest do
       assert :ok = perform_job(EmailWorker, email_job.args)
 
       assert_received {:email, email}
-      assert email.to == [{"Tymeslot Operator", "ops@example.com"}]
-      assert email.subject == "[ERROR] Tymeslot: 12 more error alerts this hour"
+      assert email.to == [{"Synantesis Operator", "ops@example.com"}]
+      assert email.subject == "[ERROR] Synantesis: 12 more error alerts this hour"
       assert email.text_body =~ "RuntimeError in Example.run_15/0: boom 15"
       refute email.text_body =~ "Example.run_5/0"
       assert email.text_body =~ "new_error: 2 alerts"

@@ -14,7 +14,7 @@ defmodule Tymeslot.Emails.Templates.SocialSignupConfirmationTest do
 
     assert html =~ ~s(href="#{@url}")
     assert text =~ @url
-    assert text =~ "signing up for Tymeslot with GitHub"
+    assert text =~ "signing up for Synantesis with GitHub"
     assert text =~ "no account will be created"
   end
 

@@ -279,8 +279,8 @@ msgstr "Dia inteiro"
 
 #: lib/tymeslot_web/components/dashboard/appointments/appointment_details.ex
 #, elixir-autogen, elixir-format
-msgid "Booked through your Tymeslot page"
-msgstr "Agendado pela sua página do Tymeslot"
+msgid "Booked through your Synantesis page"
+msgstr "Agendado pela sua página do Synantesis"
 
 #: lib/tymeslot_web/components/dashboard/appointments/appointment_details.ex
 #, elixir-autogen, elixir-format

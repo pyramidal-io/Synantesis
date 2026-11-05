@@ -196,8 +196,8 @@ msgstr "Ungültige Nutzer-ID."
 
 #: lib/tymeslot_web/live/admin_live/components/layout.ex
 #, elixir-autogen, elixir-format
-msgid "Manage this self-hosted Tymeslot install."
-msgstr "Diese selbst gehostete Tymeslot-Installation verwalten."
+msgid "Manage this self-hosted Synantesis install."
+msgstr "Diese selbst gehostete Synantesis-Installation verwalten."
 
 #: lib/tymeslot_web/live/admin_live/formatters.ex
 #, elixir-autogen, elixir-format
@@ -511,8 +511,8 @@ msgstr "Logo am Kopf jeder Transaktions-E-Mail. Es wird vor dem Hochladen im Bro
 
 #: lib/tymeslot_web/live/admin_live/formatters.ex
 #, elixir-autogen, elixir-format
-msgid "Name shown in the inbox preview line, the logo's alt text, and the email title. Does not change the sender name - set EMAIL_FROM_NAME for that. Leave blank to use \"Tymeslot\"."
-msgstr "Name in der Vorschauzeile im Posteingang, im Alt-Text des Logos und im Titel der E-Mail. Ändert nicht den Absendernamen, dafür ist EMAIL_FROM_NAME zuständig. Leer lassen, um „Tymeslot“ zu verwenden."
+msgid "Name shown in the inbox preview line, the logo's alt text, and the email title. Does not change the sender name - set EMAIL_FROM_NAME for that. Leave blank to use \"Synantesis\"."
+msgstr "Name in der Vorschauzeile im Posteingang, im Alt-Text des Logos und im Titel der E-Mail. Ändert nicht den Absendernamen, dafür ist EMAIL_FROM_NAME zuständig. Leer lassen, um „Synantesis“ zu verwenden."
 
 #: lib/tymeslot_web/live/admin_live/components/email_branding.ex
 #, elixir-autogen, elixir-format
@@ -786,13 +786,13 @@ msgstr "reCAPTCHA bei der Registrierung aktiviert."
 
 #: lib/tymeslot_web/live/admin_live/components/settings.ex
 #, elixir-autogen, elixir-format
-msgid "Changes here take effect immediately. A setting fixed by an environment variable, such as REGISTRATION_ENABLED, is greyed out and changes only when you edit that variable and restart Tymeslot."
-msgstr "Änderungen an dieser Stelle werden sofort wirksam. Eine Einstellung, die durch eine Umgebungsvariable wie REGISTRATION_ENABLED festgelegt ist, ist ausgegraut und ändert sich erst, wenn Sie diese Variable bearbeiten und Tymeslot neu starten."
+msgid "Changes here take effect immediately. A setting fixed by an environment variable, such as REGISTRATION_ENABLED, is greyed out and changes only when you edit that variable and restart Synantesis."
+msgstr "Änderungen an dieser Stelle werden sofort wirksam. Eine Einstellung, die durch eine Umgebungsvariable wie REGISTRATION_ENABLED festgelegt ist, ist ausgegraut und ändert sich erst, wenn Sie diese Variable bearbeiten und Synantesis neu starten."
 
 #: lib/tymeslot_web/live/admin_live/formatters.ex
 #, elixir-autogen, elixir-format
-msgid "Set by the %{variable} environment variable. To change it here, remove the variable and restart Tymeslot."
-msgstr "Durch die Umgebungsvariable %{variable} festgelegt. Um die Einstellung hier zu ändern, entfernen Sie die Variable und starten Sie Tymeslot neu."
+msgid "Set by the %{variable} environment variable. To change it here, remove the variable and restart Synantesis."
+msgstr "Durch die Umgebungsvariable %{variable} festgelegt. Um die Einstellung hier zu ändern, entfernen Sie die Variable und starten Sie Synantesis neu."
 
 #: lib/tymeslot_web/live/admin_live/formatters.ex
 #, elixir-autogen, elixir-format
@@ -851,7 +851,7 @@ msgstr "Sterne helfen anderen, die selbst hosten, das Projekt zu finden."
 
 #: lib/tymeslot_web/live/admin_live/components/support_box.ex
 #, elixir-autogen, elixir-format
-msgid "Support Tymeslot"
+msgid "Support Tymeslot upstream"
 msgstr "Tymeslot unterstützen"
 
 #: lib/tymeslot_web/live/admin_live/components/support_box.ex
@@ -861,8 +861,8 @@ msgstr "Admin-Benachrichtigungen aktivieren"
 
 #: lib/tymeslot_web/live/admin_live/components/support_box.ex
 #, elixir-autogen, elixir-format
-msgid "Tymeslot is free to self-host. If it is useful to you, here are three ways to help it grow."
-msgstr "Tymeslot lässt sich kostenlos selbst hosten. Wenn es Ihnen nützt, gibt es drei Möglichkeiten, es beim Wachsen zu unterstützen."
+msgid "Synantesis is free to self-host. If it is useful to you, here are three ways to help it grow."
+msgstr "Synantesis lässt sich kostenlos selbst hosten. Wenn es Ihnen nützt, gibt es drei Möglichkeiten, es beim Wachsen zu unterstützen."
 
 #: lib/tymeslot_web/live/admin_live/components/support_box.ex
 #, elixir-autogen, elixir-format

@@ -18,13 +18,15 @@ defmodule TymeslotWeb.Themes.Shared.Components.LegalLinks do
   use Phoenix.Component
   use Gettext, backend: TymeslotWeb.Gettext
 
+  alias TymeslotWeb.Components.CoreComponents.Brand
+
   attr :links, :map,
     required: true,
     doc: "`%{legal_notice_url:, privacy_policy_url:}`, either URL nil, or nil for none"
 
   @doc """
-  Renders a link for each URL set, the legal notice first, each opening in a
-  new tab; nothing at all when neither is set.
+  Renders the source offer for this build and any organiser legal links.
+  Each link opens in a new tab.
   """
   @spec footer(map()) :: Phoenix.LiveView.Rendered.t()
   def footer(assigns) do
@@ -36,10 +38,10 @@ defmodule TymeslotWeb.Themes.Shared.Components.LegalLinks do
 
     ~H"""
     <footer
-      :if={@legal_notice_url || @privacy_policy_url}
       class="legal-links"
-      data-testid="legal-links"
+      data-testid={(@legal_notice_url || @privacy_policy_url) && "legal-links"}
     >
+      <Brand.source_link class="legal-links__link source-offer" />
       <a
         :if={@legal_notice_url}
         href={@legal_notice_url}

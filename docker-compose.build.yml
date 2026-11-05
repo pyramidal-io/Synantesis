@@ -1,4 +1,4 @@
-# Tymeslot Docker Compose Configuration — build from source
+# Synantesis Docker Compose Configuration — build from source
 #
 # Same single-container setup as docker-compose.yml, but the image is built
 # from this checkout instead of pulled from Docker Hub. Use it when you have
@@ -6,8 +6,8 @@
 #
 # This file only works from inside a clone, because the build context is the
 # repository itself:
-#   git clone https://github.com/Tymeslot/tymeslot.git
-#   cd tymeslot
+#   git clone https://github.com/pyramidal-io/Synantesis.git
+#   cd Synantesis
 #
 # IMPORTANT: Create a .env file before starting:
 #   cp .env.example .env
@@ -21,16 +21,18 @@
 # credentials undecryptable. See README-Docker.md, "Data-at-rest encryption".
 #
 # Fill in the required values in .env, then run:
-#   docker compose -f docker-compose.build.yml up -d --build
+#   SYNANTESIS_SOURCE_REVISION="$(git rev-parse HEAD)" docker compose -f docker-compose.build.yml up -d --build
 
 services:
   tymeslot:
     build:
       context: .
       dockerfile: Dockerfile.docker
+      args:
+        SYNANTESIS_SOURCE_REVISION: ${SYNANTESIS_SOURCE_REVISION:?Set to the full commit of the clean checkout}
     # A local-only tag: this image is built here, never pulled. The published
     # image lives at luka1thb/tymeslot and is what docker-compose.yml uses.
-    image: tymeslot:local
+    image: synantesis:local
     container_name: tymeslot
     restart: unless-stopped
     # PORT is the listen port; it is published on the host and inside the

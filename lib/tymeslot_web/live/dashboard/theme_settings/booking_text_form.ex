@@ -124,7 +124,7 @@ defmodule TymeslotWeb.Dashboard.ThemeSettings.BookingTextForm do
               description={
                 dgettext(
                   "dashboard_appearance",
-                  "Turn this off to go back to the built-in text, which is translated into every language Tymeslot supports. Your own wording is discarded."
+                  "Turn this off to go back to the built-in text, which is translated into every language Synantesis supports. Your own wording is discarded."
                 )
               }
               checked={enabled?(@form)}

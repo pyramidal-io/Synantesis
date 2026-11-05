@@ -178,8 +178,8 @@ msgstr "Erro 404"
 
 #: lib/tymeslot_web/controllers/error_html/404.html.heex
 #, elixir-autogen, elixir-format
-msgid "Go to Tymeslot"
-msgstr "Ir para o Tymeslot"
+msgid "Go to Synantesis"
+msgstr "Ir para o Synantesis"
 
 #: lib/tymeslot_web/controllers/error_html/404.html.heex
 #: lib/tymeslot_web/live/scheduling/organizer_helpers.ex

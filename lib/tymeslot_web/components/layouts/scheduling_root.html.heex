@@ -11,13 +11,13 @@
     <meta name="robots" content="noindex" />
     <meta name="csrf-token" content={get_csrf_token()} />
     <meta name="csp-nonce" content={assigns[:csp_nonce]} />
-    <.live_title suffix=" · Tymeslot">
+    <.live_title suffix=" · Synantesis">
       {assigns[:page_title] || dgettext("booking", "Schedule a meeting")}
     </.live_title>
 
     <%!-- Social share (Open Graph / Twitter) preview for booking links --%>
     <meta property="og:type" content="profile" />
-    <meta property="og:site_name" content="Tymeslot" />
+    <meta property="og:site_name" content="Synantesis" />
     <meta
       property="og:title"
       content={assigns[:page_title] || dgettext("booking", "Schedule a meeting")}

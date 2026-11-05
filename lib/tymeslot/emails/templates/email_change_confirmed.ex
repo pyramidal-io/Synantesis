@@ -38,7 +38,7 @@ defmodule Tymeslot.Emails.Templates.EmailChangeConfirmed do
   end
 
   defp recipient_and_subject(:old, old_email, _new_email),
-    do: {old_email, dgettext("emails_account", "Email Address Changed - Tymeslot Account")}
+    do: {old_email, dgettext("emails_account", "Email Address Changed - Synantesis Account")}
 
   defp recipient_and_subject(:new, _old_email, new_email),
     do: {new_email, dgettext("emails_account", "Email Address Changed Successfully")}
@@ -67,14 +67,14 @@ defmodule Tymeslot.Emails.Templates.EmailChangeConfirmed do
     do:
       dgettext(
         "emails_account",
-        "Your Tymeslot account email address has been successfully changed. This confirmation is being sent to your previous address so you know the switch happened."
+        "Your Synantesis account email address has been successfully changed. This confirmation is being sent to your previous address so you know the switch happened."
       )
 
   defp intro(:new),
     do:
       dgettext(
         "emails_account",
-        "Your Tymeslot account email address has been successfully changed."
+        "Your Synantesis account email address has been successfully changed."
       )
 
   defp security_notice(:old),
@@ -113,7 +113,7 @@ defmodule Tymeslot.Emails.Templates.EmailChangeConfirmed do
     TemplateHelper.compile_system_template(
       mjml_content,
       dgettext("emails_account", "Account Update"),
-      dgettext("emails_account", "Your Tymeslot email address has been changed."),
+      dgettext("emails_account", "Your Synantesis email address has been changed."),
       intent: @intent,
       eyebrow: dgettext("emails_account", "Confirmed"),
       stage_title: dgettext("emails_account", "Email change complete"),

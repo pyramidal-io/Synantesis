@@ -238,8 +238,8 @@ msgstr "Zbyt wiele zmian – zapis za chwilę…"
 
 #: lib/tymeslot_web/live/dashboard/theme_settings/booking_text_form.ex
 #, elixir-autogen, elixir-format
-msgid "Turn this off to go back to the built-in text, which is translated into every language Tymeslot supports. Your own wording is discarded."
-msgstr "Wyłącz tę opcję, aby wrócić do tekstów wbudowanych, tłumaczonych na wszystkie języki obsługiwane przez Tymeslot. Twoje własne teksty zostaną odrzucone."
+msgid "Turn this off to go back to the built-in text, which is translated into every language Synantesis supports. Your own wording is discarded."
+msgstr "Wyłącz tę opcję, aby wrócić do tekstów wbudowanych, tłumaczonych na wszystkie języki obsługiwane przez Synantesis. Twoje własne teksty zostaną odrzucone."
 
 #: lib/tymeslot_web/live/dashboard/theme_settings/booking_text_form.ex
 #, elixir-autogen, elixir-format

@@ -195,7 +195,7 @@ defmodule TymeslotWeb.OnboardingLive.StepConfig do
   Returns the step title for display purposes.
   """
   @spec step_title(step()) :: String.t()
-  def step_title(:welcome), do: dgettext("onboarding_wizard", "Welcome to Tymeslot")
+  def step_title(:welcome), do: dgettext("onboarding_wizard", "Welcome to Synantesis")
   def step_title(:profile), do: dgettext("onboarding_wizard", "Set up your profile")
   def step_title(:connect_calendar), do: dgettext("onboarding_wizard", "Connect your calendar")
   def step_title(:choose_theme), do: dgettext("onboarding_wizard", "Choose your theme")

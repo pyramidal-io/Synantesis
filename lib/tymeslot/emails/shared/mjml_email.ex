@@ -320,7 +320,7 @@ defmodule Tymeslot.Emails.Shared.MjmlEmail do
           css-class="email-ink-muted"
         >
           #{dgettext("emails", "Sent with care by")}
-          <a href="#{Urls.get_app_url()}" class="wordmark email-ink-link" style="color: #{Styles.ink()}; text-decoration: none; font-weight: 800;">Tymeslot</a>
+          <a href="#{Urls.get_app_url()}" class="wordmark email-ink-link" style="color: #{Styles.ink()}; text-decoration: none; font-weight: 800;">Synantesis</a>
           · #{dgettext("emails", "scheduling that respects your time")}
         </mj-text>
       </mj-column>

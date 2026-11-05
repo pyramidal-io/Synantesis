@@ -220,7 +220,7 @@ defmodule TymeslotWeb.AdminLive.Formatters do
   def describe(:email_brand_name) do
     dgettext(
       "dashboard_admin",
-      "Name shown in the inbox preview line, the logo's alt text, and the email title. Does not change the sender name - set EMAIL_FROM_NAME for that. Leave blank to use \"Tymeslot\"."
+      "Name shown in the inbox preview line, the logo's alt text, and the email title. Does not change the sender name - set EMAIL_FROM_NAME for that. Leave blank to use \"Synantesis\"."
     )
   end
 
@@ -398,7 +398,7 @@ defmodule TymeslotWeb.AdminLive.Formatters do
   def pinned_reason(env_var) do
     dgettext(
       "dashboard_admin",
-      "Set by the %{variable} environment variable. To change it here, remove the variable and restart Tymeslot.",
+      "Set by the %{variable} environment variable. To change it here, remove the variable and restart Synantesis.",
       variable: env_var
     )
   end

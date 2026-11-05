@@ -230,9 +230,9 @@ defmodule Tymeslot.Security.Encryption do
   rescue
     error in ConfigError ->
       Logger.error(
-        "Tymeslot cannot start: the data encryption key configuration is invalid. " <>
+        "Synantesis cannot start: the data encryption key configuration is invalid. " <>
           Exception.message(error) <>
-          " Nothing has been read or changed; start Tymeslot again once the " <>
+          " Nothing has been read or changed; start Synantesis again once the " <>
           "configuration is fixed. The data-at-rest encryption section of the " <>
           "installation guide explains every setting.",
         event_type: "encryption_config_invalid"

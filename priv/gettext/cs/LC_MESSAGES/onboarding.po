@@ -85,8 +85,8 @@ msgstr "Věnujte 30 sekund tomu, abyste věděli, kde co najdete."
 
 #: lib/tymeslot/onboarding/dashboard_tour.ex
 #, elixir-autogen, elixir-format
-msgid "Welcome to your Tymeslot dashboard"
-msgstr "Vítejte na nástěnce Tymeslot"
+msgid "Welcome to your Synantesis dashboard"
+msgstr "Vítejte na nástěnce Synantesis"
 
 #: lib/tymeslot/onboarding/dashboard_tour.ex
 #, elixir-autogen, elixir-format
@@ -149,8 +149,8 @@ msgstr "Schůzky přes Jitsi, kMeet nebo Nextcloud Talk"
 
 #: lib/tymeslot/announcements/catalog.ex
 #, elixir-autogen, elixir-format
-msgid "Three more video providers join Zoom, Google Meet, Teams and MiroTalk in the integrations picker. Point Tymeslot at your own Jitsi or Nextcloud and every booking gets a room of its own: a Talk conversation keeps its lobby shut until the meeting starts, moves when you reschedule and is deleted when you cancel. kMeet needs no setup at all."
-msgstr "Další tři poskytovatelé videohovorů se přidávají k Zoomu, Google Meet, Teams a MiroTalku ve výběru integrací. Nasměrujte Tymeslot na vlastní Jitsi nebo Nextcloud a každá rezervace dostane vlastní místnost: konverzace v Talku drží čekárnu zavřenou až do začátku schůzky, přesune se, když termín změníte, a smaže se, když ho zrušíte. kMeet nepotřebuje žádné nastavení."
+msgid "Three more video providers join Zoom, Google Meet, Teams and MiroTalk in the integrations picker. Point Synantesis at your own Jitsi or Nextcloud and every booking gets a room of its own: a Talk conversation keeps its lobby shut until the meeting starts, moves when you reschedule and is deleted when you cancel. kMeet needs no setup at all."
+msgstr "Další tři poskytovatelé videohovorů se přidávají k Zoomu, Google Meet, Teams a MiroTalku ve výběru integrací. Nasměrujte Synantesis na vlastní Jitsi nebo Nextcloud a každá rezervace dostane vlastní místnost: konverzace v Talku drží čekárnu zavřenou až do začátku schůzky, přesune se, když termín změníte, a smaže se, když ho zrušíte. kMeet nepotřebuje žádné nastavení."
 
 #: lib/tymeslot/announcements/catalog.ex
 #, elixir-autogen, elixir-format
@@ -194,10 +194,10 @@ msgstr "Anketa může být otevřená (o hlasovací odkaz si e-mailem řekne ka�
 
 #: lib/tymeslot/announcements/catalog.ex
 #, elixir-autogen, elixir-format
-msgid "Tymeslot now speaks Spanish"
-msgstr "Tymeslot teď mluví španělsky"
+msgid "Synantesis now speaks Spanish"
+msgstr "Synantesis teď mluví španělsky"
 
 #: lib/tymeslot/announcements/catalog.ex
 #, elixir-autogen, elixir-format
-msgid "Your dashboard, booking pages and every email are now available in Spanish. Tymeslot follows your browser's language, or you can choose one yourself in Account Settings. People who book you see booking pages and confirmations in their own language too."
-msgstr "Váš přehled, rezervační stránky i všechny e-maily jsou teď k dispozici ve španělštině. Tymeslot se řídí jazykem vašeho prohlížeče, nebo si jazyk vyberte sami v Nastavení účtu. Lidé, kteří si u vás rezervují, vidí rezervační stránky a potvrzení ve svém jazyce."
+msgid "Your dashboard, booking pages and every email are now available in Spanish. Synantesis follows your browser's language, or you can choose one yourself in Account Settings. People who book you see booking pages and confirmations in their own language too."
+msgstr "Váš přehled, rezervační stránky i všechny e-maily jsou teď k dispozici ve španělštině. Synantesis se řídí jazykem vašeho prohlížeče, nebo si jazyk vyberte sami v Nastavení účtu. Lidé, kteří si u vás rezervují, vidí rezervační stránky a potvrzení ve svém jazyce."

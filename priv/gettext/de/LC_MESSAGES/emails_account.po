@@ -13,8 +13,8 @@ msgstr ""
 
 #: lib/tymeslot/emails/templates/email_change_notification.ex
 #, elixir-autogen, elixir-format
-msgid "A change was requested on your Tymeslot account."
-msgstr "Für Ihr Tymeslot-Konto wurde eine Änderung angefordert."
+msgid "A change was requested on your Synantesis account."
+msgstr "Für Ihr Synantesis-Konto wurde eine Änderung angefordert."
 
 #: lib/tymeslot/emails/templates/password_reset.ex
 #, elixir-autogen, elixir-format
@@ -23,8 +23,8 @@ msgstr "Ein neues Passwort und Sie sind wieder drin."
 
 #: lib/tymeslot/emails/templates/email_change_notification.ex
 #, elixir-autogen, elixir-format
-msgid "A request has been made to change the email address on your Tymeslot account. We're letting you know so you can confirm it was you."
-msgstr "für Ihr Tymeslot-Konto wurde eine Änderung der E-Mail-Adresse angefordert. Wir informieren Sie, damit Sie bestätigen können, dass Sie das selbst waren."
+msgid "A request has been made to change the email address on your Synantesis account. We're letting you know so you can confirm it was you."
+msgstr "für Ihr Synantesis-Konto wurde eine Änderung der E-Mail-Adresse angefordert. Wir informieren Sie, damit Sie bestätigen können, dass Sie das selbst waren."
 
 #: lib/tymeslot/emails/templates/email_change_notification.ex
 #, elixir-autogen, elixir-format
@@ -101,8 +101,8 @@ msgstr "E-Mail bestätigen und loslegen:"
 
 #: lib/tymeslot/emails/templates/email_change_verification.ex
 #, elixir-autogen, elixir-format
-msgid "Confirm the new email address on your Tymeslot account."
-msgstr "Bestätigen Sie die neue E-Mail-Adresse Ihres Tymeslot-Kontos."
+msgid "Confirm the new email address on your Synantesis account."
+msgstr "Bestätigen Sie die neue E-Mail-Adresse Ihres Synantesis-Kontos."
 
 #: lib/tymeslot/emails/templates/social_signup_confirmation.ex
 #, elixir-autogen, elixir-format
@@ -111,8 +111,8 @@ msgstr "Bestätigen Sie Ihre E-Mail-Adresse, und Ihr Konto ist bereit."
 
 #: lib/tymeslot/emails/templates/social_signup_confirmation.ex
 #, elixir-autogen, elixir-format
-msgid "Confirm your email to finish signing up for Tymeslot."
-msgstr "Bestätigen Sie Ihre E-Mail-Adresse, um die Registrierung bei Tymeslot abzuschließen."
+msgid "Confirm your email to finish signing up for Synantesis."
+msgstr "Bestätigen Sie Ihre E-Mail-Adresse, um die Registrierung bei Synantesis abzuschließen."
 
 #: lib/tymeslot/emails/templates/email_change_verification.ex
 #, elixir-autogen, elixir-format
@@ -176,13 +176,13 @@ msgstr "Aus Sicherheitsgründen wurde eine Kopie dieser Bestätigung an Ihre bis
 
 #: lib/tymeslot/emails/templates/email_verification.ex
 #, elixir-autogen, elixir-format
-msgid "For your security, this link expires in 24 hours. If you didn't sign up for Tymeslot, no further action is needed."
-msgstr "Aus Sicherheitsgründen läuft dieser Link in 24 Stunden ab. Falls Sie sich nicht bei Tymeslot registriert haben, müssen Sie nichts weiter tun."
+msgid "For your security, this link expires in 24 hours. If you didn't sign up for Synantesis, no further action is needed."
+msgstr "Aus Sicherheitsgründen läuft dieser Link in 24 Stunden ab. Falls Sie sich nicht bei Synantesis registriert haben, müssen Sie nichts weiter tun."
 
 #: lib/tymeslot/emails/templates/email_verification.ex
 #, elixir-autogen, elixir-format
-msgid "For your security, this link expires in 24 hours. If you didn't sign up for Tymeslot, you can ignore this email."
-msgstr "Aus Sicherheitsgründen läuft dieser Link in 24 Stunden ab. Falls Sie sich nicht bei Tymeslot registriert haben, können Sie diese E-Mail ignorieren."
+msgid "For your security, this link expires in 24 hours. If you didn't sign up for Synantesis, you can ignore this email."
+msgstr "Aus Sicherheitsgründen läuft dieser Link in 24 Stunden ab. Falls Sie sich nicht bei Synantesis registriert haben, können Sie diese E-Mail ignorieren."
 
 #: lib/tymeslot/emails/templates/signup_attempt_notice.ex
 #, elixir-autogen, elixir-format
@@ -221,8 +221,8 @@ msgstr "Falls Sie diese Änderung nicht angefordert haben, ist Ihr Konto weiterh
 
 #: lib/tymeslot/emails/templates/password_reset.ex
 #, elixir-autogen, elixir-format
-msgid "Instructions to reset your Tymeslot password."
-msgstr "Anleitung zum Zurücksetzen Ihres Tymeslot-Passworts."
+msgid "Instructions to reset your Synantesis password."
+msgstr "Anleitung zum Zurücksetzen Ihres Synantesis-Passworts."
 
 #: lib/tymeslot/emails/templates/password_reset.ex
 #, elixir-autogen, elixir-format
@@ -353,14 +353,14 @@ msgstr "Neues Passwort festlegen:"
 #: lib/tymeslot/emails/templates/no_password_to_reset.ex
 #: lib/tymeslot/emails/templates/signup_attempt_notice.ex
 #, elixir-autogen, elixir-format
-msgid "Sign In to Tymeslot"
-msgstr "Bei Tymeslot anmelden"
+msgid "Sign In to Synantesis"
+msgstr "Bei Synantesis anmelden"
 
 #: lib/tymeslot/emails/templates/no_password_to_reset.ex
 #: lib/tymeslot/emails/templates/signup_attempt_notice.ex
 #, elixir-autogen, elixir-format
-msgid "Sign In to Tymeslot:"
-msgstr "Bei Tymeslot anmelden:"
+msgid "Sign In to Synantesis:"
+msgstr "Bei Synantesis anmelden:"
 
 #: lib/tymeslot/emails/templates/signup_attempt_notice.ex
 #, elixir-autogen, elixir-format
@@ -369,18 +369,18 @@ msgstr "Melden Sie sich an, statt sich neu zu registrieren."
 
 #: lib/tymeslot/emails/templates/no_password_to_reset.ex
 #, elixir-autogen, elixir-format
-msgid "Someone asked to reset the password for your Tymeslot account, but your account signs in with %{provider}, so it has no password to reset. Use the button below and choose %{provider} to sign in."
-msgstr "Jemand hat das Zurücksetzen des Passworts für Ihr Tymeslot-Konto angefordert. Ihr Konto meldet sich jedoch über %{provider} an und hat daher kein Passwort, das zurückgesetzt werden könnte. Nutzen Sie die Schaltfläche unten und wählen Sie %{provider}, um sich anzumelden."
+msgid "Someone asked to reset the password for your Synantesis account, but your account signs in with %{provider}, so it has no password to reset. Use the button below and choose %{provider} to sign in."
+msgstr "Jemand hat das Zurücksetzen des Passworts für Ihr Synantesis-Konto angefordert. Ihr Konto meldet sich jedoch über %{provider} an und hat daher kein Passwort, das zurückgesetzt werden könnte. Nutzen Sie die Schaltfläche unten und wählen Sie %{provider}, um sich anzumelden."
 
 #: lib/tymeslot/emails/templates/signup_attempt_notice.ex
 #, elixir-autogen, elixir-format
-msgid "Someone just tried to create a new Tymeslot account with this email address, which already has an account. If it was you, sign in below, or reset your password if you can't remember it."
-msgstr "Jemand hat gerade versucht, mit dieser E-Mail-Adresse ein neues Tymeslot-Konto zu erstellen, obwohl für sie bereits ein Konto besteht. Falls Sie das waren, melden Sie sich unten an oder setzen Sie Ihr Passwort zurück, wenn Sie es nicht mehr wissen."
+msgid "Someone just tried to create a new Synantesis account with this email address, which already has an account. If it was you, sign in below, or reset your password if you can't remember it."
+msgstr "Jemand hat gerade versucht, mit dieser E-Mail-Adresse ein neues Synantesis-Konto zu erstellen, obwohl für sie bereits ein Konto besteht. Falls Sie das waren, melden Sie sich unten an oder setzen Sie Ihr Passwort zurück, wenn Sie es nicht mehr wissen."
 
 #: lib/tymeslot/emails/templates/signup_attempt_notice.ex
 #, elixir-autogen, elixir-format
-msgid "Someone just tried to create a new Tymeslot account with this email address, which already has an account. If it was you, sign in with %{provider} below."
-msgstr "Jemand hat gerade versucht, mit dieser E-Mail-Adresse ein neues Tymeslot-Konto zu erstellen, obwohl für sie bereits ein Konto besteht. Falls Sie das waren, melden Sie sich unten über %{provider} an."
+msgid "Someone just tried to create a new Synantesis account with this email address, which already has an account. If it was you, sign in with %{provider} below."
+msgstr "Jemand hat gerade versucht, mit dieser E-Mail-Adresse ein neues Synantesis-Konto zu erstellen, obwohl für sie bereits ein Konto besteht. Falls Sie das waren, melden Sie sich unten über %{provider} an."
 
 #: lib/tymeslot/emails/templates/signup_attempt_notice.ex
 #, elixir-autogen, elixir-format
@@ -421,8 +421,8 @@ msgstr "Dies ist eine Sicherheitsbenachrichtigung zum Schutz Ihres Kontos. Bei B
 
 #: lib/tymeslot/emails/templates/social_signup_confirmation.ex
 #, elixir-autogen, elixir-format
-msgid "This link expires in 24 hours. If you didn't sign up for Tymeslot, you can ignore this email and no account will be created."
-msgstr "Dieser Link ist 24 Stunden gültig. Falls Sie sich nicht bei Tymeslot registriert haben, können Sie diese E-Mail ignorieren; es wird kein Konto erstellt."
+msgid "This link expires in 24 hours. If you didn't sign up for Synantesis, you can ignore this email and no account will be created."
+msgstr "Dieser Link ist 24 Stunden gültig. Falls Sie sich nicht bei Synantesis registriert haben, können Sie diese E-Mail ignorieren; es wird kein Konto erstellt."
 
 #: lib/tymeslot/emails/templates/email_change_verification.ex
 #, elixir-autogen, elixir-format
@@ -492,18 +492,18 @@ msgstr "Willkommen"
 
 #: lib/tymeslot/emails/templates/email_verification.ex
 #, elixir-autogen, elixir-format
-msgid "Welcome to Tymeslot"
-msgstr "Willkommen bei Tymeslot"
+msgid "Welcome to Synantesis"
+msgstr "Willkommen bei Synantesis"
 
 #: lib/tymeslot/emails/templates/email_verification.ex
 #, elixir-autogen, elixir-format
-msgid "Welcome to Tymeslot - please verify your email."
-msgstr "Willkommen bei Tymeslot - bitte bestätigen Sie Ihre E-Mail-Adresse."
+msgid "Welcome to Synantesis - please verify your email."
+msgstr "Willkommen bei Synantesis - bitte bestätigen Sie Ihre E-Mail-Adresse."
 
 #: lib/tymeslot/emails/templates/email_verification.ex
 #, elixir-autogen, elixir-format
-msgid "Welcome to Tymeslot!"
-msgstr "Willkommen bei Tymeslot!"
+msgid "Welcome to Synantesis!"
+msgstr "Willkommen bei Synantesis!"
 
 #: lib/tymeslot/emails/templates/email_change_notification.ex
 #, elixir-autogen, elixir-format
@@ -522,13 +522,13 @@ msgstr "Sie haben bereits ein Konto"
 
 #: lib/tymeslot/emails/templates/email_change_verification.ex
 #, elixir-autogen, elixir-format
-msgid "You asked to change the email address on your Tymeslot account to %{new_email}."
-msgstr "Sie haben angefordert, die E-Mail-Adresse Ihres Tymeslot-Kontos auf %{new_email} zu ändern."
+msgid "You asked to change the email address on your Synantesis account to %{new_email}."
+msgstr "Sie haben angefordert, die E-Mail-Adresse Ihres Synantesis-Kontos auf %{new_email} zu ändern."
 
 #: lib/tymeslot/emails/templates/email_change_verification.ex
 #, elixir-autogen, elixir-format
-msgid "You asked to change the email address on your Tymeslot account. Confirm the new address below to finish the switch."
-msgstr "Sie haben angefordert, die E-Mail-Adresse Ihres Tymeslot-Kontos zu ändern. Bestätigen Sie unten die neue Adresse, um die Umstellung abzuschließen."
+msgid "You asked to change the email address on your Synantesis account. Confirm the new address below to finish the switch."
+msgstr "Sie haben angefordert, die E-Mail-Adresse Ihres Synantesis-Kontos zu ändern. Bestätigen Sie unten die neue Adresse, um die Umstellung abzuschließen."
 
 #: lib/tymeslot/emails/templates/email_change_confirmed.ex
 #, elixir-autogen, elixir-format
@@ -542,28 +542,28 @@ msgstr "Sie melden sich über %{provider} an."
 
 #: lib/tymeslot/emails/templates/social_signup_confirmation.ex
 #, elixir-autogen, elixir-format
-msgid "You're signing up for Tymeslot with %{provider}. Confirm this email address to create your account and sign in."
-msgstr "Sie registrieren sich bei Tymeslot über %{provider}. Bestätigen Sie diese E-Mail-Adresse, um Ihr Konto zu erstellen und sich anzumelden."
+msgid "You're signing up for Synantesis with %{provider}. Confirm this email address to create your account and sign in."
+msgstr "Sie registrieren sich bei Synantesis über %{provider}. Bestätigen Sie diese E-Mail-Adresse, um Ihr Konto zu erstellen und sich anzumelden."
 
 #: lib/tymeslot/emails/templates/email_change_confirmed.ex
 #, elixir-autogen, elixir-format
-msgid "Your Tymeslot account email address has been successfully changed."
-msgstr "die E-Mail-Adresse Ihres Tymeslot-Kontos wurde erfolgreich geändert."
+msgid "Your Synantesis account email address has been successfully changed."
+msgstr "die E-Mail-Adresse Ihres Synantesis-Kontos wurde erfolgreich geändert."
 
 #: lib/tymeslot/emails/templates/email_change_confirmed.ex
 #, elixir-autogen, elixir-format
-msgid "Your Tymeslot account email address has been successfully changed. This confirmation is being sent to your previous address so you know the switch happened."
-msgstr "die E-Mail-Adresse Ihres Tymeslot-Kontos wurde erfolgreich geändert. Diese Bestätigung wird an Ihre bisherige Adresse gesendet, damit Sie wissen, dass die Umstellung erfolgt ist."
+msgid "Your Synantesis account email address has been successfully changed. This confirmation is being sent to your previous address so you know the switch happened."
+msgstr "die E-Mail-Adresse Ihres Synantesis-Kontos wurde erfolgreich geändert. Diese Bestätigung wird an Ihre bisherige Adresse gesendet, damit Sie wissen, dass die Umstellung erfolgt ist."
 
 #: lib/tymeslot/emails/templates/no_password_to_reset.ex
 #, elixir-autogen, elixir-format
-msgid "Your Tymeslot account has no password to reset."
-msgstr "Ihr Tymeslot-Konto hat kein Passwort, das zurückgesetzt werden könnte."
+msgid "Your Synantesis account has no password to reset."
+msgstr "Ihr Synantesis-Konto hat kein Passwort, das zurückgesetzt werden könnte."
 
 #: lib/tymeslot/emails/templates/email_change_confirmed.ex
 #, elixir-autogen, elixir-format
-msgid "Your Tymeslot email address has been changed."
-msgstr "Die E-Mail-Adresse Ihres Tymeslot-Kontos wurde geändert."
+msgid "Your Synantesis email address has been changed."
+msgstr "Die E-Mail-Adresse Ihres Synantesis-Kontos wurde geändert."
 
 #: lib/tymeslot/emails/templates/email_change_confirmed.ex
 #, elixir-autogen, elixir-format
@@ -592,13 +592,13 @@ msgstr "Kontolöschung"
 
 #: lib/tymeslot/emails/templates/account_deletion_notice.ex
 #, elixir-autogen, elixir-format
-msgid "As you asked, your Tymeslot account has been deleted, together with everything in it. This cannot be undone."
-msgstr "wie gewünscht wurde Ihr Tymeslot-Konto samt allen Inhalten gelöscht. Dies kann nicht rückgängig gemacht werden."
+msgid "As you asked, your Synantesis account has been deleted, together with everything in it. This cannot be undone."
+msgstr "wie gewünscht wurde Ihr Synantesis-Konto samt allen Inhalten gelöscht. Dies kann nicht rückgängig gemacht werden."
 
 #: lib/tymeslot/emails/templates/account_deletion_notice.ex
 #, elixir-autogen, elixir-format
-msgid "As you asked, your Tymeslot account is scheduled for deletion on %{date}. Until then it is frozen: your booking page is offline and nobody can book you. If you change your mind, sign in before that date and you can restore your account."
-msgstr "wie gewünscht wird Ihr Tymeslot-Konto am %{date} gelöscht. Bis dahin ist es eingefroren: Ihre Buchungsseite ist offline und niemand kann bei Ihnen buchen. Wenn Sie es sich anders überlegen, melden Sie sich vor diesem Datum an und stellen Sie Ihr Konto wieder her."
+msgid "As you asked, your Synantesis account is scheduled for deletion on %{date}. Until then it is frozen: your booking page is offline and nobody can book you. If you change your mind, sign in before that date and you can restore your account."
+msgstr "wie gewünscht wird Ihr Synantesis-Konto am %{date} gelöscht. Bis dahin ist es eingefroren: Ihre Buchungsseite ist offline und niemand kann bei Ihnen buchen. Wenn Sie es sich anders überlegen, melden Sie sich vor diesem Datum an und stellen Sie Ihr Konto wieder her."
 
 #: lib/tymeslot/emails/templates/account_deletion_notice.ex
 #, elixir-autogen, elixir-format
@@ -607,8 +607,8 @@ msgstr "Alle Inhalte wurden gelöscht."
 
 #: lib/tymeslot/emails/templates/account_deletion_notice.ex
 #, elixir-autogen, elixir-format
-msgid "If you did not ask for this, contact whoever runs this Tymeslot service straight away."
-msgstr "Wenn Sie das nicht veranlasst haben, wenden Sie sich umgehend an den Betreiber dieses Tymeslot-Dienstes."
+msgid "If you did not ask for this, contact whoever runs this Synantesis service straight away."
+msgstr "Wenn Sie das nicht veranlasst haben, wenden Sie sich umgehend an den Betreiber dieses Synantesis-Dienstes."
 
 #: lib/tymeslot/emails/templates/account_deletion_notice.ex
 #, elixir-autogen, elixir-format
@@ -642,18 +642,18 @@ msgstr "Ihr Konto ist zur Löschung vorgemerkt"
 
 #: lib/tymeslot/emails/templates/account_deletion_notice.ex
 #, elixir-autogen, elixir-format
-msgid "Your upcoming bookings have been deleted from Tymeslot. Your guests were not notified. Calendar events and video links that already exist have been left as they are. If a meeting will not take place, please contact your guests yourself."
-msgstr "Ihre anstehenden Buchungen wurden aus Tymeslot gelöscht. Ihre Gäste wurden nicht benachrichtigt. Bereits vorhandene Kalendereinträge und Videolinks wurden unverändert belassen. Wenn ein Termin nicht stattfindet, informieren Sie Ihre Gäste bitte selbst."
+msgid "Your upcoming bookings have been deleted from Synantesis. Your guests were not notified. Calendar events and video links that already exist have been left as they are. If a meeting will not take place, please contact your guests yourself."
+msgstr "Ihre anstehenden Buchungen wurden aus Synantesis gelöscht. Ihre Gäste wurden nicht benachrichtigt. Bereits vorhandene Kalendereinträge und Videolinks wurden unverändert belassen. Wenn ein Termin nicht stattfindet, informieren Sie Ihre Gäste bitte selbst."
 
 #: lib/tymeslot/emails/templates/account_deletion_notice.ex
 #, elixir-autogen, elixir-format
-msgid "Your upcoming bookings will be deleted from Tymeslot with your account. Your guests will not be notified. Calendar events and video links that already exist will stay as they are. If a meeting will not take place, please contact your guests yourself."
-msgstr "Ihre anstehenden Buchungen werden zusammen mit Ihrem Konto aus Tymeslot gelöscht. Ihre Gäste werden nicht benachrichtigt. Bereits vorhandene Kalendereinträge und Videolinks bleiben unverändert bestehen. Wenn ein Termin nicht stattfindet, informieren Sie Ihre Gäste bitte selbst."
+msgid "Your upcoming bookings will be deleted from Synantesis with your account. Your guests will not be notified. Calendar events and video links that already exist will stay as they are. If a meeting will not take place, please contact your guests yourself."
+msgstr "Ihre anstehenden Buchungen werden zusammen mit Ihrem Konto aus Synantesis gelöscht. Ihre Gäste werden nicht benachrichtigt. Bereits vorhandene Kalendereinträge und Videolinks bleiben unverändert bestehen. Wenn ein Termin nicht stattfindet, informieren Sie Ihre Gäste bitte selbst."
 
 #: lib/tymeslot/emails/templates/signup_attempt_notice.ex
 #, elixir-autogen, elixir-format
-msgid "Someone just tried to create a new Tymeslot account with this email address. It belongs to an account that is scheduled for deletion on %{date}. If it was you, sign in before then to restore that account, or sign up again after that date."
-msgstr "jemand hat gerade versucht, mit dieser E-Mail-Adresse ein neues Tymeslot-Konto zu erstellen. Sie gehört zu einem Konto, dessen Löschung für den %{date} geplant ist. Falls Sie das waren, melden Sie sich vor diesem Datum an, um das Konto wiederherzustellen, oder registrieren Sie sich nach diesem Datum erneut."
+msgid "Someone just tried to create a new Synantesis account with this email address. It belongs to an account that is scheduled for deletion on %{date}. If it was you, sign in before then to restore that account, or sign up again after that date."
+msgstr "jemand hat gerade versucht, mit dieser E-Mail-Adresse ein neues Synantesis-Konto zu erstellen. Sie gehört zu einem Konto, dessen Löschung für den %{date} geplant ist. Falls Sie das waren, melden Sie sich vor diesem Datum an, um das Konto wiederherzustellen, oder registrieren Sie sich nach diesem Datum erneut."
 
 #: lib/tymeslot/emails/templates/social_signup_confirmation.ex
 #, elixir-autogen, elixir-format
@@ -662,8 +662,8 @@ msgstr "Bestätigen Sie Ihre E-Mail-Adresse, um die Registrierung abzuschließen
 
 #: lib/tymeslot/emails/templates/email_change_confirmed.ex
 #, elixir-autogen, elixir-format
-msgid "Email Address Changed - Tymeslot Account"
-msgstr "E-Mail-Adresse geändert – Tymeslot-Konto"
+msgid "Email Address Changed - Synantesis Account"
+msgstr "E-Mail-Adresse geändert – Synantesis-Konto"
 
 #: lib/tymeslot/emails/templates/email_change_confirmed.ex
 #, elixir-autogen, elixir-format
@@ -677,23 +677,23 @@ msgstr "Bestätigen Sie Ihre E-Mail-Adresse"
 
 #: lib/tymeslot/emails/templates/signup_attempt_notice.ex
 #, elixir-autogen, elixir-format
-msgid "You already have a Tymeslot account"
-msgstr "Sie haben bereits ein Tymeslot-Konto"
+msgid "You already have a Synantesis account"
+msgstr "Sie haben bereits ein Synantesis-Konto"
 
 #: lib/tymeslot/emails/templates/account_deletion_notice.ex
 #, elixir-autogen, elixir-format
-msgid "Your Tymeslot account has been deleted"
-msgstr "Ihr Tymeslot-Konto wurde gelöscht"
+msgid "Your Synantesis account has been deleted"
+msgstr "Ihr Synantesis-Konto wurde gelöscht"
 
 #: lib/tymeslot/emails/templates/no_password_to_reset.ex
 #, elixir-autogen, elixir-format
-msgid "Your Tymeslot account has no password"
-msgstr "Ihr Tymeslot-Konto hat kein Passwort"
+msgid "Your Synantesis account has no password"
+msgstr "Ihr Synantesis-Konto hat kein Passwort"
 
 #: lib/tymeslot/emails/templates/account_deletion_notice.ex
 #, elixir-autogen, elixir-format
-msgid "Your Tymeslot account is scheduled for deletion"
-msgstr "Ihr Tymeslot-Konto ist zur Löschung vorgemerkt"
+msgid "Your Synantesis account is scheduled for deletion"
+msgstr "Ihr Synantesis-Konto ist zur Löschung vorgemerkt"
 
 #: lib/tymeslot/emails/templates/email_change_notification.ex
 #, elixir-autogen, elixir-format

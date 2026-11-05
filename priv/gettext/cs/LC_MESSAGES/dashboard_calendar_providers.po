@@ -398,8 +398,8 @@ msgstr "Barva"
 
 #: lib/tymeslot_web/components/dashboard/integrations/calendar/calendar_selection_modal.ex
 #, elixir-autogen, elixir-format
-msgid "How this calendar's events are shown in your Tymeslot calendar."
-msgstr "Takto se události z tohoto kalendáře zobrazují ve vašem kalendáři Tymeslot."
+msgid "How this calendar's events are shown in your Synantesis calendar."
+msgstr "Takto se události z tohoto kalendáře zobrazují ve vašem kalendáři Synantesis."
 
 #: lib/tymeslot_web/components/dashboard/integrations/calendar/caldav_reconnect_modal.ex
 #: lib/tymeslot_web/components/dashboard/integrations/calendar/calendar_selection_modal.ex
@@ -520,8 +520,8 @@ msgstr "Jen obsazené časy"
 
 #: lib/tymeslot_web/components/dashboard/integrations/calendar/calendar_selection_modal.ex
 #, elixir-autogen, elixir-format
-msgid "Choose which calendars Tymeslot uses, and which of them block times on your booking page."
-msgstr "Vyberte, které kalendáře Tymeslot používá a které z nich blokují časy na vaší rezervační stránce."
+msgid "Choose which calendars Synantesis uses, and which of them block times on your booking page."
+msgstr "Vyberte, které kalendáře Synantesis používá a které z nich blokují časy na vaší rezervační stránce."
 
 #: lib/tymeslot_web/components/dashboard/integrations/calendar/calendar_selection_modal.ex
 #, elixir-autogen, elixir-format
@@ -555,8 +555,8 @@ msgstr "Jen pro čtení"
 
 #: lib/tymeslot_web/components/dashboard/integrations/calendar/calendar_selection_modal.ex
 #, elixir-autogen, elixir-format
-msgid "Shared with you as busy times only. Tymeslot can block these times but cannot show the events."
-msgstr "Sdíleno s vámi jen jako obsazené časy. Tymeslot může tyto časy blokovat, ale nemůže zobrazit události."
+msgid "Shared with you as busy times only. Synantesis can block these times but cannot show the events."
+msgstr "Sdíleno s vámi jen jako obsazené časy. Synantesis může tyto časy blokovat, ale nemůže zobrazit události."
 
 #: lib/tymeslot_web/components/dashboard/integrations/calendar/calendar_selection_modal.ex
 #, elixir-autogen, elixir-format
@@ -640,5 +640,5 @@ msgstr "Pokud bylo staré heslo pro konkrétní aplikaci od připojení zrušeno
 
 #: lib/tymeslot_web/components/dashboard/integrations/calendar/shared_form_components.ex
 #, elixir-autogen, elixir-format
-msgid "Keep this password for as long as you use Tymeslot. Revoking it, or changing your Apple ID password, disconnects iCloud, and your booking page offers no times until you reconnect."
-msgstr "Toto heslo si ponechte po celou dobu, kdy Tymeslot používáte. Jeho zrušení nebo změna hesla k účtu Apple odpojí iCloud a vaše rezervační stránka pak nebude nabízet žádné termíny, dokud iCloud znovu nepřipojíte."
+msgid "Keep this password for as long as you use Synantesis. Revoking it, or changing your Apple ID password, disconnects iCloud, and your booking page offers no times until you reconnect."
+msgstr "Toto heslo si ponechte po celou dobu, kdy Synantesis používáte. Jeho zrušení nebo změna hesla k účtu Apple odpojí iCloud a vaše rezervační stránka pak nebude nabízet žádné termíny, dokud iCloud znovu nepřipojíte."

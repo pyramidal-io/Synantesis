@@ -108,7 +108,7 @@ defmodule TymeslotWeb.Dashboard.CalendarGrid.BookingEventsLiveviewTest do
       {:ok, _lv, html} = live(conn, ~p"/dashboard")
 
       assert html =~ "data-testid=\"connect-calendar-banner\""
-      assert html =~ "Bring your calendar into Tymeslot"
+      assert html =~ "Bring your calendar into Synantesis"
       refute html =~ "Nothing to see here"
     end
 
@@ -143,7 +143,7 @@ defmodule TymeslotWeb.Dashboard.CalendarGrid.BookingEventsLiveviewTest do
       assert html =~ "booking-detail-modal"
       assert html =~ "Ada Lovelace"
       assert html =~ "ada@example.com"
-      assert html =~ "Booked through your Tymeslot page"
+      assert html =~ "Booked through your Synantesis page"
       assert html =~ "Manage booking"
       # A one-to-one booking carries no seat count or group lock note.
       refute html =~ "booking-seats"

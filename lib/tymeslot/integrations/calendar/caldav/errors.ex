@@ -85,42 +85,42 @@ defmodule Tymeslot.Integrations.Calendar.CalDAV.Errors do
     do:
       dgettext_noop(
         "integrations_calendar",
-        "The event changed on the calendar server since Tymeslot last synced it."
+        "The event changed on the calendar server since Synantesis last synced it."
       )
 
   def describe_error(:rate_limited),
     do:
       dgettext_noop(
         "integrations_calendar",
-        "The calendar server is rate-limiting Tymeslot. Tymeslot will retry automatically."
+        "The calendar server is rate-limiting Synantesis. Synantesis will retry automatically."
       )
 
   def describe_error(:network_error),
     do:
       dgettext_noop(
         "integrations_calendar",
-        "Tymeslot could not reach the calendar server. Tymeslot will retry automatically."
+        "Synantesis could not reach the calendar server. Synantesis will retry automatically."
       )
 
   def describe_error(:invalid_response),
     do:
       dgettext_noop(
         "integrations_calendar",
-        "The calendar server returned a response Tymeslot could not understand."
+        "The calendar server returned a response Synantesis could not understand."
       )
 
   def describe_error(:response_too_large),
     do:
       dgettext_noop(
         "integrations_calendar",
-        "The calendar server returned more data than Tymeslot can process at once."
+        "The calendar server returned more data than Synantesis can process at once."
       )
 
   def describe_error(:server_error),
     do:
       dgettext_noop(
         "integrations_calendar",
-        "The calendar server reported an error. Tymeslot will retry automatically."
+        "The calendar server reported an error. Synantesis will retry automatically."
       )
 
   def describe_error(:service_unavailable), do: describe_error(:server_error)
@@ -129,14 +129,14 @@ defmodule Tymeslot.Integrations.Calendar.CalDAV.Errors do
     do:
       dgettext_noop(
         "integrations_calendar",
-        "The calendar server did not respond. Tymeslot will retry automatically."
+        "The calendar server did not respond. Synantesis will retry automatically."
       )
 
   def describe_error(:timeout),
     do:
       dgettext_noop(
         "integrations_calendar",
-        "The calendar server took too long to respond. Tymeslot will retry automatically."
+        "The calendar server took too long to respond. Synantesis will retry automatically."
       )
 
   def describe_error(_other), do: unknown_error_description()
@@ -144,7 +144,7 @@ defmodule Tymeslot.Integrations.Calendar.CalDAV.Errors do
   defp unknown_error_description do
     dgettext_noop(
       "integrations_calendar",
-      "Tymeslot could not complete the request against the calendar server."
+      "Synantesis could not complete the request against the calendar server."
     )
   end
 

@@ -76,8 +76,8 @@ defmodule Tymeslot.Workers.AdminAlertDigestWorkerTest do
       assert :ok = perform_job(EmailWorker, job.args)
 
       assert_received {:email, email}
-      assert email.to == [{"Tymeslot Operator", "ops@example.com"}]
-      assert email.subject == "[INFO] Tymeslot: daily digest (2 alerts)"
+      assert email.to == [{"Synantesis Operator", "ops@example.com"}]
+      assert email.subject == "[INFO] Synantesis: daily digest (2 alerts)"
       assert email.text_body =~ "Refund of 100 processed for user 1"
       assert email.text_body =~ "Google sync recovered"
       assert email.html_body =~ "Google sync recovered"

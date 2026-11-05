@@ -59,7 +59,7 @@ defmodule TymeslotWeb.Dashboard.CalendarSettings.CardNotice do
   defp removed_notice([%{name: calendar}]) do
     dgettext(
       "dashboard_calendar_settings",
-      "“%{calendar}” is no longer on your calendar server, so Tymeslot has stopped using it.",
+      "“%{calendar}” is no longer on your calendar server, so Synantesis has stopped using it.",
       calendar: calendar
     )
   end
@@ -67,8 +67,8 @@ defmodule TymeslotWeb.Dashboard.CalendarSettings.CardNotice do
   defp removed_notice(removed) do
     dngettext(
       "dashboard_calendar_settings",
-      "%{count} calendar is no longer on your calendar server, so Tymeslot has stopped using it: %{calendars}",
-      "%{count} calendars are no longer on your calendar server, so Tymeslot has stopped using them: %{calendars}",
+      "%{count} calendar is no longer on your calendar server, so Synantesis has stopped using it: %{calendars}",
+      "%{count} calendars are no longer on your calendar server, so Synantesis has stopped using them: %{calendars}",
       length(removed),
       calendars: Enum.map_join(removed, ", ", &"“#{&1.name}”")
     )

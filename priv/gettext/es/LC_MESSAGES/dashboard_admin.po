@@ -196,8 +196,8 @@ msgstr "ID de usuario no válido."
 
 #: lib/tymeslot_web/live/admin_live/components/layout.ex
 #, elixir-autogen, elixir-format
-msgid "Manage this self-hosted Tymeslot install."
-msgstr "Administra esta instalación autoalojada de Tymeslot."
+msgid "Manage this self-hosted Synantesis install."
+msgstr "Administra esta instalación autoalojada de Synantesis."
 
 #: lib/tymeslot_web/live/admin_live/formatters.ex
 #, elixir-autogen, elixir-format
@@ -371,7 +371,7 @@ msgstr "Este proveedor es la única forma de iniciar sesión que funciona para l
 #: lib/tymeslot_web/live/admin_live/formatters.ex
 #, elixir-autogen, elixir-format
 msgid "Email operational alerts (webhook failures, integration health issues, background job errors) to the admin alert recipient. Requires a recipient address to be set below."
-msgstr "Con esta opción, Tymeslot envía por correo alertas de funcionamiento al destinatario de las alertas de administración. Por ejemplo: fallos de webhooks, problemas en las integraciones y errores de tareas en segundo plano. Para funcionar, necesita una dirección de destinatario definida abajo."
+msgstr "Con esta opción, Synantesis envía por correo alertas de funcionamiento al destinatario de las alertas de administración. Por ejemplo: fallos de webhooks, problemas en las integraciones y errores de tareas en segundo plano. Para funcionar, necesita una dirección de destinatario definida abajo."
 
 #: lib/tymeslot_web/live/admin_live/formatters.ex
 #, elixir-autogen, elixir-format
@@ -432,7 +432,7 @@ msgstr "No se puede desactivar la autenticación con contraseña mientras algún
 #: lib/tymeslot_web/live/admin_live/formatters.ex
 #, elixir-autogen, elixir-format
 msgid "Collect privacy-friendly analytics for booking pages on this instance: page views, traffic source (UTM/referrer), and conversion. Counts unique visitors with a daily-rotating, cookieless fingerprint - no raw IP is stored. Off by default; review your privacy policy before enabling."
-msgstr "Con esta opción, Tymeslot recopila analítica de las páginas de reservas de esta instancia: visitas, origen del tráfico (UTM/referrer) y conversión. La analítica respeta la privacidad. Los visitantes únicos se cuentan con una huella sin cookies que cambia cada día; no se guarda ninguna dirección IP tal cual. La analítica está desactivada de forma predeterminada; revisa tu política de privacidad antes de activarla."
+msgstr "Con esta opción, Synantesis recopila analítica de las páginas de reservas de esta instancia: visitas, origen del tráfico (UTM/referrer) y conversión. La analítica respeta la privacidad. Los visitantes únicos se cuentan con una huella sin cookies que cambia cada día; no se guarda ninguna dirección IP tal cual. La analítica está desactivada de forma predeterminada; revisa tu política de privacidad antes de activarla."
 
 #: lib/tymeslot_web/live/admin_live/formatters.ex
 #, elixir-autogen, elixir-format
@@ -511,8 +511,8 @@ msgstr "Logotipo que aparece arriba en cada correo automático. Se convierte a P
 
 #: lib/tymeslot_web/live/admin_live/formatters.ex
 #, elixir-autogen, elixir-format
-msgid "Name shown in the inbox preview line, the logo's alt text, and the email title. Does not change the sender name - set EMAIL_FROM_NAME for that. Leave blank to use \"Tymeslot\"."
-msgstr "Nombre para la vista previa en la bandeja de entrada, el texto alternativo del logotipo y el título del correo. No cambia el nombre del remitente; para eso está EMAIL_FROM_NAME. Déjalo vacío para usar «Tymeslot»."
+msgid "Name shown in the inbox preview line, the logo's alt text, and the email title. Does not change the sender name - set EMAIL_FROM_NAME for that. Leave blank to use \"Synantesis\"."
+msgstr "Nombre para la vista previa en la bandeja de entrada, el texto alternativo del logotipo y el título del correo. No cambia el nombre del remitente; para eso está EMAIL_FROM_NAME. Déjalo vacío para usar «Synantesis»."
 
 #: lib/tymeslot_web/live/admin_live/components/email_branding.ex
 #, elixir-autogen, elixir-format
@@ -786,13 +786,13 @@ msgstr "Se activó reCAPTCHA en el registro."
 
 #: lib/tymeslot_web/live/admin_live/components/settings.ex
 #, elixir-autogen, elixir-format
-msgid "Changes here take effect immediately. A setting fixed by an environment variable, such as REGISTRATION_ENABLED, is greyed out and changes only when you edit that variable and restart Tymeslot."
-msgstr "Los cambios que hagas aquí se aplican de inmediato. Algunas opciones están fijadas por una variable de entorno, como REGISTRATION_ENABLED, y aparecen en gris. Solo cambian si editas esa variable y reinicias Tymeslot."
+msgid "Changes here take effect immediately. A setting fixed by an environment variable, such as REGISTRATION_ENABLED, is greyed out and changes only when you edit that variable and restart Synantesis."
+msgstr "Los cambios que hagas aquí se aplican de inmediato. Algunas opciones están fijadas por una variable de entorno, como REGISTRATION_ENABLED, y aparecen en gris. Solo cambian si editas esa variable y reinicias Synantesis."
 
 #: lib/tymeslot_web/live/admin_live/formatters.ex
 #, elixir-autogen, elixir-format
-msgid "Set by the %{variable} environment variable. To change it here, remove the variable and restart Tymeslot."
-msgstr "Lo define la variable de entorno %{variable}. Para cambiarlo aquí, quita la variable y reinicia Tymeslot."
+msgid "Set by the %{variable} environment variable. To change it here, remove the variable and restart Synantesis."
+msgstr "Lo define la variable de entorno %{variable}. Para cambiarlo aquí, quita la variable y reinicia Synantesis."
 
 #: lib/tymeslot_web/live/admin_live/formatters.ex
 #, elixir-autogen, elixir-format
@@ -847,11 +847,11 @@ msgstr "Danos una estrella en GitHub"
 #: lib/tymeslot_web/live/admin_live/components/support_box.ex
 #, elixir-autogen, elixir-format
 msgid "Stars help other self-hosters find the project."
-msgstr "Las estrellas ayudan a otras personas que alojan Tymeslot en sus propios servidores a encontrar el proyecto."
+msgstr "Las estrellas ayudan a otras personas que alojan Synantesis en sus propios servidores a encontrar el proyecto."
 
 #: lib/tymeslot_web/live/admin_live/components/support_box.ex
 #, elixir-autogen, elixir-format
-msgid "Support Tymeslot"
+msgid "Support Tymeslot upstream"
 msgstr "Apoya a Tymeslot"
 
 #: lib/tymeslot_web/live/admin_live/components/support_box.ex
@@ -861,8 +861,8 @@ msgstr "Activa las alertas de administración"
 
 #: lib/tymeslot_web/live/admin_live/components/support_box.ex
 #, elixir-autogen, elixir-format
-msgid "Tymeslot is free to self-host. If it is useful to you, here are three ways to help it grow."
-msgstr "Alojar Tymeslot en tu propio servidor es gratis. Si te resulta útil, aquí tienes tres formas de ayudar a que crezca."
+msgid "Synantesis is free to self-host. If it is useful to you, here are three ways to help it grow."
+msgstr "Alojar Synantesis en tu propio servidor es gratis. Si te resulta útil, aquí tienes tres formas de ayudar a que crezca."
 
 #: lib/tymeslot_web/live/admin_live/components/support_box.ex
 #, elixir-autogen, elixir-format

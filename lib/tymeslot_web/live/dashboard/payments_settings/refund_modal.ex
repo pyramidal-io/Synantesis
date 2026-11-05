@@ -66,7 +66,7 @@ defmodule TymeslotWeb.Dashboard.PaymentsSettings.RefundModal do
         <p class="text-token-sm text-tymeslot-700">
           {dgettext(
             "dashboard_payments",
-            "The attendee receives the full amount you refund. Tymeslot's platform fee is reversed proportionally; Stripe processing fees on the original charge stay with you."
+            "The attendee receives the full amount you refund. Synantesis's platform fee is reversed proportionally; Stripe processing fees on the original charge stay with you."
           )}
         </p>
 

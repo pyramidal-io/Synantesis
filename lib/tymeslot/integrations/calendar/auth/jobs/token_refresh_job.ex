@@ -294,7 +294,7 @@ defmodule Tymeslot.Integrations.Calendar.TokenRefreshJob do
   defp refresh_failure_message do
     dgettext_noop(
       "integrations_calendar",
-      "Tymeslot could not renew its access to this calendar. It will try again shortly."
+      "Synantesis could not renew its access to this calendar. It will try again shortly."
     )
   end
 

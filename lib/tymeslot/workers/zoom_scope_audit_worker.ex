@@ -88,7 +88,7 @@ defmodule Tymeslot.Workers.ZoomScopeAuditWorker do
   end
 
   defp flag_and_report(integration, operation) do
-    Logger.warning("Zoom grant is missing a scope Tymeslot needs",
+    Logger.warning("Zoom grant is missing a scope Synantesis needs",
       integration_id: integration.id,
       operation: operation,
       required_scope: Scopes.required_description(operation)

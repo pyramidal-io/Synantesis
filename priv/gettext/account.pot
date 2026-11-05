@@ -315,7 +315,7 @@ msgstr ""
 
 #: lib/tymeslot_web/live/account_live/danger_zone.ex
 #, elixir-autogen, elixir-format
-msgid "Upcoming bookings are deleted from Tymeslot and your guests are not notified."
+msgid "Upcoming bookings are deleted from Synantesis and your guests are not notified."
 msgstr ""
 
 #: lib/tymeslot_web/live/account_live/delete_account_modal.ex
@@ -345,7 +345,7 @@ msgstr ""
 
 #: lib/tymeslot_web/live/account_live/delete_account_modal.ex
 #, elixir-autogen, elixir-format
-msgid "Your upcoming bookings will be deleted from Tymeslot. Your guests will not be notified."
+msgid "Your upcoming bookings will be deleted from Synantesis. Your guests will not be notified."
 msgstr ""
 
 #: lib/tymeslot_web/live/account_live/danger_zone.ex

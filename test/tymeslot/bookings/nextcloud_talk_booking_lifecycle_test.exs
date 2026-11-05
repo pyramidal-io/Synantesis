@@ -96,7 +96,7 @@ defmodule Tymeslot.Bookings.NextcloudTalkBookingLifecycleTest do
                 "permissions" => 244,
                 "lobbyState" => 1,
                 "lobbyTimer" => DateTime.to_unix(start_time),
-                "description" => "Booked through Tymeslot.\n\nReference: " <> reference(booked)
+                "description" => "Booked through Synantesis.\n\nReference: " <> reference(booked)
               }}
            ]
 

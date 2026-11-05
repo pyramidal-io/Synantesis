@@ -75,7 +75,7 @@ defmodule Tymeslot.Application do
     # non-cloudron deployments). Stdout output is unaffected.
     FileSink.attach()
 
-    Logger.info("Starting Tymeslot application")
+    Logger.info("Starting Synantesis application")
 
     # Oban's default logger handles non-job events (plugin, notifier, peer,
     # queue, stager). Job events are owned by ObanLogger instead, so every job
@@ -191,7 +191,7 @@ defmodule Tymeslot.Application do
 
     case Supervisor.start_link(children, opts) do
       {:ok, pid} ->
-        Logger.info("Tymeslot application started successfully", pid: LogFormat.reason(pid))
+        Logger.info("Synantesis application started successfully", pid: LogFormat.reason(pid))
 
         if Application.get_env(:tymeslot, :environment) != :test do
           check_deployment_config()
@@ -202,7 +202,7 @@ defmodule Tymeslot.Application do
         {:ok, pid}
 
       {:error, reason} = error ->
-        Logger.error("Failed to start Tymeslot application", reason: LogFormat.reason(reason))
+        Logger.error("Failed to start Synantesis application", reason: LogFormat.reason(reason))
         error
     end
   end

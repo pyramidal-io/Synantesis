@@ -154,8 +154,8 @@ msgstr "Créer"
 
 #: lib/tymeslot_web/live/dashboard/calendar_grid/modals/event_detail_modal.ex
 #, elixir-autogen, elixir-format
-msgid "Created by Tymeslot"
-msgstr "Créé par Tymeslot"
+msgid "Created by Synantesis"
+msgstr "Créé par Synantesis"
 
 #: lib/tymeslot_web/live/dashboard/calendar_grid/modals/create_event_modal.ex
 #, elixir-autogen, elixir-format
@@ -597,8 +597,8 @@ msgstr "avant l'événement"
 
 #: lib/tymeslot_web/live/dashboard/calendar_grid/event_handlers/shared.ex
 #, elixir-autogen, elixir-format
-msgid "This calendar is read-only. Events on it can't be changed from Tymeslot."
-msgstr "Ce calendrier est en lecture seule. Les événements qu’il contient ne peuvent pas être modifiés depuis Tymeslot."
+msgid "This calendar is read-only. Events on it can't be changed from Synantesis."
+msgstr "Ce calendrier est en lecture seule. Les événements qu’il contient ne peuvent pas être modifiés depuis Synantesis."
 
 #: lib/tymeslot_web/live/dashboard/calendar_grid/write_outcome_messages.ex
 #, elixir-autogen, elixir-format
@@ -930,8 +930,8 @@ msgstr[1] "Ajoutez jusqu’à %{count} e-mails de rappel pour cette réunion. L�
 
 #: lib/tymeslot_web/live/dashboard/calendar_grid/edit_workflow.ex
 #, elixir-autogen, elixir-format
-msgid "Someone else organises this meeting, so Tymeslot can't move or split a series you were only invited to."
-msgstr "Cette réunion est organisée par quelqu'un d'autre : Tymeslot ne peut pas déplacer ni scinder une série à laquelle vous êtes seulement invité."
+msgid "Someone else organises this meeting, so Synantesis can't move or split a series you were only invited to."
+msgstr "Cette réunion est organisée par quelqu'un d'autre : Synantesis ne peut pas déplacer ni scinder une série à laquelle vous êtes seulement invité."
 
 #: lib/tymeslot_web/live/dashboard/calendar_grid/event_handlers/shared.ex
 #, elixir-autogen, elixir-format

@@ -426,7 +426,7 @@ defmodule Tymeslot.Integrations.Video.Providers.NextcloudTalkProvider do
        {:unreachable,
         dgettext(
           "integrations_video",
-          "This Nextcloud Talk is too old. Tymeslot needs Talk 21.1 or later."
+          "This Nextcloud Talk is too old. Synantesis needs Talk 21.1 or later."
         )}}
     end
   end
@@ -453,7 +453,7 @@ defmodule Tymeslot.Integrations.Video.Providers.NextcloudTalkProvider do
     {:throttled,
      dgettext(
        "integrations_video",
-       "Nextcloud is refusing requests from Tymeslot for now, usually after too many failed logins. Wait a few minutes before trying again."
+       "Nextcloud is refusing requests from Synantesis for now, usually after too many failed logins. Wait a few minutes before trying again."
      )}
   end
 

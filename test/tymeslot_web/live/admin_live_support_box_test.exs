@@ -66,7 +66,7 @@ defmodule TymeslotWeb.AdminLiveSupportBoxTest do
 
       assert has_element?(
                lv,
-               ~s{#support-report a[href="https://github.com/Tymeslot/tymeslot/issues/new"]}
+               ~s{#support-report a[href="https://github.com/pyramidal-io/Synantesis/issues/new"]}
              )
     end
   end

@@ -15,7 +15,7 @@
     <%= if assigns[:meta_description] do %>
       <meta name="description" content={@meta_description} />
     <% end %>
-    <.live_title suffix=" · Tymeslot">
+    <.live_title suffix=" · Synantesis">
       {assigns[:page_title] || dgettext("common", "Schedule a Meeting")}
     </.live_title>
     <link rel="icon" type="image/svg+xml" href={~p"/images/brand/favicon.svg"} />
@@ -70,6 +70,9 @@
     only one. A root layout is never diffed after the initial response, so a
     group at this level would render every flash a second time and still miss
     every flash raised while the page is live. --%>
+    <div class="border-b border-indigo-200 bg-indigo-50 px-4 py-2 text-center text-sm text-indigo-950">
+      <Brand.source_link class="font-semibold underline underline-offset-2" />
+    </div>
     {@inner_content}
   </body>
 </html>

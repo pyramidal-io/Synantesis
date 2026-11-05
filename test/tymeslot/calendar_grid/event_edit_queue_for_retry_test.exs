@@ -145,7 +145,10 @@ defmodule Tymeslot.CalendarGrid.EventEditQueueForRetryTest do
       refute stored.created_by_tymeslot
     end
 
-    test "an edit queued for Tymeslot's own event keeps it Tymeslot's", %{user: user, row: row} do
+    test "an edit queued for Synantesis's own event keeps it Synantesis's", %{
+      user: user,
+      row: row
+    } do
       row = row |> Changeset.change(created_by_tymeslot: true) |> Repo.update!()
       event = ProviderCalendarEventSchema.to_calendar_event(row)
 

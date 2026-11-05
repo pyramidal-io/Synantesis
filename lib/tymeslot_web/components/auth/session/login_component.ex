@@ -39,7 +39,7 @@ defmodule TymeslotWeb.Session.LoginComponent do
       <.auth_card_layout title={dgettext("auth", "Welcome Back!")}>
         <:heading>
           <h2 class="text-xl font-bold text-tymeslot-900 mb-6 tracking-tight text-center">
-            {dgettext("auth", "Log in to Tymeslot")}
+            {dgettext("auth", "Log in to Synantesis")}
           </h2>
         </:heading>
 
@@ -136,7 +136,7 @@ defmodule TymeslotWeb.Session.LoginComponent do
       <.auth_card_layout title={dgettext("auth", "Welcome Back!")}>
         <:heading>
           <h2 class="text-xl font-bold text-tymeslot-900 mb-6 tracking-tight text-center">
-            {dgettext("auth", "Log in to Tymeslot")}
+            {dgettext("auth", "Log in to Synantesis")}
           </h2>
         </:heading>
 

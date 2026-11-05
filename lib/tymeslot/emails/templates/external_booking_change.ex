@@ -98,7 +98,7 @@ defmodule Tymeslot.Emails.Templates.ExternalBookingChange do
       summary =
         dgettext(
           "emails_booking_changes",
-          "You changed when \"%{title}\" ends in your external calendar, so Tymeslot updated the booking: it now ends at %{to} instead of %{from}.",
+          "You changed when \"%{title}\" ends in your external calendar, so Synantesis updated the booking: it now ends at %{to} instead of %{from}.",
           title: Sanitise.sanitize_for_email(title),
           to: to,
           from: from
@@ -270,9 +270,9 @@ defmodule Tymeslot.Emails.Templates.ExternalBookingChange do
   # meeting from the dashboard.
   defp stage_subtitle(meeting) do
     if Meeting.group?(meeting),
-      do: dgettext("emails_booking_changes", "Please review the group meeting in Tymeslot."),
+      do: dgettext("emails_booking_changes", "Please review the group meeting in Synantesis."),
       else:
-        dgettext("emails_booking_changes", "Please review and update the booking in Tymeslot.")
+        dgettext("emails_booking_changes", "Please review and update the booking in Synantesis.")
   end
 
   defp alert_parts(:deleted, meeting) do
@@ -282,7 +282,7 @@ defmodule Tymeslot.Emails.Templates.ExternalBookingChange do
       :cancelled,
       dgettext(
         "emails_booking_changes",
-        "The meeting \"%{title}\" was deleted from your external calendar. Tymeslot still has this booking on record - please review and cancel it here if the meeting is no longer taking place.",
+        "The meeting \"%{title}\" was deleted from your external calendar. Synantesis still has this booking on record - please review and cancel it here if the meeting is no longer taking place.",
         title: title
       ),
       dgettext("emails_booking_changes", "Meeting Deleted in External Calendar")
@@ -303,13 +303,13 @@ defmodule Tymeslot.Emails.Templates.ExternalBookingChange do
     if Meeting.group?(meeting) do
       dgettext(
         "emails_booking_changes",
-        "The group meeting \"%{title}\" was rescheduled in your external calendar. Tymeslot still holds the original time for every participant, and a group meeting cannot be moved for everyone at once.",
+        "The group meeting \"%{title}\" was rescheduled in your external calendar. Synantesis still holds the original time for every participant, and a group meeting cannot be moved for everyone at once.",
         title: title
       )
     else
       dgettext(
         "emails_booking_changes",
-        "The meeting \"%{title}\" was rescheduled in your external calendar. Tymeslot still holds the original booking - please review the details and update or cancel it accordingly.",
+        "The meeting \"%{title}\" was rescheduled in your external calendar. Synantesis still holds the original booking - please review the details and update or cancel it accordingly.",
         title: title
       )
     end
@@ -343,12 +343,12 @@ defmodule Tymeslot.Emails.Templates.ExternalBookingChange do
     if Meeting.group?(meeting) do
       dgettext(
         "emails_booking_changes",
-        "This group meeting was <strong>rescheduled in your external calendar</strong>. Tymeslot still shows the original time above, and its participants still expect it. To keep the original time, move the event back in your calendar. To change it, send the participants a reschedule request from your dashboard, or cancel the meeting there so every participant is notified."
+        "This group meeting was <strong>rescheduled in your external calendar</strong>. Synantesis still shows the original time above, and its participants still expect it. To keep the original time, move the event back in your calendar. To change it, send the participants a reschedule request from your dashboard, or cancel the meeting there so every participant is notified."
       )
     else
       dgettext(
         "emails_booking_changes",
-        "This meeting was <strong>rescheduled in your external calendar</strong>. Tymeslot still shows the original time above. To move the booking to the new time, open it in your dashboard and choose <strong>Move booking</strong>: Tymeslot then reschedules its reminders and emails the attendee the new time. If <strong>Move booking</strong> is not offered there, send the attendee a reschedule request from your dashboard instead."
+        "This meeting was <strong>rescheduled in your external calendar</strong>. Synantesis still shows the original time above. To move the booking to the new time, open it in your dashboard and choose <strong>Move booking</strong>: Synantesis then reschedules its reminders and emails the attendee the new time. If <strong>Move booking</strong> is not offered there, send the attendee a reschedule request from your dashboard instead."
       )
     end
   end

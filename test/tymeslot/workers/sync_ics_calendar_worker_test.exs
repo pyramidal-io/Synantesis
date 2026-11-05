@@ -292,7 +292,7 @@ defmodule Tymeslot.Workers.SyncIcsCalendarWorkerTest do
       refute failed.needs_reauth
 
       assert failed.sync_error ==
-               "Calendar subscription sync failed while saving a fetched event. Tymeslot will try again on the next sync."
+               "Calendar subscription sync failed while saving a fetched event. Synantesis will try again on the next sync."
     end
   end
 

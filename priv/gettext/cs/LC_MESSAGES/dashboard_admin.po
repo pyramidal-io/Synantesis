@@ -196,8 +196,8 @@ msgstr "Neplatné ID uživatele."
 
 #: lib/tymeslot_web/live/admin_live/components/layout.ex
 #, elixir-autogen, elixir-format
-msgid "Manage this self-hosted Tymeslot install."
-msgstr "Spravujte tuto instalaci Tymeslot na vlastním serveru."
+msgid "Manage this self-hosted Synantesis install."
+msgstr "Spravujte tuto instalaci Synantesis na vlastním serveru."
 
 #: lib/tymeslot_web/live/admin_live/formatters.ex
 #, elixir-autogen, elixir-format
@@ -511,8 +511,8 @@ msgstr "Logo zobrazené v záhlaví každého transakčního e-mailu. Před nahr
 
 #: lib/tymeslot_web/live/admin_live/formatters.ex
 #, elixir-autogen, elixir-format
-msgid "Name shown in the inbox preview line, the logo's alt text, and the email title. Does not change the sender name - set EMAIL_FROM_NAME for that. Leave blank to use \"Tymeslot\"."
-msgstr "Název zobrazený v náhledovém řádku doručené pošty, v alternativním textu loga a v titulku e-mailu. Nemění jméno odesílatele, k tomu slouží EMAIL_FROM_NAME. Ponechte prázdné pro použití názvu „Tymeslot“."
+msgid "Name shown in the inbox preview line, the logo's alt text, and the email title. Does not change the sender name - set EMAIL_FROM_NAME for that. Leave blank to use \"Synantesis\"."
+msgstr "Název zobrazený v náhledovém řádku doručené pošty, v alternativním textu loga a v titulku e-mailu. Nemění jméno odesílatele, k tomu slouží EMAIL_FROM_NAME. Ponechte prázdné pro použití názvu „Synantesis“."
 
 #: lib/tymeslot_web/live/admin_live/components/email_branding.ex
 #, elixir-autogen, elixir-format
@@ -786,13 +786,13 @@ msgstr "reCAPTCHA při registraci zapnuta."
 
 #: lib/tymeslot_web/live/admin_live/components/settings.ex
 #, elixir-autogen, elixir-format
-msgid "Changes here take effect immediately. A setting fixed by an environment variable, such as REGISTRATION_ENABLED, is greyed out and changes only when you edit that variable and restart Tymeslot."
-msgstr "Změny se projeví okamžitě. Nastavení určené proměnnou prostředí, například REGISTRATION_ENABLED, je zašedlé a změní se teprve tehdy, když tuto proměnnou upravíte a Tymeslot restartujete."
+msgid "Changes here take effect immediately. A setting fixed by an environment variable, such as REGISTRATION_ENABLED, is greyed out and changes only when you edit that variable and restart Synantesis."
+msgstr "Změny se projeví okamžitě. Nastavení určené proměnnou prostředí, například REGISTRATION_ENABLED, je zašedlé a změní se teprve tehdy, když tuto proměnnou upravíte a Synantesis restartujete."
 
 #: lib/tymeslot_web/live/admin_live/formatters.ex
 #, elixir-autogen, elixir-format
-msgid "Set by the %{variable} environment variable. To change it here, remove the variable and restart Tymeslot."
-msgstr "Nastaveno proměnnou prostředí %{variable}. Chcete-li hodnotu změnit zde, odstraňte proměnnou a restartujte Tymeslot."
+msgid "Set by the %{variable} environment variable. To change it here, remove the variable and restart Synantesis."
+msgstr "Nastaveno proměnnou prostředí %{variable}. Chcete-li hodnotu změnit zde, odstraňte proměnnou a restartujte Synantesis."
 
 #: lib/tymeslot_web/live/admin_live/formatters.ex
 #, elixir-autogen, elixir-format
@@ -851,7 +851,7 @@ msgstr "Hvězdičky pomáhají projekt najít i dalším, kdo si aplikaci provoz
 
 #: lib/tymeslot_web/live/admin_live/components/support_box.ex
 #, elixir-autogen, elixir-format
-msgid "Support Tymeslot"
+msgid "Support Tymeslot upstream"
 msgstr "Podpořte Tymeslot"
 
 #: lib/tymeslot_web/live/admin_live/components/support_box.ex
@@ -861,8 +861,8 @@ msgstr "Zapněte upozornění pro správce"
 
 #: lib/tymeslot_web/live/admin_live/components/support_box.ex
 #, elixir-autogen, elixir-format
-msgid "Tymeslot is free to self-host. If it is useful to you, here are three ways to help it grow."
-msgstr "Tymeslot si můžete zdarma provozovat sami. Pokud vám je užitečný, tady jsou tři způsoby, jak mu pomoci růst."
+msgid "Synantesis is free to self-host. If it is useful to you, here are three ways to help it grow."
+msgstr "Synantesis si můžete zdarma provozovat sami. Pokud vám je užitečný, tady jsou tři způsoby, jak mu pomoci růst."
 
 #: lib/tymeslot_web/live/admin_live/components/support_box.ex
 #, elixir-autogen, elixir-format

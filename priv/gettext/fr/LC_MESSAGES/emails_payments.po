@@ -89,8 +89,8 @@ msgstr "Réunion :"
 
 #: lib/tymeslot/emails/templates/connect_account_restricted.ex
 #, elixir-autogen, elixir-format
-msgid "Once Stripe is satisfied, your account state updates automatically. Nothing more is needed on Tymeslot's side."
-msgstr "Dès que Stripe est satisfait, l’état de votre compte se met à jour automatiquement. Rien d’autre n’est nécessaire du côté de Tymeslot."
+msgid "Once Stripe is satisfied, your account state updates automatically. Nothing more is needed on Synantesis's side."
+msgstr "Dès que Stripe est satisfait, l’état de votre compte se met à jour automatiquement. Rien d’autre n’est nécessaire du côté de Synantesis."
 
 #: lib/tymeslot/emails/templates/charge_dispute_opened.ex
 #: lib/tymeslot/emails/templates/connect_account_restricted.ex

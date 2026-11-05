@@ -161,7 +161,7 @@ defmodule TymeslotWeb.Components.Dashboard.Appointments.AppointmentDetails do
 
   # Where the appointment lives: a Tymeslot booking, or the named synced calendar.
   defp calendar_label(%Entry{source: :tymeslot}),
-    do: dgettext("dashboard_common", "Booked through your Tymeslot page")
+    do: dgettext("dashboard_common", "Booked through your Synantesis page")
 
   defp calendar_label(%Entry{calendar: nil}),
     do: dgettext("dashboard_common", "External calendar")

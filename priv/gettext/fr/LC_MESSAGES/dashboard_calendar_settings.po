@@ -70,8 +70,8 @@ msgstr "Connecter un calendrier"
 
 #: lib/tymeslot_web/live/dashboard/calendar_settings/component_view.ex
 #, elixir-autogen, elixir-format
-msgid "Connect a calendar so Tymeslot can read your availability and stop meetings being booked when you're already busy."
-msgstr "Connectez un calendrier pour que Tymeslot puisse lire vos disponibilités et empêcher que des réunions soient réservées lorsque vous êtes déjà occupé."
+msgid "Connect a calendar so Synantesis can read your availability and stop meetings being booked when you're already busy."
+msgstr "Connectez un calendrier pour que Synantesis puisse lire vos disponibilités et empêcher que des réunions soient réservées lorsque vous êtes déjà occupé."
 
 #: lib/tymeslot_web/live/dashboard/calendar_settings/connection_row.ex
 #, elixir-autogen, elixir-format
@@ -368,10 +368,10 @@ msgstr "Dernière synchronisation à l'instant"
 
 #: lib/tymeslot_web/live/dashboard/calendar_settings/card_notice.ex
 #, elixir-autogen, elixir-format
-msgid "%{count} calendar is no longer on your calendar server, so Tymeslot has stopped using it: %{calendars}"
-msgid_plural "%{count} calendars are no longer on your calendar server, so Tymeslot has stopped using them: %{calendars}"
-msgstr[0] "%{count} calendrier n’existe plus sur votre serveur de calendrier ; Tymeslot a donc cessé de l’utiliser : %{calendars}"
-msgstr[1] "%{count} calendriers n’existent plus sur votre serveur de calendrier ; Tymeslot a donc cessé de les utiliser : %{calendars}"
+msgid "%{count} calendar is no longer on your calendar server, so Synantesis has stopped using it: %{calendars}"
+msgid_plural "%{count} calendars are no longer on your calendar server, so Synantesis has stopped using them: %{calendars}"
+msgstr[0] "%{count} calendrier n’existe plus sur votre serveur de calendrier ; Synantesis a donc cessé de l’utiliser : %{calendars}"
+msgstr[1] "%{count} calendriers n’existent plus sur votre serveur de calendrier ; Synantesis a donc cessé de les utiliser : %{calendars}"
 
 #: lib/tymeslot_web/live/dashboard/calendar_settings/connection_row.ex
 #, elixir-autogen, elixir-format
@@ -385,8 +385,8 @@ msgstr "Ignorer l’avis sur les calendriers absents du serveur"
 
 #: lib/tymeslot_web/live/dashboard/calendar_settings/card_notice.ex
 #, elixir-autogen, elixir-format
-msgid "“%{calendar}” is no longer on your calendar server, so Tymeslot has stopped using it."
-msgstr "Le calendrier « %{calendar} » n’existe plus sur votre serveur de calendrier ; Tymeslot a donc cessé de l’utiliser."
+msgid "“%{calendar}” is no longer on your calendar server, so Synantesis has stopped using it."
+msgstr "Le calendrier « %{calendar} » n’existe plus sur votre serveur de calendrier ; Synantesis a donc cessé de l’utiliser."
 
 #: lib/tymeslot_web/live/dashboard/calendar_settings/feed_controls.ex
 #, elixir-autogen, elixir-format
@@ -503,8 +503,8 @@ msgstr "Afficher les numéros de semaine ISO dans la vue mois"
 
 #: lib/tymeslot_web/live/dashboard/calendar_grid/modals/settings_modal.ex
 #, elixir-autogen, elixir-format
-msgid "Show browser notifications before events while Tymeslot is open"
-msgstr "Afficher des notifications du navigateur avant les événements lorsque Tymeslot est ouvert"
+msgid "Show browser notifications before events while Synantesis is open"
+msgstr "Afficher des notifications du navigateur avant les événements lorsque Synantesis est ouvert"
 
 #: lib/tymeslot_web/live/dashboard/calendar_grid/modals/settings_modal.ex
 #, elixir-autogen, elixir-format

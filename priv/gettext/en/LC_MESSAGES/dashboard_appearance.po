@@ -242,7 +242,7 @@ msgstr ""
 
 #: lib/tymeslot_web/live/dashboard/theme_settings/booking_text_form.ex
 #, elixir-autogen, elixir-format
-msgid "Turn this off to go back to the built-in text, which is translated into every language Tymeslot supports. Your own wording is discarded."
+msgid "Turn this off to go back to the built-in text, which is translated into every language Synantesis supports. Your own wording is discarded."
 msgstr ""
 
 #: lib/tymeslot_web/live/dashboard/theme_settings/booking_text_form.ex

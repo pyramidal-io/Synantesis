@@ -35,7 +35,7 @@ defmodule Tymeslot.Emails.Templates.NoPasswordToReset do
     RecipientLocale.with_user_locale(user, fn ->
       MjmlEmail.base_email()
       |> Email.to({user.name || user.email, user.email})
-      |> Email.subject(dgettext("emails_account", "Your Tymeslot account has no password"))
+      |> Email.subject(dgettext("emails_account", "Your Synantesis account has no password"))
       |> Email.html_body(html_body(user, sign_in_url))
       |> Email.text_body(text_body(user, sign_in_url))
     end)
@@ -61,7 +61,7 @@ defmodule Tymeslot.Emails.Templates.NoPasswordToReset do
     TemplateHelper.compile_system_template(
       mjml_content,
       dgettext("emails_account", "Account Security"),
-      dgettext("emails_account", "Your Tymeslot account has no password to reset."),
+      dgettext("emails_account", "Your Synantesis account has no password to reset."),
       intent: @intent,
       eyebrow: dgettext("emails_account", "Security"),
       stage_title: dgettext("emails_account", "No password to reset"),
@@ -90,7 +90,7 @@ defmodule Tymeslot.Emails.Templates.NoPasswordToReset do
   defp explanation(provider) do
     dgettext(
       "emails_account",
-      "Someone asked to reset the password for your Tymeslot account, but your account signs in with %{provider}, so it has no password to reset. Use the button below and choose %{provider} to sign in.",
+      "Someone asked to reset the password for your Synantesis account, but your account signs in with %{provider}, so it has no password to reset. Use the button below and choose %{provider} to sign in.",
       provider: provider
     )
   end

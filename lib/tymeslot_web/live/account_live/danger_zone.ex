@@ -21,7 +21,7 @@ defmodule TymeslotWeb.AccountLive.DangerZone do
           <p class="text-sm text-tymeslot-600 mt-1">
             {dgettext(
               "account",
-              "Upcoming bookings are deleted from Tymeslot and your guests are not notified."
+              "Upcoming bookings are deleted from Synantesis and your guests are not notified."
             )}
           </p>
         </div>
