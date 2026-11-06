@@ -15,7 +15,7 @@ env:
 jobs:
   build:
     # Only run on GitHub, not Gitea
-    if: github.server_url == 'https://github.com'
+    if: github.repository == 'Tymeslot/tymeslot' && github.server_url == 'https://github.com'
     strategy:
       fail-fast: true
       matrix:
@@ -92,7 +92,7 @@ jobs:
           retention-days: 1
 
   merge:
-    if: github.server_url == 'https://github.com'
+    if: github.repository == 'Tymeslot/tymeslot' && github.server_url == 'https://github.com'
     needs: build
     runs-on: ubuntu-latest
 

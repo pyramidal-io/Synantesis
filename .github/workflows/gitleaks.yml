@@ -13,7 +13,7 @@ jobs:
   gitleaks:
     runs-on: ubuntu-latest
     # Only run on GitHub, not Gitea
-    if: github.server_url == 'https://github.com'
+    if: github.repository == 'Tymeslot/tymeslot' && github.server_url == 'https://github.com'
     env:
       GITLEAKS_VERSION: "8.30.0"
       # sha256 of gitleaks_8.30.0_linux_x64.tar.gz, from the release's

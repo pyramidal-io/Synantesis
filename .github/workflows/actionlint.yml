@@ -15,7 +15,7 @@ jobs:
   actionlint:
     runs-on: ubuntu-latest
     # Only run on GitHub, not Gitea
-    if: github.server_url == 'https://github.com'
+    if: github.repository == 'Tymeslot/tymeslot' && github.server_url == 'https://github.com'
     env:
       ACTIONLINT_VERSION: "1.7.7"
       # sha256 of actionlint_1.7.7_linux_amd64.tar.gz, from the release's
