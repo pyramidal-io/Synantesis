@@ -18,6 +18,9 @@ localhost.
 `scripts/ci/verify.sh` preserves the upstream per-change Verify sequence:
 formatting, compilation, CSS token checks, Credo, Sobelow, both dependency
 audits, migration safety, ExUnit, Vitest, Gettext extraction and Dialyzer.
+ExUnit runs as an unprivileged user without the runner's proxy variables: the
+application adopts those variables at boot, and root ignores the file
+permissions that denied-access tests depend on.
 Upstream nightly excluded suites, flake hunts, browser E2E and binary release
 signing require separate qualification before they are enabled here.
 
