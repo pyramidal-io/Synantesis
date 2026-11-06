@@ -9,7 +9,7 @@ jobs:
   verify:
     runs-on: ubuntu-latest
     # Only run on GitHub, not Gitea
-    if: github.server_url == 'https://github.com'
+    if: github.repository == 'Tymeslot/tymeslot' && github.server_url == 'https://github.com'
     services:
       postgres:
         image: postgres:16

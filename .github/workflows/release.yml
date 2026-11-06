@@ -9,7 +9,7 @@ on:
 jobs:
   release:
     runs-on: ubuntu-latest
-    if: github.server_url == 'https://github.com'
+    if: github.repository == 'Tymeslot/tymeslot' && github.server_url == 'https://github.com'
     permissions:
       contents: write
 
