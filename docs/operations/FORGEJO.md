@@ -11,7 +11,7 @@ sockets or shared caches.
 `scripts/ci/install-toolchains.sh` verifies pinned downloads of OTP 28.5.0.7,
 Elixir 1.20.4, Node 22.23.2 and git-cliff 2.12.0. It installs Hex 2.5.1 and
 checksum-verified rebar3 3.27.0. The workflow sets a UTF-8 locale explicitly.
-PostgreSQL 16 is a digest-pinned job service without host-published ports.
+PostgreSQL 17 is a digest-pinned job service without host-published ports.
 `TEST_DB_HOST` selects its hostname; local test runs continue to default to
 localhost.
 
