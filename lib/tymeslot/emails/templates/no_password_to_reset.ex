@@ -49,7 +49,7 @@ defmodule Tymeslot.Emails.Templates.NoPasswordToReset do
 
     #{Text.centered_text(explanation(provider), padding: "0 0 20px 0")}
 
-    #{Buttons.action_button(@intent, dgettext("emails_account", "Sign In to Tymeslot"), sign_in_url, full_width: true, size: :large)}
+    #{Buttons.action_button(@intent, dgettext("emails_account", "Sign In to Synantesis"), sign_in_url, full_width: true, size: :large)}
 
     #{Text.system_footer_note(dgettext("emails_account", "If you didn't ask to reset your password, you can ignore this email. Nothing about your account has changed."))}
 
@@ -80,7 +80,7 @@ defmodule Tymeslot.Emails.Templates.NoPasswordToReset do
 
     #{explanation(provider)}
 
-    #{dgettext("emails_account", "Sign In to Tymeslot:")}
+    #{dgettext("emails_account", "Sign In to Synantesis:")}
     #{sign_in_url}
 
     #{dgettext("emails_account", "If you didn't ask to reset your password, you can ignore this email. Nothing about your account has changed.")}

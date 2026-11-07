@@ -54,7 +54,7 @@ defmodule Tymeslot.Emails.Templates.SignupAttemptNotice do
 
     #{Text.centered_text(explanation(user), padding: "0 0 20px 0")}
 
-    #{Buttons.action_button(@intent, dgettext("emails_account", "Sign In to Tymeslot"), sign_in_url, full_width: true, size: :large)}
+    #{Buttons.action_button(@intent, dgettext("emails_account", "Sign In to Synantesis"), sign_in_url, full_width: true, size: :large)}
 
     #{reset_section(user, reset_url)}
 
@@ -80,7 +80,7 @@ defmodule Tymeslot.Emails.Templates.SignupAttemptNotice do
 
     #{explanation(user)}
 
-    #{dgettext("emails_account", "Sign In to Tymeslot:")}
+    #{dgettext("emails_account", "Sign In to Synantesis:")}
     #{sign_in_url}
     #{reset_text(user, reset_url)}
     #{dgettext("emails_account", "If it wasn't you, you can ignore this email. No new account was created and nothing about your account has changed.")}

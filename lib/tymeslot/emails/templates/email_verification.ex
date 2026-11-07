@@ -37,7 +37,7 @@ defmodule Tymeslot.Emails.Templates.EmailVerification do
 
     #{Buttons.action_button(@intent, dgettext("emails_account", "Confirm Email & Get Started"), verification_url, full_width: true, size: :large)}
 
-    #{Text.system_footer_note(dgettext("emails_account", "For your security, this link expires in 24 hours. If you didn't sign up for Tymeslot, you can ignore this email."))}
+    #{Text.system_footer_note(dgettext("emails_account", "For your security, this link expires in 24 hours. If you didn't sign up for Synantesis, you can ignore this email."))}
 
     #{Text.divider(margin: "28px 0 16px 0")}
 
@@ -57,7 +57,7 @@ defmodule Tymeslot.Emails.Templates.EmailVerification do
 
   defp text_body(user, verification_url) do
     """
-    #{dgettext("emails_account", "Welcome to Tymeslot!")}
+    #{dgettext("emails_account", "Welcome to Synantesis!")}
 
     #{Greeting.text(user)}
 
@@ -66,7 +66,7 @@ defmodule Tymeslot.Emails.Templates.EmailVerification do
     #{dgettext("emails_account", "Confirm Email & Get Started:")}
     #{verification_url}
 
-    #{dgettext("emails_account", "For your security, this link expires in 24 hours. If you didn't sign up for Tymeslot, no further action is needed.")}
+    #{dgettext("emails_account", "For your security, this link expires in 24 hours. If you didn't sign up for Synantesis, no further action is needed.")}
     """
   end
 end

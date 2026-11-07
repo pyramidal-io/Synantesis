@@ -9,6 +9,7 @@ defmodule TymeslotWeb.SchedulingOgMetaTest do
   import Tymeslot.Factory
   import Mox
 
+  alias Tymeslot.SourceRevision
   alias TymeslotWeb.Endpoint
   alias TymeslotWeb.Layouts
 
@@ -59,12 +60,12 @@ defmodule TymeslotWeb.SchedulingOgMetaTest do
       assert html =~ ~s(<meta property="og:type" content="profile")
       assert html =~ ~s(<meta property="og:site_name" content="Synantesis")
 
-      assert [{"a", attrs, _}] =
+      assert [{"a", attrs, _children}] =
                html
                |> Floki.parse_document!()
                |> Floki.find("[data-booker-root] [data-source-link]")
 
-      {source_url, _exact?} = Tymeslot.SourceRevision.link()
+      {source_url, _exact?} = SourceRevision.link()
       assert {"href", source_url} in attrs
     end
 

@@ -123,7 +123,7 @@ defmodule Tymeslot.Emails.Templates.CalendarSyncError do
     """
     #{dgettext("emails_integrations", "Calendar Sync Error - Manual Action Required")}
 
-    #{dgettext("emails_integrations", "I was unable to add this meeting to your calendar. The appointment has been successfully confirmed in Tymeslot and both you and the attendee have received confirmation emails. However, you'll need to manually add it to your calendar.")}
+    #{dgettext("emails_integrations", "I was unable to add this meeting to your calendar. The appointment has been successfully confirmed in Synantesis and both you and the attendee have received confirmation emails. However, you'll need to manually add it to your calendar.")}
 
     #{dgettext("emails_integrations", "MEETING DETAILS:")}
     #{dgettext("emails_integrations", "Date:")} #{Formatting.format_date(owner_start_time, locale)}

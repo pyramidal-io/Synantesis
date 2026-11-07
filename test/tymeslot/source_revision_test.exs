@@ -1,5 +1,6 @@
 defmodule Tymeslot.SourceRevisionTest do
   use ExUnit.Case, async: true
+  @moduletag :legal
 
   alias Tymeslot.SourceRevision
 

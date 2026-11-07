@@ -545,8 +545,3 @@ msgstr ""
 #, elixir-autogen, elixir-format
 msgid "Synantesis can no longer use your %{integration} integration, and it will stay that way until you replace it. The reason is shown above. Until then your booking page may not offer times or take bookings, because Synantesis will not offer a time it cannot check against this calendar or book one into it. Your existing bookings are not affected."
 msgstr ""
-
-#: lib/tymeslot/emails/templates/calendar_sync_error.ex
-#, elixir-autogen, elixir-format
-msgid "I was unable to add this meeting to your calendar. The appointment has been successfully confirmed in Tymeslot and both you and the attendee have received confirmation emails. However, you'll need to manually add it to your calendar."
-msgstr ""

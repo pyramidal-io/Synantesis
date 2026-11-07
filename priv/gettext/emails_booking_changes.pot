@@ -690,20 +690,20 @@ msgstr ""
 
 #: lib/tymeslot/emails/templates/external_booking_change.ex
 #, elixir-autogen, elixir-format
-msgid "If the meeting is no longer happening, please cancel it in Tymeslot so the attendee is notified and the time slot is freed up."
+msgid "If the meeting is no longer happening, please cancel it in Synantesis so the attendee is notified and the time slot is freed up."
 msgstr ""
 
 #: lib/tymeslot/emails/templates/external_booking_change.ex
 #, elixir-autogen, elixir-format
-msgid "The meeting \"%{title}\" was deleted from your external calendar but is still active in Tymeslot."
+msgid "The meeting \"%{title}\" was deleted from your external calendar but is still active in Synantesis."
 msgstr ""
 
 #: lib/tymeslot/emails/templates/external_booking_change.ex
 #, elixir-autogen, elixir-format
-msgid "The meeting \"%{title}\" was rescheduled in your external calendar. Tymeslot still holds the original booking shown below."
+msgid "The meeting \"%{title}\" was rescheduled in your external calendar. Synantesis still holds the original booking shown below."
 msgstr ""
 
 #: lib/tymeslot/emails/templates/external_booking_change.ex
 #, elixir-autogen, elixir-format
-msgid "This meeting was <strong>removed from your external calendar</strong> but is still active in Tymeslot. If the meeting is no longer happening, please cancel it in Tymeslot so the attendee is notified and the time slot is freed up."
+msgid "This meeting was <strong>removed from your external calendar</strong> but is still active in Synantesis. If the meeting is no longer happening, please cancel it in Synantesis so the attendee is notified and the time slot is freed up."
 msgstr ""

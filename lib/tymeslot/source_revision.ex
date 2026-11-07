@@ -8,7 +8,7 @@ defmodule Tymeslot.SourceRevision do
   @spec link(String.t() | nil) :: {String.t(), boolean()}
   def link(revision \\ @revision)
 
-  def link(<<_::binary-size(40)>> = revision) do
+  def link(<<_bytes::binary-size(40)>> = revision) do
     if Regex.match?(~r/\A[0-9a-f]{40}\z/, revision) do
       {"#{@repository}/tree/#{revision}", true}
     else
