@@ -2,9 +2,9 @@
 
 The native workflow is `.forgejo/workflows/ci.yml`. It validates the exact
 candidate commit on pull requests to `main`, and runs again on pushes to main.
-Manual runs are restricted to main. The two jobs use the isolated general PR
-runner and do not reference stored secrets, trusted release runners, Docker
-sockets or shared caches.
+Manual runs are restricted to main. Verify and Policy use the isolated general
+PR runner and Dialyzer uses the isolated heavy runner. No job references stored
+secrets, trusted release runners, Docker sockets or shared caches.
 
 ## Verify
 
@@ -17,9 +17,22 @@ localhost.
 
 `scripts/ci/verify.sh` preserves the upstream per-change Verify sequence:
 formatting, compilation, CSS token checks, Credo, Sobelow, both dependency
-audits, migration safety, ExUnit, Vitest, Gettext extraction and Dialyzer.
+audits, migration safety, ExUnit, Vitest and Gettext extraction.
+ExUnit runs as an unprivileged user without the runner's proxy variables: the
+application adopts those variables at boot, and root ignores the file
+permissions that denied-access tests depend on.
 Upstream nightly excluded suites, flake hunts, browser E2E and binary release
 signing require separate qualification before they are enabled here.
+
+## Dialyzer
+
+Dialyzer completes the upstream Verify sequence in its own job. There is no
+shared cache, so every run builds its PLT from scratch, which exceeds the
+general runner's 6 GiB cap. `scripts/ci/dialyzer.sh` runs on
+`forgejo-untrusted-heavy-v1` (8 CPU, 8 GiB) and prints the job's peak memory.
+The label has no runner-side gate and one slot, so
+`scripts/ci/check-workflows.py` names this as the only job that may select it,
+and it cannot use services.
 
 ## Policy
 
@@ -33,6 +46,7 @@ After actual native qualification, maintainers configure protected main to
 require these exact contexts:
 
 - `Synantesis CI / Verify (pull_request)`
+- `Synantesis CI / Dialyzer (pull_request)`
 - `Synantesis CI / Policy (pull_request)`
 
 The inherited GitHub workflows are restricted to the upstream repository,

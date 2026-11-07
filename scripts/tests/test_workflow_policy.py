@@ -69,6 +69,14 @@ class WorkflowPolicyTest(unittest.TestCase):
         source = (ROOT / ".forgejo/workflows/ci.yml").read_text()
         for altered in (
             source.replace("forgejo-untrusted-pr-v1", "forgejo-trusted-control-v1"),
+            source.replace("forgejo-untrusted-heavy-v1", "forgejo-trusted-control-v1"),
+            source.replace("forgejo-untrusted-pr-v1", "forgejo-untrusted-heavy-v1"),
+            source.replace("forgejo-untrusted-heavy-v1", "forgejo-untrusted-pr-v1"),
+            source.replace(
+                "runs-on: forgejo-untrusted-heavy-v1",
+                "runs-on: forgejo-untrusted-heavy-v1\n"
+                "    services:\n      postgres:\n        image: postgres:17",
+            ),
             source.replace("MIX_ENV: test", "MIX_ENV: ${{ secrets.TOKEN }}"),
             source.replace("MIX_ENV: test", "MIX_ENV: ${{ github.token }}"),
             source.replace("MIX_ENV: test", "MIX_ENV: ${{ secrets['TOKEN'] }}"),
@@ -82,6 +90,7 @@ class WorkflowPolicyTest(unittest.TestCase):
             source.replace("persist-credentials: false", "persist-credentials: true"),
             source.replace("pull_request:", "pull_request_target:"),
             source.replace("name: Verify", "name: Disabled"),
+            source.replace("name: Dialyzer", "name: Disabled"),
             source.replace(
                 "- name: Run application gates",
                 "- if: github['token']\n        name: Run application gates",
