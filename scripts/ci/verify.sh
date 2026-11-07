@@ -33,4 +33,3 @@ run_tests
 npm ci --prefix assets
 mix test.js
 MIX_ENV=dev mix gettext.extract --check-up-to-date
-MIX_ENV=dev mix dialyzer.incremental --list-unused-filters

@@ -16,6 +16,14 @@ ALLOWED_EXPRESSIONS = {
     "github.event.before",
 }
 GUARD = "github.event_name == 'pull_request' || github.ref == 'refs/heads/main'"
+GENERAL_RUNNER = "forgejo-untrusted-pr-v1"
+# A cold Dialyzer run exceeds the general 6 GiB cap. The heavy label has no
+# runner-side gate, so this is the only job allowed to select it.
+JOBS = {
+    "verify": ("Verify", GENERAL_RUNNER),
+    "dialyzer": ("Dialyzer", "forgejo-untrusted-heavy-v1"),
+    "policy": ("Policy", GENERAL_RUNNER),
+}
 
 
 def validate(path: Path) -> None:
@@ -37,13 +45,16 @@ def validate(path: Path) -> None:
                 "workflow expression is outside the approved metadata inputs"
             )
     jobs = workflow.get("jobs", {})
-    if workflow.get("name") != "Synantesis CI" or set(jobs) != {"verify", "policy"}:
-        raise ValueError("the Verify and Policy gates must both exist")
-    if {job.get("name") for job in jobs.values()} != {"Verify", "Policy"}:
-        raise ValueError("required gate names must remain stable")
-    for job in jobs.values():
-        if job.get("runs-on") != "forgejo-untrusted-pr-v1" or job.get("if") != GUARD:
+    if workflow.get("name") != "Synantesis CI" or set(jobs) != set(JOBS):
+        raise ValueError("the Verify, Dialyzer and Policy gates must all exist")
+    for key, job in jobs.items():
+        name, runner = JOBS[key]
+        if job.get("name") != name:
+            raise ValueError("required gate names must remain stable")
+        if job.get("runs-on") != runner or job.get("if") != GUARD:
             raise ValueError("job must use the isolated tier and main-ref guard")
+        if runner != GENERAL_RUNNER and "services" in job:
+            raise ValueError("heavy jobs cannot use service containers")
         if not 1 <= int(job.get("timeout-minutes", "0")) <= 180:
             raise ValueError("job timeout must be bounded")
         if set(job) & {"uses", "secrets", "container", "permissions"}:
