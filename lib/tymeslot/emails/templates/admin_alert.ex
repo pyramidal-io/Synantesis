@@ -22,7 +22,7 @@ defmodule Tymeslot.Emails.Templates.AdminAlert do
 
   @doc """
   The alert email to the operator at `recipient`. Its subject is
-  `"[<SEVERITY>] Tymeslot: <category>"`, so an inbox rule can file or page on
+  `"[<SEVERITY>] Synantesis: <category>"`, so an inbox rule can file or page on
   the severity; only an error carries the warning sign.
   """
   @spec render(
@@ -34,14 +34,14 @@ defmodule Tymeslot.Emails.Templates.AdminAlert do
         ) :: Email.t()
   def render(recipient, category, severity, message, metadata) do
     MjmlEmail.base_email()
-    |> Email.to({"Tymeslot Operator", recipient})
+    |> Email.to({"Synantesis Operator", recipient})
     |> Email.subject(subject(category, severity))
     |> Email.html_body(html_body(category, severity, message, metadata))
     |> Email.text_body(text_body(category, severity, message, metadata))
   end
 
-  defp subject(category, :error), do: "[ERROR] ⚠️ Tymeslot: #{category}"
-  defp subject(category, severity), do: "[#{severity_label(severity)}] Tymeslot: #{category}"
+  defp subject(category, :error), do: "[ERROR] ⚠️ Synantesis: #{category}"
+  defp subject(category, severity), do: "[#{severity_label(severity)}] Synantesis: #{category}"
 
   defp html_body(category, severity, message, metadata) do
     callout_intent = severity_to_intent(severity)
@@ -55,12 +55,12 @@ defmodule Tymeslot.Emails.Templates.AdminAlert do
 
     #{Text.divider()}
 
-    #{Text.system_footer_note("This is an automated alert from Tymeslot. If you are self-hosting and would like to help debug this issue, you can share the report above (redacting any sensitive values) via a GitHub issue at https://github.com/Tymeslot/tymeslot/issues.")}
+    #{Text.system_footer_note("This is an automated alert from Tymeslot. If you are self-hosting and would like to help debug this issue, you can share the report above (redacting any sensitive values) via a GitHub issue at https://github.com/pyramidal-io/Synantesis/issues.")}
     """
 
     TemplateHelper.compile_system_template(
       mjml_content,
-      "Tymeslot Admin Alert",
+      "Synantesis Admin Alert",
       "#{category}: #{message}",
       intent: @intent,
       eyebrow: "Admin",
@@ -84,7 +84,7 @@ defmodule Tymeslot.Emails.Templates.AdminAlert do
     ---
     This is an automated alert from Tymeslot.
     Self-hosters: to help debug this issue, please share the report above
-    (redacting any sensitive values) via https://github.com/Tymeslot/tymeslot/issues.
+    (redacting any sensitive values) via https://github.com/pyramidal-io/Synantesis/issues.
     """
   end
 

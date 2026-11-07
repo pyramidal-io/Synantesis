@@ -149,7 +149,7 @@ defmodule Tymeslot.Emails.Templates.ConnectAccountRestricted do
     do:
       dgettext(
         "emails_payments",
-        "Once Stripe is satisfied, your account state updates automatically. Nothing more is needed on Tymeslot's side."
+        "Once Stripe is satisfied, your account state updates automatically. Nothing more is needed on Synantesis's side."
       )
 
   # The account's state as label and value, the same in both parts; a state

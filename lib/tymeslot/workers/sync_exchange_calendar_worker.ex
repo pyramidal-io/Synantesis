@@ -74,7 +74,7 @@ defmodule Tymeslot.Workers.SyncExchangeCalendarWorker do
   @no_mailbox "Exchange integration has no addressable mailbox"
   @server_refused "Exchange server refused the sync request"
   @server_error "Exchange server returned a server error; the next scheduled sync will retry"
-  @too_large "Exchange server returned more data than Tymeslot can process at once"
+  @too_large "Exchange server returned more data than Synantesis can process at once"
 
   @impl ExpectedJobOutcome
   def expected_outcome?(reason) when is_binary(reason) do
@@ -132,7 +132,7 @@ defmodule Tymeslot.Workers.SyncExchangeCalendarWorker do
       integration,
       dgettext_noop(
         "integrations_calendar",
-        "Tymeslot needs the mailbox's email address to read its free/busy time. Please reconnect the integration and provide it."
+        "Synantesis needs the mailbox's email address to read its free/busy time. Please reconnect the integration and provide it."
       ),
       @no_mailbox
     )
@@ -230,7 +230,7 @@ defmodule Tymeslot.Workers.SyncExchangeCalendarWorker do
   def sync_error_message(:no_response_code) do
     dgettext_noop(
       "integrations_calendar",
-      "The Exchange server answered the free/busy request with nothing Tymeslot could read. Retrying rather than treating your diary as free."
+      "The Exchange server answered the free/busy request with nothing Synantesis could read. Retrying rather than treating your diary as free."
     )
   end
 

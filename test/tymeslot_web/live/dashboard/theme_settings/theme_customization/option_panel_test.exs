@@ -211,7 +211,7 @@ defmodule TymeslotWeb.Dashboard.ThemeSettings.ThemeCustomization.OptionPanelTest
     assert choices(html, "preset") == ["tymeslot", "cobalt"]
     assert html =~ "Akzentfarbe"
     assert html =~ "Kobalt"
-    assert html =~ "Tymeslot"
+    assert html =~ "Synantesis"
   end
 
   test "the accent and font panels press the default for a stored id they do not offer" do

@@ -279,7 +279,7 @@ msgstr ""
 
 #: lib/tymeslot_web/components/dashboard/appointments/appointment_details.ex
 #, elixir-autogen, elixir-format
-msgid "Booked through your Tymeslot page"
+msgid "Booked through your Synantesis page"
 msgstr ""
 
 #: lib/tymeslot_web/components/dashboard/appointments/appointment_details.ex

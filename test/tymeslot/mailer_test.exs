@@ -25,7 +25,7 @@ defmodule Tymeslot.MailerTest do
 
   defp build_email do
     new()
-    |> from({"Tymeslot", "hello@tymeslot.app"})
+    |> from({"Synantesis", "hello@tymeslot.app"})
     |> to({"Test", "test@example.com"})
     |> subject("Subject")
     |> text_body("Body")

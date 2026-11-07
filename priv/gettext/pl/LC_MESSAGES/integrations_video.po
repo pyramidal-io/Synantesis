@@ -81,8 +81,8 @@ msgstr "Bazowy adres URL musi być tekstem"
 
 #: lib/tymeslot/integrations/video/providers/nextcloud_talk/booking_conversation.ex
 #, elixir-autogen, elixir-format
-msgid "Booked through Tymeslot."
-msgstr "Zarezerwowano przez Tymeslot."
+msgid "Booked through Synantesis."
+msgstr "Zarezerwowano przez Synantesis."
 
 #: lib/tymeslot/integrations/video/providers/nextcloud_talk_provider.ex
 #, elixir-autogen, elixir-format
@@ -352,8 +352,8 @@ msgstr "Nextcloud nie znalazł Talk pod tym adresem. Sprawdź, czy aplikacja Tal
 
 #: lib/tymeslot/integrations/video/providers/nextcloud_talk_provider.ex
 #, elixir-autogen, elixir-format
-msgid "Nextcloud is refusing requests from Tymeslot for now, usually after too many failed logins. Wait a few minutes before trying again."
-msgstr "Nextcloud tymczasowo odrzuca żądania z Tymeslot, zwykle po zbyt wielu nieudanych logowaniach. Odczekaj kilka minut, zanim spróbujesz ponownie."
+msgid "Nextcloud is refusing requests from Synantesis for now, usually after too many failed logins. Wait a few minutes before trying again."
+msgstr "Nextcloud tymczasowo odrzuca żądania z Synantesis, zwykle po zbyt wielu nieudanych logowaniach. Odczekaj kilka minut, zanim spróbujesz ponownie."
 
 #: lib/tymeslot/integrations/video/room_creation_error.ex
 #, elixir-autogen, elixir-format
@@ -477,8 +477,8 @@ msgstr "Serwer przekierował żądanie. Wpisz adres zaczynający się od https:/
 
 #: lib/tymeslot/integrations/video/providers/nextcloud_talk_provider.ex
 #, elixir-autogen, elixir-format
-msgid "This Nextcloud Talk is too old. Tymeslot needs Talk 21.1 or later."
-msgstr "Ta wersja Nextcloud Talk jest za stara. Tymeslot wymaga Talk 21.1 lub nowszego."
+msgid "This Nextcloud Talk is too old. Synantesis needs Talk 21.1 or later."
+msgstr "Ta wersja Nextcloud Talk jest za stara. Synantesis wymaga Talk 21.1 lub nowszego."
 
 #: lib/tymeslot/integrations/video/room_creation_error.ex
 #, elixir-autogen, elixir-format

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f5f1ff"/>
+  <circle cx="1130" cy="40" r="310" fill="#ebe3ff"/>
+  <circle cx="42" cy="622" r="225" fill="#ffebe4"/>
+  <g transform="translate(510 114) scale(2.8125)">
+  <rect width="64" height="64" rx="15" fill="#24204f"/>
+  <path d="M14 17h5c7 0 9 15 16 15h15" fill="none" stroke="#c6baff" stroke-width="5" stroke-linecap="round"/>
+  <path d="M14 47h5c7 0 9-15 16-15h15" fill="none" stroke="#ffb49b" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="49" cy="32" r="5" fill="#fff5ed"/>
+  </g>
+  <text x="600" y="405" text-anchor="middle" font-family="Arial, sans-serif" font-size="82" font-weight="700" fill="#24204f">Synantesis</text>
+  <text x="600" y="473" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" fill="#514b73">Meeting scheduling</text>
+</svg>

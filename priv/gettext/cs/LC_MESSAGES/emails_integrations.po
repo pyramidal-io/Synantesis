@@ -103,8 +103,8 @@ msgstr "Podrobnosti chyby"
 
 #: lib/tymeslot/emails/templates/calendar_sync_error.ex
 #, elixir-autogen, elixir-format
-msgid "I was unable to add this meeting to your calendar. The appointment has been successfully confirmed in Tymeslot and both you and the attendee have received confirmation emails. However, you'll need to manually add it to your calendar."
-msgstr "Tuto schůzku se nepodařilo přidat do vašeho kalendáře. Ve službě Tymeslot je schůzka úspěšně potvrzena a potvrzovací e-maily byly odeslány vám i účastníkovi. Do kalendáře si ji ale budete muset přidat ručně."
+msgid "I was unable to add this meeting to your calendar. The appointment has been successfully confirmed in Synantesis and both you and the attendee have received confirmation emails. However, you'll need to manually add it to your calendar."
+msgstr "Tuto schůzku se nepodařilo přidat do vašeho kalendáře. Ve službě Synantesis je schůzka úspěšně potvrzena a potvrzovací e-maily byly odeslány vám i účastníkovi. Do kalendáře si ji ale budete muset přidat ručně."
 
 #: lib/tymeslot/emails/templates/calendars_removed.ex
 #: lib/tymeslot/emails/templates/integration_paused.ex
@@ -224,16 +224,16 @@ msgstr "Otevřít nastavení kalendáře"
 
 #: lib/tymeslot/emails/templates/calendars_removed.ex
 #, elixir-autogen, elixir-format
-msgid "These calendars are no longer on your calendar server, so Tymeslot has stopped using them:"
-msgstr "Tyto kalendáře už na vašem kalendářovém serveru nejsou, a proto je Tymeslot přestal používat:"
+msgid "These calendars are no longer on your calendar server, so Synantesis has stopped using them:"
+msgstr "Tyto kalendáře už na vašem kalendářovém serveru nejsou, a proto je Synantesis přestal používat:"
 
 #: lib/tymeslot/emails/templates/calendars_removed.ex
 #, elixir-autogen, elixir-format
-msgid "Tymeslot checked %{integration} and the server no longer has the calendar listed above. This usually means it was deleted, or stopped being shared with you, on the server. Your other calendars on %{integration} are unaffected."
-msgid_plural "Tymeslot checked %{integration} and the server no longer has the calendars listed above. This usually means they were deleted, or stopped being shared with you, on the server. Your other calendars on %{integration} are unaffected."
-msgstr[0] "Tymeslot zkontroloval integraci %{integration} a výše uvedený kalendář už na serveru není. Obvykle to znamená, že byl na serveru smazán nebo s vámi přestal být sdílen. Ostatních kalendářů v integraci %{integration} se to netýká."
-msgstr[1] "Tymeslot zkontroloval integraci %{integration} a výše uvedené kalendáře už na serveru nejsou. Obvykle to znamená, že byly na serveru smazány nebo s vámi přestaly být sdíleny. Ostatních kalendářů v integraci %{integration} se to netýká."
-msgstr[2] "Tymeslot zkontroloval integraci %{integration} a výše uvedené kalendáře už na serveru nejsou. Obvykle to znamená, že byly na serveru smazány nebo s vámi přestaly být sdíleny. Ostatních kalendářů v integraci %{integration} se to netýká."
+msgid "Synantesis checked %{integration} and the server no longer has the calendar listed above. This usually means it was deleted, or stopped being shared with you, on the server. Your other calendars on %{integration} are unaffected."
+msgid_plural "Synantesis checked %{integration} and the server no longer has the calendars listed above. This usually means they were deleted, or stopped being shared with you, on the server. Your other calendars on %{integration} are unaffected."
+msgstr[0] "Synantesis zkontroloval integraci %{integration} a výše uvedený kalendář už na serveru není. Obvykle to znamená, že byl na serveru smazán nebo s vámi přestal být sdílen. Ostatních kalendářů v integraci %{integration} se to netýká."
+msgstr[1] "Synantesis zkontroloval integraci %{integration} a výše uvedené kalendáře už na serveru nejsou. Obvykle to znamená, že byly na serveru smazány nebo s vámi přestaly být sdíleny. Ostatních kalendářů v integraci %{integration} se to netýká."
+msgstr[2] "Synantesis zkontroloval integraci %{integration} a výše uvedené kalendáře už na serveru nejsou. Obvykle to znamená, že byly na serveru smazány nebo s vámi přestaly být sdíleny. Ostatních kalendářů v integraci %{integration} se to netýká."
 
 #: lib/tymeslot/emails/templates/calendars_removed.ex
 #, elixir-autogen, elixir-format
@@ -247,8 +247,8 @@ msgstr "Kalendář „%{calendar}“ už na vašem kalendářovém serveru není
 
 #: lib/tymeslot/emails/templates/calendars_removed.ex
 #, elixir-autogen, elixir-format
-msgid "“%{calendar}” is no longer on your calendar server, so Tymeslot has stopped using it."
-msgstr "Kalendář „%{calendar}“ už na vašem kalendářovém serveru není, a proto ho Tymeslot přestal používat."
+msgid "“%{calendar}” is no longer on your calendar server, so Synantesis has stopped using it."
+msgstr "Kalendář „%{calendar}“ už na vašem kalendářovém serveru není, a proto ho Synantesis přestal používat."
 
 #: lib/tymeslot/emails/templates/calendar_sync_error.ex
 #, elixir-autogen, elixir-format
@@ -267,8 +267,8 @@ msgstr "kalendáře %{provider}"
 
 #: lib/tymeslot/emails/templates/integration_reauth_required.ex
 #, elixir-autogen, elixir-format
-msgid "%{provider} needs reconnecting before Tymeslot can use it again."
-msgstr "Integraci %{provider} je potřeba připojit znovu, aby ji Tymeslot mohl opět používat."
+msgid "%{provider} needs reconnecting before Synantesis can use it again."
+msgstr "Integraci %{provider} je potřeba připojit znovu, aby ji Synantesis mohl opět používat."
 
 #: lib/tymeslot/emails/shared/integration_labels.ex
 #, elixir-autogen, elixir-format
@@ -434,13 +434,13 @@ msgstr "Toto upozornění se posílá, když integrace nefunguje správně déle
 
 #: lib/tymeslot/emails/templates/integration_reauth_required.ex
 #, elixir-autogen, elixir-format
-msgid "Tymeslot can no longer use your %{integration} integration, and it will stay that way until you reconnect it. The reason is shown above. Your existing bookings are not affected."
-msgstr "Tymeslot už nemůže používat vaši integraci %{integration} a nebude to možné, dokud ji znovu nepřipojíte. Důvod je uvedený výše. Vašich stávajících rezervací se to netýká."
+msgid "Synantesis can no longer use your %{integration} integration, and it will stay that way until you reconnect it. The reason is shown above. Your existing bookings are not affected."
+msgstr "Synantesis už nemůže používat vaši integraci %{integration} a nebude to možné, dokud ji znovu nepřipojíte. Důvod je uvedený výše. Vašich stávajících rezervací se to netýká."
 
 #: lib/tymeslot/emails/templates/integration_reauth_required.ex
 #, elixir-autogen, elixir-format
-msgid "Tymeslot can no longer use your %{integration} integration, and it will stay that way until you update it. The reason is shown above. Your existing bookings are not affected."
-msgstr "Tymeslot už nemůže používat vaši integraci %{integration} a nebude to možné, dokud ji neaktualizujete. Důvod je uvedený výše. Vašich stávajících rezervací se to netýká."
+msgid "Synantesis can no longer use your %{integration} integration, and it will stay that way until you update it. The reason is shown above. Your existing bookings are not affected."
+msgstr "Synantesis už nemůže používat vaši integraci %{integration} a nebude to možné, dokud ji neaktualizujete. Důvod je uvedený výše. Vašich stávajících rezervací se to netýká."
 
 #: lib/tymeslot/emails/templates/integration_unhealthy.ex
 #, elixir-autogen, elixir-format
@@ -546,10 +546,10 @@ msgstr "Vaše kalendářová služba nebyla dostupná nebo neodpověděla správ
 
 #: lib/tymeslot/emails/templates/integration_reauth_required.ex
 #, elixir-autogen, elixir-format
-msgid "Tymeslot can no longer use your %{integration} integration, and it will stay that way until you reconnect it. The reason is shown above. Until then your booking page may not offer times or take bookings, because Tymeslot will not offer a time it cannot check against this calendar or book one into it. Your existing bookings are not affected."
-msgstr "Tymeslot už nemůže používat vaši integraci %{integration} a nebude to možné, dokud ji znovu nepřipojíte. Důvod je uvedený výše. Do té doby vaše rezervační stránka nemusí nabízet termíny ani přijímat rezervace, protože Tymeslot nenabídne termín, který nemůže ověřit v tomto kalendáři ani do něj zapsat. Vašich stávajících rezervací se to netýká."
+msgid "Synantesis can no longer use your %{integration} integration, and it will stay that way until you reconnect it. The reason is shown above. Until then your booking page may not offer times or take bookings, because Synantesis will not offer a time it cannot check against this calendar or book one into it. Your existing bookings are not affected."
+msgstr "Synantesis už nemůže používat vaši integraci %{integration} a nebude to možné, dokud ji znovu nepřipojíte. Důvod je uvedený výše. Do té doby vaše rezervační stránka nemusí nabízet termíny ani přijímat rezervace, protože Synantesis nenabídne termín, který nemůže ověřit v tomto kalendáři ani do něj zapsat. Vašich stávajících rezervací se to netýká."
 
 #: lib/tymeslot/emails/templates/integration_reauth_required.ex
 #, elixir-autogen, elixir-format
-msgid "Tymeslot can no longer use your %{integration} integration, and it will stay that way until you replace it. The reason is shown above. Until then your booking page may not offer times or take bookings, because Tymeslot will not offer a time it cannot check against this calendar or book one into it. Your existing bookings are not affected."
-msgstr "Tymeslot už nemůže používat vaši integraci %{integration} a nebude to možné, dokud ji nenahradíte. Důvod je uvedený výše. Do té doby vaše rezervační stránka nemusí nabízet termíny ani přijímat rezervace, protože Tymeslot nenabídne termín, který nemůže ověřit v tomto kalendáři ani do něj zapsat. Vašich stávajících rezervací se to netýká."
+msgid "Synantesis can no longer use your %{integration} integration, and it will stay that way until you replace it. The reason is shown above. Until then your booking page may not offer times or take bookings, because Synantesis will not offer a time it cannot check against this calendar or book one into it. Your existing bookings are not affected."
+msgstr "Synantesis už nemůže používat vaši integraci %{integration} a nebude to možné, dokud ji nenahradíte. Důvod je uvedený výše. Do té doby vaše rezervační stránka nemusí nabízet termíny ani přijímat rezervace, protože Synantesis nenabídne termín, který nemůže ověřit v tomto kalendáři ani do něj zapsat. Vašich stávajících rezervací se to netýká."

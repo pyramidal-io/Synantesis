@@ -58,7 +58,7 @@ defmodule TymeslotWeb.AdminLive.Components.Settings do
       <.info_box variant={:info}>
         {dgettext(
           "dashboard_admin",
-          "Changes here take effect immediately. A setting fixed by an environment variable, such as REGISTRATION_ENABLED, is greyed out and changes only when you edit that variable and restart Tymeslot."
+          "Changes here take effect immediately. A setting fixed by an environment variable, such as REGISTRATION_ENABLED, is greyed out and changes only when you edit that variable and restart Synantesis."
         )}
       </.info_box>
 

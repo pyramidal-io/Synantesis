@@ -45,7 +45,7 @@ defmodule TymeslotWeb.Components.Dashboard.Appointments.AppointmentDetailsTest d
 
   describe "the calendar line" do
     test "says a booking came through the booking page" do
-      assert details(entry(source: :tymeslot)) =~ "Booked through your Tymeslot page"
+      assert details(entry(source: :tymeslot)) =~ "Booked through your Synantesis page"
     end
 
     test "names the synced calendar an event sits in" do

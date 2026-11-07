@@ -124,7 +124,7 @@ defmodule TymeslotWeb.Dashboard.PaymentsSettingsComponent do
       <p class="text-token-sm text-tymeslot-700 mb-3">
         {dgettext(
           "dashboard_payments",
-          "Disconnect your Stripe account from Tymeslot. Existing payments remain visible. New paid bookings will fail until you reconnect."
+          "Disconnect your Stripe account from Synantesis. Existing payments remain visible. New paid bookings will fail until you reconnect."
         )}
       </p>
       <.action_button
@@ -248,7 +248,7 @@ defmodule TymeslotWeb.Dashboard.PaymentsSettingsComponent do
       Flash.error(
         dgettext(
           "dashboard_payments",
-          "This payment can no longer be refunded from Tymeslot. Refunds older than 60 days must be processed in your Stripe dashboard."
+          "This payment can no longer be refunded from Synantesis. Refunds older than 60 days must be processed in your Stripe dashboard."
         )
       )
 

@@ -113,7 +113,7 @@ defmodule Tymeslot.Release.ChangelogConfigsTest do
   defp git!(repo, args) do
     identity = [
       "-c",
-      "user.name=Tymeslot Test",
+      "user.name=Synantesis Test",
       "-c",
       "user.email=test@example.com",
       "-c",

@@ -1,5 +1,5 @@
 #!/bin/bash
-# build-docker.sh - Build and run Tymeslot Docker container
+# build-docker.sh - Build and run Synantesis Docker container
 #
 # This script:
 #   1. Validates that a .env configuration file exists
@@ -25,7 +25,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$SCRIPT_DIR"
 
 echo "========================================"
-echo "Building Tymeslot Docker container"
+echo "Building Synantesis Docker container"
 echo "========================================"
 echo ""
 
@@ -119,11 +119,16 @@ echo "Building Docker image..."
 echo "========================================"
 echo ""
 
-# Build the Docker image from Dockerfile.docker and tag it as 'tymeslot:local'
+# Build the Docker image from Dockerfile.docker and tag it as 'synantesis:local'
 # Build context is the current directory (the repository root). The tag matches
 # docker-compose.build.yml, and stays clear of the published luka1thb/tymeslot
 # image that docker-compose.yml pulls.
-docker build -f Dockerfile.docker -t tymeslot:local .
+if [ -n "$(git status --porcelain)" ]; then
+    echo "Commit the source changes before building a revision-pinned Synantesis image." >&2
+    exit 1
+fi
+docker build -f Dockerfile.docker -t synantesis:local \
+    --build-arg SYNANTESIS_SOURCE_REVISION="$(git rev-parse HEAD)" .
 
 echo ""
 echo "========================================"
@@ -133,20 +138,20 @@ echo "========================================"
 # ==================== SECTION 5: Interactive Container Startup ====================
 # Ask the user if they want to start the container immediately
 echo ""
-read -p "Would you like to run Tymeslot now? (y/n): " -n 1 -r
+read -p "Would you like to run Synantesis now? (y/n): " -n 1 -r
 echo ""
 
 if [[ $REPLY =~ ^[Yy]$ ]]; then
     echo ""
     echo "========================================"
-    echo "Starting Tymeslot container..."
+    echo "Starting Synantesis container..."
     echo "========================================"
     echo ""
 
     # Clean up any existing container with the same name to avoid conflicts
     # This allows re-running the script without manual cleanup
     if docker ps -a -q -f name=tymeslot | grep -q .; then
-        echo "Cleaning up existing Tymeslot container..."
+        echo "Cleaning up existing Synantesis container..."
         docker stop tymeslot >/dev/null 2>&1 || true
         docker rm tymeslot >/dev/null 2>&1 || true
         echo "✓ Cleanup completed"
@@ -164,12 +169,12 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
         --env-file .env \
         -v tymeslot_data:/app/data \
         -v tymeslot_pg:/var/lib/postgresql/data \
-        tymeslot:local
+        synantesis:local
 
     # Display startup information and helpful next steps
     echo ""
     echo "========================================"
-    echo "✓ Tymeslot container started!"
+    echo "✓ Synantesis container started!"
     echo "========================================"
     echo ""
     echo "Access your application at:"
@@ -193,7 +198,7 @@ else
     echo "✓ Build complete!"
     echo "========================================"
     echo ""
-    echo "To run Tymeslot manually:"
+    echo "To run Synantesis manually:"
     echo ""
     echo "Using docker run:"
     echo "  docker run -d --name tymeslot \\"
@@ -201,7 +206,7 @@ else
     echo "    --env-file .env \\"
     echo "    -v tymeslot_data:/app/data \\"
     echo "    -v tymeslot_pg:/var/lib/postgresql/data \\"
-    echo "    tymeslot:local"
+    echo "    synantesis:local"
     echo ""
     echo "Or using Docker Compose (recommended):"
     echo "  docker compose -f docker-compose.build.yml up -d"

@@ -81,7 +81,7 @@ msgstr ""
 
 #: lib/tymeslot/integrations/video/providers/nextcloud_talk/booking_conversation.ex
 #, elixir-autogen, elixir-format
-msgid "Booked through Tymeslot."
+msgid "Booked through Synantesis."
 msgstr ""
 
 #: lib/tymeslot/integrations/video/providers/nextcloud_talk_provider.ex
@@ -352,7 +352,7 @@ msgstr ""
 
 #: lib/tymeslot/integrations/video/providers/nextcloud_talk_provider.ex
 #, elixir-autogen, elixir-format
-msgid "Nextcloud is refusing requests from Tymeslot for now, usually after too many failed logins. Wait a few minutes before trying again."
+msgid "Nextcloud is refusing requests from Synantesis for now, usually after too many failed logins. Wait a few minutes before trying again."
 msgstr ""
 
 #: lib/tymeslot/integrations/video/room_creation_error.ex
@@ -477,7 +477,7 @@ msgstr ""
 
 #: lib/tymeslot/integrations/video/providers/nextcloud_talk_provider.ex
 #, elixir-autogen, elixir-format
-msgid "This Nextcloud Talk is too old. Tymeslot needs Talk 21.1 or later."
+msgid "This Nextcloud Talk is too old. Synantesis needs Talk 21.1 or later."
 msgstr ""
 
 #: lib/tymeslot/integrations/video/room_creation_error.ex

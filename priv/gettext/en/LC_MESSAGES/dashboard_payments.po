@@ -127,12 +127,12 @@ msgstr ""
 
 #: lib/tymeslot_web/live/dashboard/payments_settings_component.ex
 #, elixir-autogen, elixir-format
-msgid "Disconnect your Stripe account from Tymeslot. Existing payments remain visible. New paid bookings will fail until you reconnect."
+msgid "Disconnect your Stripe account from Synantesis. Existing payments remain visible. New paid bookings will fail until you reconnect."
 msgstr ""
 
 #: lib/tymeslot_web/live/dashboard/payments_settings/disconnect_modal.ex
 #, elixir-autogen, elixir-format
-msgid "Disconnect your Stripe account from Tymeslot? Existing payments remain visible, but new paid bookings will fail until you reconnect."
+msgid "Disconnect your Stripe account from Synantesis? Existing payments remain visible, but new paid bookings will fail until you reconnect."
 msgstr ""
 
 #: lib/tymeslot_web/live/dashboard/payments_settings/status_card.ex
@@ -330,7 +330,7 @@ msgstr ""
 
 #: lib/tymeslot_web/live/dashboard/payments_settings/refund_modal.ex
 #, elixir-autogen, elixir-format
-msgid "The attendee receives the full amount you refund. Tymeslot's platform fee is reversed proportionally; Stripe processing fees on the original charge stay with you."
+msgid "The attendee receives the full amount you refund. Synantesis's platform fee is reversed proportionally; Stripe processing fees on the original charge stay with you."
 msgstr ""
 
 #: lib/tymeslot_web/live/dashboard/payments_settings_component.ex
@@ -340,7 +340,7 @@ msgstr ""
 
 #: lib/tymeslot_web/live/dashboard/payments_settings_component.ex
 #, elixir-autogen, elixir-format
-msgid "This payment can no longer be refunded from Tymeslot. Refunds older than 60 days must be processed in your Stripe dashboard."
+msgid "This payment can no longer be refunded from Synantesis. Refunds older than 60 days must be processed in your Stripe dashboard."
 msgstr ""
 
 #: lib/tymeslot_web/live/dashboard/payments_settings_component.ex

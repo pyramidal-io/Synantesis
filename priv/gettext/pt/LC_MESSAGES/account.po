@@ -315,8 +315,8 @@ msgstr "Até lá, ela fica congelada e sua página de agendamento fica fora do a
 
 #: lib/tymeslot_web/live/account_live/danger_zone.ex
 #, elixir-autogen, elixir-format
-msgid "Upcoming bookings are deleted from Tymeslot and your guests are not notified."
-msgstr "Os próximos agendamentos são excluídos do Tymeslot e seus convidados não são avisados."
+msgid "Upcoming bookings are deleted from Synantesis and your guests are not notified."
+msgstr "Os próximos agendamentos são excluídos do Synantesis e seus convidados não são avisados."
 
 #: lib/tymeslot_web/live/account_live/delete_account_modal.ex
 #, elixir-autogen, elixir-format
@@ -345,8 +345,8 @@ msgstr "Sua conta será excluída em %{date}. Entre antes disso se mudar de idei
 
 #: lib/tymeslot_web/live/account_live/delete_account_modal.ex
 #, elixir-autogen, elixir-format
-msgid "Your upcoming bookings will be deleted from Tymeslot. Your guests will not be notified."
-msgstr "Seus próximos agendamentos serão excluídos do Tymeslot. Seus convidados não serão avisados."
+msgid "Your upcoming bookings will be deleted from Synantesis. Your guests will not be notified."
+msgstr "Seus próximos agendamentos serão excluídos do Synantesis. Seus convidados não serão avisados."
 
 #: lib/tymeslot_web/live/account_live/danger_zone.ex
 #, elixir-autogen, elixir-format

@@ -158,8 +158,8 @@ msgstr "Створити"
 
 #: lib/tymeslot_web/live/dashboard/calendar_grid/modals/event_detail_modal.ex
 #, elixir-autogen, elixir-format
-msgid "Created by Tymeslot"
-msgstr "Створено Tymeslot"
+msgid "Created by Synantesis"
+msgstr "Створено Synantesis"
 
 #: lib/tymeslot_web/live/dashboard/calendar_grid/modals/create_event_modal.ex
 #, elixir-autogen, elixir-format
@@ -604,8 +604,8 @@ msgstr "перед подією"
 
 #: lib/tymeslot_web/live/dashboard/calendar_grid/event_handlers/shared.ex
 #, elixir-autogen, elixir-format
-msgid "This calendar is read-only. Events on it can't be changed from Tymeslot."
-msgstr "Цей календар доступний лише для перегляду. Події в ньому не можна змінювати з Tymeslot."
+msgid "This calendar is read-only. Events on it can't be changed from Synantesis."
+msgstr "Цей календар доступний лише для перегляду. Події в ньому не можна змінювати з Synantesis."
 
 #: lib/tymeslot_web/live/dashboard/calendar_grid/write_outcome_messages.ex
 #, elixir-autogen, elixir-format
@@ -940,8 +940,8 @@ msgstr[2] "Додайте до %{count} листів-нагадувань для
 
 #: lib/tymeslot_web/live/dashboard/calendar_grid/edit_workflow.ex
 #, elixir-autogen, elixir-format
-msgid "Someone else organises this meeting, so Tymeslot can't move or split a series you were only invited to."
-msgstr "Цю зустріч організовує хтось інший, тому Tymeslot не може перенести чи розділити серію, до якої вас лише запросили."
+msgid "Someone else organises this meeting, so Synantesis can't move or split a series you were only invited to."
+msgstr "Цю зустріч організовує хтось інший, тому Synantesis не може перенести чи розділити серію, до якої вас лише запросили."
 
 #: lib/tymeslot_web/live/dashboard/calendar_grid/event_handlers/shared.ex
 #, elixir-autogen, elixir-format

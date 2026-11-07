@@ -58,7 +58,7 @@ defmodule Tymeslot.Emails.Templates.SocialSignupConfirmation do
     TemplateHelper.compile_system_template(
       mjml_content,
       dgettext("emails_account", "Account Verification"),
-      dgettext("emails_account", "Confirm your email to finish signing up for Tymeslot."),
+      dgettext("emails_account", "Confirm your email to finish signing up for Synantesis."),
       intent: @intent,
       eyebrow: dgettext("emails_account", "Welcome"),
       stage_title: dgettext("emails_account", "One step to go"),
@@ -84,7 +84,7 @@ defmodule Tymeslot.Emails.Templates.SocialSignupConfirmation do
   defp explanation(provider) do
     dgettext(
       "emails_account",
-      "You're signing up for Tymeslot with %{provider}. Confirm this email address to create your account and sign in.",
+      "You're signing up for Synantesis with %{provider}. Confirm this email address to create your account and sign in.",
       provider: SignInProvider.display_name(%{provider: provider})
     )
   end
@@ -92,7 +92,7 @@ defmodule Tymeslot.Emails.Templates.SocialSignupConfirmation do
   defp footer do
     dgettext(
       "emails_account",
-      "This link expires in 24 hours. If you didn't sign up for Tymeslot, you can ignore this email and no account will be created."
+      "This link expires in 24 hours. If you didn't sign up for Synantesis, you can ignore this email and no account will be created."
     )
   end
 end

@@ -138,8 +138,8 @@ msgstr "Toto časové pásmo se použije pro vaši dostupnost a plánování."
 
 #: lib/tymeslot_web/components/core_components/brand.ex
 #, elixir-autogen, elixir-format
-msgid "Tymeslot logo"
-msgstr "Logo Tymeslot"
+msgid "Synantesis logo"
+msgstr "Logo Synantesis"
 
 #: lib/tymeslot_web/components/timezone_dropdown.ex
 #, elixir-autogen, elixir-format
@@ -198,8 +198,8 @@ msgstr "Zobrazit na GitHubu"
 
 #: lib/tymeslot_web/components/site_components.ex
 #, elixir-autogen, elixir-format
-msgid "© %{year} Tymeslot. All rights reserved."
-msgstr "© %{year} Tymeslot. Všechna práva vyhrazena."
+msgid "© %{year} Synantesis. All rights reserved."
+msgstr "© %{year} Synantesis. Všechna práva vyhrazena."
 
 #: lib/tymeslot_web/components/core_components/containers.ex
 #, elixir-autogen, elixir-format
@@ -375,3 +375,11 @@ msgstr "Načítání"
 #, elixir-autogen, elixir-format
 msgid "✓ Acknowledged"
 msgstr "✓ Potvrzeno"
+
+#: lib/tymeslot_web/components/core_components/brand.ex
+msgid "Source code for this version (AGPLv3)"
+msgstr "Zdrojový kód této verze (AGPLv3)"
+
+#: lib/tymeslot_web/components/core_components/brand.ex
+msgid "Source repository (AGPLv3)"
+msgstr "Repozitář zdrojového kódu (AGPLv3)"

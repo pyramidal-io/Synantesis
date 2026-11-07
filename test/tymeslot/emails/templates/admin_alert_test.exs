@@ -8,14 +8,14 @@ defmodule Tymeslot.Emails.Templates.AdminAlertTest do
     test "goes to the operator, under a subject carrying the severity" do
       email = AdminAlert.render("ops@example.com", "Payments", :warning, "Payment failed", %{})
 
-      assert email.to == [{"Tymeslot Operator", "ops@example.com"}]
-      assert email.subject == "[WARNING] Tymeslot: Payments"
+      assert email.to == [{"Synantesis Operator", "ops@example.com"}]
+      assert email.subject == "[WARNING] Synantesis: Payments"
     end
 
     test "marks an error with the warning sign" do
       email = AdminAlert.render("ops@example.com", "Payments", :error, "Payment failed", %{})
 
-      assert email.subject == "[ERROR] ⚠️ Tymeslot: Payments"
+      assert email.subject == "[ERROR] ⚠️ Synantesis: Payments"
     end
 
     test "stays in English whatever the process locale" do
@@ -55,7 +55,7 @@ defmodule Tymeslot.Emails.Templates.AdminAlertTest do
         AdminAlert.render("ops@example.com", "General", :warning, "Test alert", %{}).html_body
 
       assert html =~ "<!doctype html>"
-      assert html =~ "<title>Tymeslot Admin Alert</title>"
+      assert html =~ "<title>Synantesis Admin Alert</title>"
       assert html =~ "Test alert"
       assert String.ends_with?(String.trim(html), "</html>")
     end

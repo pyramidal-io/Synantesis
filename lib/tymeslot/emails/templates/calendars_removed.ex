@@ -70,8 +70,8 @@ defmodule Tymeslot.Emails.Templates.CalendarsRemoved do
       happening:
         dngettext(
           "emails_integrations",
-          "Tymeslot checked %{integration} and the server no longer has the calendar listed above. This usually means it was deleted, or stopped being shared with you, on the server. Your other calendars on %{integration} are unaffected.",
-          "Tymeslot checked %{integration} and the server no longer has the calendars listed above. This usually means they were deleted, or stopped being shared with you, on the server. Your other calendars on %{integration} are unaffected.",
+          "Synantesis checked %{integration} and the server no longer has the calendar listed above. This usually means it was deleted, or stopped being shared with you, on the server. Your other calendars on %{integration} are unaffected.",
+          "Synantesis checked %{integration} and the server no longer has the calendars listed above. This usually means they were deleted, or stopped being shared with you, on the server. Your other calendars on %{integration} are unaffected.",
           count,
           integration: integration.name
         ),
@@ -96,7 +96,7 @@ defmodule Tymeslot.Emails.Templates.CalendarsRemoved do
   defp reason([calendar]) do
     dgettext(
       "emails_integrations",
-      "“%{calendar}” is no longer on your calendar server, so Tymeslot has stopped using it.",
+      "“%{calendar}” is no longer on your calendar server, so Synantesis has stopped using it.",
       calendar: calendar
     )
   end
@@ -104,7 +104,7 @@ defmodule Tymeslot.Emails.Templates.CalendarsRemoved do
   defp reason(_calendars) do
     dgettext(
       "emails_integrations",
-      "These calendars are no longer on your calendar server, so Tymeslot has stopped using them:"
+      "These calendars are no longer on your calendar server, so Synantesis has stopped using them:"
     )
   end
 

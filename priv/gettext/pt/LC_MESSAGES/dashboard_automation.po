@@ -85,8 +85,8 @@ msgstr "Fechar"
 
 #: lib/tymeslot_web/live/dashboard/automation/webhook_documentation.ex
 #, elixir-autogen, elixir-format
-msgid "Configure in Tymeslot"
-msgstr "Configurar no Tymeslot"
+msgid "Configure in Synantesis"
+msgstr "Configurar no Synantesis"
 
 #: lib/tymeslot_web/live/dashboard/automation/webhook_form_component.ex
 #, elixir-autogen, elixir-format
@@ -95,8 +95,8 @@ msgstr "Configure as informações básicas do seu webhook."
 
 #: lib/tymeslot_web/live/dashboard/automation/webhook_documentation.ex
 #, elixir-autogen, elixir-format
-msgid "Connect Tymeslot to n8n, Zapier, Make, or your custom automation workflows"
-msgstr "Conecte o Tymeslot ao n8n, Zapier, Make ou aos seus próprios fluxos de automação"
+msgid "Connect Synantesis to n8n, Zapier, Make, or your custom automation workflows"
+msgstr "Conecte o Synantesis ao n8n, Zapier, Make ou aos seus próprios fluxos de automação"
 
 #: lib/tymeslot_web/live/dashboard/automation/helpers.ex
 #, elixir-autogen, elixir-format
@@ -414,8 +414,8 @@ msgstr "Use isto na verificação de cabeçalho do seu n8n/Zapier"
 
 #: lib/tymeslot_web/live/dashboard/automation/webhook_documentation.ex
 #, elixir-autogen, elixir-format
-msgid "Verify the token in your automation tool to ensure requests are from Tymeslot."
-msgstr "Verifique o token na sua ferramenta de automação para garantir que as requisições vêm do Tymeslot."
+msgid "Verify the token in your automation tool to ensure requests are from Synantesis."
+msgstr "Verifique o token na sua ferramenta de automação para garantir que as requisições vêm do Synantesis."
 
 #: lib/tymeslot_web/live/dashboard/automation/webhook_documentation.ex
 #, elixir-autogen, elixir-format

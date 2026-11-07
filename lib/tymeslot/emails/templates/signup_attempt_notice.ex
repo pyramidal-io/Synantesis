@@ -42,7 +42,7 @@ defmodule Tymeslot.Emails.Templates.SignupAttemptNotice do
     RecipientLocale.with_user_locale(user, fn ->
       MjmlEmail.base_email()
       |> Email.to({user.name || user.email, user.email})
-      |> Email.subject(dgettext("emails_account", "You already have a Tymeslot account"))
+      |> Email.subject(dgettext("emails_account", "You already have a Synantesis account"))
       |> Email.html_body(html_body(user, sign_in_url, reset_url))
       |> Email.text_body(text_body(user, sign_in_url, reset_url))
     end)
@@ -54,7 +54,7 @@ defmodule Tymeslot.Emails.Templates.SignupAttemptNotice do
 
     #{Text.centered_text(explanation(user), padding: "0 0 20px 0")}
 
-    #{Buttons.action_button(@intent, dgettext("emails_account", "Sign In to Tymeslot"), sign_in_url, full_width: true, size: :large)}
+    #{Buttons.action_button(@intent, dgettext("emails_account", "Sign In to Synantesis"), sign_in_url, full_width: true, size: :large)}
 
     #{reset_section(user, reset_url)}
 
@@ -80,7 +80,7 @@ defmodule Tymeslot.Emails.Templates.SignupAttemptNotice do
 
     #{explanation(user)}
 
-    #{dgettext("emails_account", "Sign In to Tymeslot:")}
+    #{dgettext("emails_account", "Sign In to Synantesis:")}
     #{sign_in_url}
     #{reset_text(user, reset_url)}
     #{dgettext("emails_account", "If it wasn't you, you can ignore this email. No new account was created and nothing about your account has changed.")}
@@ -92,7 +92,7 @@ defmodule Tymeslot.Emails.Templates.SignupAttemptNotice do
   defp explanation(%{deletion_scheduled_at: %DateTime{} = at} = user) do
     dgettext(
       "emails_account",
-      "Someone just tried to create a new Tymeslot account with this email address. It belongs to an account that is scheduled for deletion on %{date}. If it was you, sign in before then to restore that account, or sign up again after that date.",
+      "Someone just tried to create a new Synantesis account with this email address. It belongs to an account that is scheduled for deletion on %{date}. If it was you, sign in before then to restore that account, or sign up again after that date.",
       date:
         at
         |> Policy.user_local_date(user.id)
@@ -106,13 +106,13 @@ defmodule Tymeslot.Emails.Templates.SignupAttemptNotice do
     if SignInProvider.social?(user) do
       dgettext(
         "emails_account",
-        "Someone just tried to create a new Tymeslot account with this email address, which already has an account. If it was you, sign in with %{provider} below.",
+        "Someone just tried to create a new Synantesis account with this email address, which already has an account. If it was you, sign in with %{provider} below.",
         provider: SignInProvider.display_name(user)
       )
     else
       dgettext(
         "emails_account",
-        "Someone just tried to create a new Tymeslot account with this email address, which already has an account. If it was you, sign in below, or reset your password if you can't remember it."
+        "Someone just tried to create a new Synantesis account with this email address, which already has an account. If it was you, sign in below, or reset your password if you can't remember it."
       )
     end
   end

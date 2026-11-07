@@ -34,7 +34,7 @@ defmodule TymeslotWeb.AuthLive.PageMetaHelper do
       {dgettext("auth", "Log In"),
        dgettext(
          "auth",
-         "Sign in to your Tymeslot account to manage scheduling links, availability, and bookings."
+         "Sign in to your Synantesis account to manage scheduling links, availability, and bookings."
        )}
 
   defp page_meta_for_state(:signup),
@@ -42,7 +42,7 @@ defmodule TymeslotWeb.AuthLive.PageMetaHelper do
       {dgettext("auth", "Create an Account"),
        dgettext(
          "auth",
-         "Create a Tymeslot account and start sharing your availability in minutes. No credit card required."
+         "Create a Synantesis account and start sharing your availability in minutes. No credit card required."
        )}
 
   defp page_meta_for_state(:reset_password),
@@ -50,13 +50,13 @@ defmodule TymeslotWeb.AuthLive.PageMetaHelper do
       {dgettext("auth", "Reset Password"),
        dgettext(
          "auth",
-         "Enter your email to receive a password reset link for your Tymeslot account."
+         "Enter your email to receive a password reset link for your Synantesis account."
        )}
 
   defp page_meta_for_state(:reset_password_form),
     do:
       {dgettext("auth", "Choose a New Password"),
-       dgettext("auth", "Choose a strong new password for your Tymeslot account.")}
+       dgettext("auth", "Choose a strong new password for your Synantesis account.")}
 
   defp page_meta_for_state(_state), do: nil
 end

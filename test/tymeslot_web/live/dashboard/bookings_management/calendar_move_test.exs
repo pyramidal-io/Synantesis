@@ -145,7 +145,7 @@ defmodule TymeslotWeb.Dashboard.BookingsManagement.CalendarMoveTest do
     html = render(view)
 
     assert html =~
-             "Tymeslot is still updating your calendar for this booking. Please try again in a moment."
+             "Synantesis is still updating your calendar for this booking. Please try again in a moment."
 
     refute html =~ "Your calendar now has this meeting at"
     refute has_element?(view, "[phx-click=show_calendar_move_modal]")
@@ -209,7 +209,7 @@ defmodule TymeslotWeb.Dashboard.BookingsManagement.CalendarMoveTest do
     view |> element("[data-testid=confirm-calendar-move]") |> render_click()
 
     assert render(view) =~
-             "Tymeslot could not move this booking. Another booking already starts at that time."
+             "Synantesis could not move this booking. Another booking already starts at that time."
 
     {:ok, unchanged} = MeetingQueries.get_meeting(meeting.id)
     assert unchanged.start_time == meeting.start_time
@@ -226,7 +226,7 @@ defmodule TymeslotWeb.Dashboard.BookingsManagement.CalendarMoveTest do
 
     view |> element("[phx-click=show_calendar_move_modal]") |> render_click()
 
-    assert render(view) =~ "Tymeslot is still updating your calendar"
+    assert render(view) =~ "Synantesis is still updating your calendar"
     refute has_element?(view, "[phx-click=show_calendar_move_modal]")
   end
 

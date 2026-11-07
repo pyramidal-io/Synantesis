@@ -61,7 +61,7 @@ defmodule Tymeslot.Onboarding.DashboardTour do
         anchor: nil,
         placement: :center,
         requires: nil,
-        title: dgettext("onboarding", "Welcome to your Tymeslot dashboard"),
+        title: dgettext("onboarding", "Welcome to your Synantesis dashboard"),
         body: dgettext("onboarding", "Take 30 seconds to learn where everything lives.")
       },
       %{

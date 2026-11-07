@@ -14,7 +14,7 @@ env:
 # arm64 under QEMU on an amd64 runner made a single release take ~50 minutes.
 jobs:
   build:
-    # Only run on GitHub, not Gitea
+    # The inherited publisher targets the upstream registry.
     if: github.repository == 'Tymeslot/tymeslot' && github.server_url == 'https://github.com'
     strategy:
       fail-fast: true
@@ -51,6 +51,7 @@ jobs:
         with:
           context: .
           file: ./Dockerfile.docker
+          build-args: SYNANTESIS_SOURCE_REVISION=${{ github.sha }}
           platforms: linux/${{ matrix.arch }}
           labels: ${{ steps.meta.outputs.labels }}
           tags: ${{ env.IMAGE }}
@@ -67,6 +68,7 @@ jobs:
         with:
           context: .
           file: ./Dockerfile.docker
+          build-args: SYNANTESIS_SOURCE_REVISION=${{ github.sha }}
           target: release-slim
           platforms: linux/${{ matrix.arch }}
           labels: ${{ steps.meta.outputs.labels }}

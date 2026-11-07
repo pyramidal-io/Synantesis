@@ -18,7 +18,7 @@ defmodule TymeslotWeb.AdminLive.Components.SupportBox do
 
   @repo_url "https://github.com/Tymeslot/tymeslot"
   @sponsor_url "https://github.com/sponsors/Tymeslot"
-  @new_issue_url "https://github.com/Tymeslot/tymeslot/issues/new"
+  @new_issue_url "https://github.com/pyramidal-io/Synantesis/issues/new"
 
   attr :alerts_ready, :boolean,
     required: true,
@@ -39,11 +39,11 @@ defmodule TymeslotWeb.AdminLive.Components.SupportBox do
       tag="aside"
       class="mt-12"
       icon="hero-heart"
-      title={dgettext("dashboard_admin", "Support Tymeslot")}
+      title={dgettext("dashboard_admin", "Support Tymeslot upstream")}
       description={
         dgettext(
           "dashboard_admin",
-          "Tymeslot is free to self-host. If it is useful to you, here are three ways to help it grow."
+          "Synantesis is free to self-host. If it is useful to you, here are three ways to help it grow."
         )
       }
     >

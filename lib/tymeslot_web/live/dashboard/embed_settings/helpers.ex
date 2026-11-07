@@ -86,7 +86,7 @@ defmodule TymeslotWeb.Live.Dashboard.EmbedSettings.Helpers do
       ])
 
     String.trim("""
-    <!-- Tymeslot Inline -->
+    <!-- Synantesis Inline -->
     <div id="tymeslot-booking" data-username="#{username}"#{attrs}></div>
     <script src="#{base_url}/embed.js" async></script>
     """)
@@ -108,7 +108,7 @@ defmodule TymeslotWeb.Live.Dashboard.EmbedSettings.Helpers do
       )
 
     String.trim("""
-    <!-- Tymeslot Popup -->
+    <!-- Synantesis Popup -->
     <button onclick="if(window.TymeslotBooking){TymeslotBooking.open('#{username}'#{js_options})}else{alert('#{unavailable}')}">#{label}</button>
     <script src="#{base_url}/embed.js" async></script>
     """)
@@ -133,7 +133,7 @@ defmodule TymeslotWeb.Live.Dashboard.EmbedSettings.Helpers do
     js_options = build_js_options(options)
 
     String.trim("""
-    <!-- Tymeslot Floating Button -->
+    <!-- Synantesis Floating Button -->
     <script src="#{base_url}/embed.js" async></script>
     <script>
       (function() {

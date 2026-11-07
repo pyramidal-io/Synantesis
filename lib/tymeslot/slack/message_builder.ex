@@ -104,7 +104,7 @@ defmodule Tymeslot.Slack.MessageBuilder do
   @spec build_test_blocks() :: [map()]
   def build_test_blocks do
     [
-      header("Tymeslot test message"),
+      header("Synantesis test message"),
       section_text(
         "If you can see this, your Slack integration is configured correctly. " <>
           "You'll start receiving notifications when meetings are booked, " <>
@@ -218,7 +218,7 @@ defmodule Tymeslot.Slack.MessageBuilder do
                   "type" => "button",
                   "text" => %{
                     "type" => "plain_text",
-                    "text" => "Open in Tymeslot",
+                    "text" => "Open in Synantesis",
                     "emoji" => true
                   },
                   "url" => url,

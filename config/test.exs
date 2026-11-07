@@ -228,7 +228,7 @@ config :tymeslot, :mirotalk_api,
 from_email = System.get_env("EMAIL_FROM_ADDRESS") || "hello@tymeslot.app"
 
 config :tymeslot, :email,
-  from_name: System.get_env("EMAIL_FROM_NAME") || "Tymeslot",
+  from_name: System.get_env("EMAIL_FROM_NAME") || "Synantesis",
   from_email: from_email,
   support_email: System.get_env("EMAIL_SUPPORT_ADDRESS") || from_email,
   contact_recipient: System.get_env("EMAIL_CONTACT_RECIPIENT") || from_email,

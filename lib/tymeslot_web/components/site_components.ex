@@ -415,7 +415,7 @@ defmodule TymeslotWeb.Components.SiteComponents do
         <%!-- Bottom bar --%>
         <div class="border-t border-tymeslot-700 pt-6 flex flex-col sm:flex-row justify-between items-center gap-3">
           <p class="text-tymeslot-500 text-token-xs">
-            {dgettext("common", "© %{year} Tymeslot. All rights reserved.",
+            {dgettext("common", "© %{year} Synantesis. All rights reserved.",
               year: DateTime.utc_now().year
             )} · v{to_string(Application.spec(:tymeslot, :vsn))}
           </p>

@@ -37,7 +37,7 @@ defmodule Tymeslot.Workers.TransactionalEmailDeliveryTest do
   defp valid_email do
     Email.new(
       to: [{"Recipient", "recipient@example.com"}],
-      from: {"Tymeslot", "noreply@example.com"},
+      from: {"Synantesis", "noreply@example.com"},
       subject: "Test subject",
       text_body: "Plain-text body.",
       html_body: "<p>HTML body.</p>"

@@ -153,8 +153,8 @@ msgstr "Neplatný token pro obnovení hesla"
 
 #: lib/tymeslot_web/components/auth/registration/signup_component.ex
 #, elixir-autogen, elixir-format
-msgid "Join Tymeslot"
-msgstr "Vytvořte si účet Tymeslot"
+msgid "Join Synantesis"
+msgstr "Vytvořte si účet Synantesis"
 
 #: lib/tymeslot_web/components/auth/session/password_reset_component.ex
 #, elixir-autogen, elixir-format
@@ -176,8 +176,8 @@ msgstr "Přihlásit se"
 
 #: lib/tymeslot_web/components/auth/session/login_component.ex
 #, elixir-autogen, elixir-format
-msgid "Log in to Tymeslot"
-msgstr "Přihlášení do služby Tymeslot"
+msgid "Log in to Synantesis"
+msgstr "Přihlášení do služby Synantesis"
 
 #: lib/tymeslot_web/controllers/auth/session_controller.ex
 #, elixir-autogen, elixir-format
@@ -480,13 +480,13 @@ msgstr "Nastavení nového hesla"
 
 #: lib/tymeslot_web/live/auth_live/page_meta_helper.ex
 #, elixir-autogen, elixir-format
-msgid "Choose a strong new password for your Tymeslot account."
-msgstr "Zvolte si silné nové heslo pro svůj účet Tymeslot."
+msgid "Choose a strong new password for your Synantesis account."
+msgstr "Zvolte si silné nové heslo pro svůj účet Synantesis."
 
 #: lib/tymeslot_web/live/auth_live/page_meta_helper.ex
 #, elixir-autogen, elixir-format
-msgid "Create a Tymeslot account and start sharing your availability in minutes. No credit card required."
-msgstr "Vytvořte si účet Tymeslot a během několika minut začněte sdílet svou dostupnost. Bez platební karty."
+msgid "Create a Synantesis account and start sharing your availability in minutes. No credit card required."
+msgstr "Vytvořte si účet Synantesis a během několika minut začněte sdílet svou dostupnost. Bez platební karty."
 
 #: lib/tymeslot_web/live/auth_live/page_meta_helper.ex
 #, elixir-autogen, elixir-format
@@ -505,8 +505,8 @@ msgstr "K dokončení registrace je potřeba e-mailová adresa. Zadejte prosím
 
 #: lib/tymeslot_web/live/auth_live/page_meta_helper.ex
 #, elixir-autogen, elixir-format
-msgid "Enter your email to receive a password reset link for your Tymeslot account."
-msgstr "Zadejte svůj e-mail a pošleme vám odkaz pro obnovení hesla k účtu Tymeslot."
+msgid "Enter your email to receive a password reset link for your Synantesis account."
+msgstr "Zadejte svůj e-mail a pošleme vám odkaz pro obnovení hesla k účtu Synantesis."
 
 #: lib/tymeslot/auth/registration.ex
 #: lib/tymeslot_web/controllers/auth/helpers/controller_helpers.ex
@@ -536,8 +536,8 @@ msgstr "Registrace se nezdařila kvůli chybám ve formuláři. Zkontrolujte pr
 
 #: lib/tymeslot_web/live/auth_live/page_meta_helper.ex
 #, elixir-autogen, elixir-format
-msgid "Sign in to your Tymeslot account to manage scheduling links, availability, and bookings."
-msgstr "Přihlaste se ke svému účtu Tymeslot a spravujte rezervační odkazy, dostupnost a rezervace."
+msgid "Sign in to your Synantesis account to manage scheduling links, availability, and bookings."
+msgstr "Přihlaste se ke svému účtu Synantesis a spravujte rezervační odkazy, dostupnost a rezervace."
 
 #: lib/tymeslot/auth/error_formatter.ex
 #, elixir-autogen, elixir-format

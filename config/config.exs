@@ -1,5 +1,11 @@
 import Config
 
+source_revision =
+  [System.get_env("SYNANTESIS_SOURCE_REVISION"), System.get_env("RAILWAY_GIT_COMMIT_SHA")]
+  |> Enum.find(&(&1 not in [nil, ""]))
+
+config :tymeslot, :source_revision, source_revision
+
 # =============================================================================
 # TYMESLOT CORE: BASE CONFIGURATION
 # =============================================================================

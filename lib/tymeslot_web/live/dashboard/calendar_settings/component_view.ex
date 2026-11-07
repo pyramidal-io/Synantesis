@@ -121,7 +121,7 @@ defmodule TymeslotWeb.Dashboard.CalendarSettings.ComponentView do
       description={
         dgettext(
           "dashboard_calendar_settings",
-          "Connect a calendar so Tymeslot can read your availability and stop meetings being booked when you're already busy."
+          "Connect a calendar so Synantesis can read your availability and stop meetings being booked when you're already busy."
         )
       }
     >

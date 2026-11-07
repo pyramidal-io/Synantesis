@@ -48,7 +48,7 @@ defmodule Tymeslot.Emails.Templates.PasswordReset do
     TemplateHelper.compile_system_template(
       mjml_content,
       dgettext("emails_account", "Account Security"),
-      dgettext("emails_account", "Instructions to reset your Tymeslot password."),
+      dgettext("emails_account", "Instructions to reset your Synantesis password."),
       intent: @intent,
       eyebrow: dgettext("emails_account", "Security"),
       stage_title: dgettext("emails_account", "Reset your password"),

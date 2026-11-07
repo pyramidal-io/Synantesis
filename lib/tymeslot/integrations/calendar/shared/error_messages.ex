@@ -162,7 +162,7 @@ defmodule Tymeslot.Integrations.Calendar.Shared.ErrorMessages do
   def specific_message({:calendar_listing_too_large, url}, _provider) do
     dgettext(
       "integrations_calendar",
-      "The calendar server at %{url} listed more items than Tymeslot can process at once. If this address points at a single calendar, enter your account's server address instead, and Tymeslot will find your calendars there.",
+      "The calendar server at %{url} listed more items than Synantesis can process at once. If this address points at a single calendar, enter your account's server address instead, and Synantesis will find your calendars there.",
       url: url
     )
   end
@@ -185,7 +185,7 @@ defmodule Tymeslot.Integrations.Calendar.Shared.ErrorMessages do
   def specific_message(:response_too_large, _provider) do
     dgettext(
       "integrations_calendar",
-      "The calendar server returned more data than Tymeslot can process at once."
+      "The calendar server returned more data than Synantesis can process at once."
     )
   end
 

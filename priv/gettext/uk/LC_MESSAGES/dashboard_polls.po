@@ -832,8 +832,8 @@ msgstr "Підключіть календар, щоб створити опит�
 
 #: lib/tymeslot_web/live/dashboard/polls/poll_list.ex
 #, elixir-autogen, elixir-format
-msgid "Guests vote on a page that opens once your calendar is connected, so Tymeslot can flag the times you're busy and book the winner without double-booking you."
-msgstr "Гості голосують на сторінці, яка відкривається лише після підключення вашого календаря. Так Tymeslot зможе позначити час, коли ви зайняті, і забронювати варіант-переможець без накладок у розкладі."
+msgid "Guests vote on a page that opens once your calendar is connected, so Synantesis can flag the times you're busy and book the winner without double-booking you."
+msgstr "Гості голосують на сторінці, яка відкривається лише після підключення вашого календаря. Так Synantesis зможе позначити час, коли ви зайняті, і забронювати варіант-переможець без накладок у розкладі."
 
 #: lib/tymeslot_web/live/dashboard/polls/confirm_slot_modal.ex
 #, elixir-autogen, elixir-format

@@ -90,7 +90,7 @@ defmodule Tymeslot.Slack.ErrorMessages do
     do:
       dgettext(
         "dashboard_automation_chat",
-        "Channel not accessible. If it's a private channel, invite the Tymeslot bot first."
+        "Channel not accessible. If it's a private channel, invite the Synantesis bot first."
       )
 
   defp translate_error_code(code) when code in ["token_revoked", "account_inactive"],

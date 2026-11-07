@@ -819,8 +819,8 @@ msgstr "Conecte um calendário para criar uma enquete"
 
 #: lib/tymeslot_web/live/dashboard/polls/poll_list.ex
 #, elixir-autogen, elixir-format
-msgid "Guests vote on a page that opens once your calendar is connected, so Tymeslot can flag the times you're busy and book the winner without double-booking you."
-msgstr "Os convidados votam em uma página que só abre depois que seu calendário estiver conectado. Assim, o Tymeslot pode sinalizar os horários em que você está ocupado e agendar o horário vencedor sem agendamentos duplicados."
+msgid "Guests vote on a page that opens once your calendar is connected, so Synantesis can flag the times you're busy and book the winner without double-booking you."
+msgstr "Os convidados votam em uma página que só abre depois que seu calendário estiver conectado. Assim, o Synantesis pode sinalizar os horários em que você está ocupado e agendar o horário vencedor sem agendamentos duplicados."
 
 #: lib/tymeslot_web/live/dashboard/polls/confirm_slot_modal.ex
 #, elixir-autogen, elixir-format

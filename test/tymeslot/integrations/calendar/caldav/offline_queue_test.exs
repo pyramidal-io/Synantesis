@@ -97,7 +97,7 @@ defmodule Tymeslot.Integrations.Calendar.CalDAV.OfflineQueueTest do
       # error term: an inspected atom such as `":server_error"` must never
       # reach it.
       assert reloaded.sync_last_error ==
-               "The calendar server reported an error. Tymeslot will retry automatically."
+               "The calendar server reported an error. Synantesis will retry automatically."
 
       refute reloaded.sync_last_error =~ ":server_error"
     end
@@ -334,7 +334,7 @@ defmodule Tymeslot.Integrations.Calendar.CalDAV.OfflineQueueTest do
       assert reloaded.sync_attempts == 0
 
       assert reloaded.sync_last_error ==
-               "The calendar server reported an error. Tymeslot will retry automatically."
+               "The calendar server reported an error. Synantesis will retry automatically."
     end
   end
 

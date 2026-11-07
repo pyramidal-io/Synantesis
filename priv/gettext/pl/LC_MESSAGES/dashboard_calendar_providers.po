@@ -394,8 +394,8 @@ msgstr "Kolor"
 
 #: lib/tymeslot_web/components/dashboard/integrations/calendar/calendar_selection_modal.ex
 #, elixir-autogen, elixir-format
-msgid "How this calendar's events are shown in your Tymeslot calendar."
-msgstr "Sposób wyświetlania wydarzeń z tego kalendarza w kalendarzu Tymeslot."
+msgid "How this calendar's events are shown in your Synantesis calendar."
+msgstr "Sposób wyświetlania wydarzeń z tego kalendarza w kalendarzu Synantesis."
 
 #: lib/tymeslot_web/components/dashboard/integrations/calendar/caldav_reconnect_modal.ex
 #: lib/tymeslot_web/components/dashboard/integrations/calendar/calendar_selection_modal.ex
@@ -516,8 +516,8 @@ msgstr "Tylko zajęte terminy"
 
 #: lib/tymeslot_web/components/dashboard/integrations/calendar/calendar_selection_modal.ex
 #, elixir-autogen, elixir-format
-msgid "Choose which calendars Tymeslot uses, and which of them block times on your booking page."
-msgstr "Wybierz, których kalendarzy używa Tymeslot i które z nich blokują terminy na twojej stronie rezerwacji."
+msgid "Choose which calendars Synantesis uses, and which of them block times on your booking page."
+msgstr "Wybierz, których kalendarzy używa Synantesis i które z nich blokują terminy na twojej stronie rezerwacji."
 
 #: lib/tymeslot_web/components/dashboard/integrations/calendar/calendar_selection_modal.ex
 #, elixir-autogen, elixir-format
@@ -551,8 +551,8 @@ msgstr "Tylko do odczytu"
 
 #: lib/tymeslot_web/components/dashboard/integrations/calendar/calendar_selection_modal.ex
 #, elixir-autogen, elixir-format
-msgid "Shared with you as busy times only. Tymeslot can block these times but cannot show the events."
-msgstr "Udostępniony ci tylko jako zajęte terminy. Tymeslot może blokować te terminy, ale nie może wyświetlać wydarzeń."
+msgid "Shared with you as busy times only. Synantesis can block these times but cannot show the events."
+msgstr "Udostępniony ci tylko jako zajęte terminy. Synantesis może blokować te terminy, ale nie może wyświetlać wydarzeń."
 
 #: lib/tymeslot_web/components/dashboard/integrations/calendar/calendar_selection_modal.ex
 #, elixir-autogen, elixir-format
@@ -636,5 +636,5 @@ msgstr "Jeśli od czasu połączenia stare hasło dla aplikacji zostało uniewa�
 
 #: lib/tymeslot_web/components/dashboard/integrations/calendar/shared_form_components.ex
 #, elixir-autogen, elixir-format
-msgid "Keep this password for as long as you use Tymeslot. Revoking it, or changing your Apple ID password, disconnects iCloud, and your booking page offers no times until you reconnect."
-msgstr "Zachowaj to hasło tak długo, jak korzystasz z Tymeslot. Unieważnienie go lub zmiana hasła do Apple ID odłącza iCloud, a strona rezerwacji nie oferuje żadnych terminów, dopóki ponownie nie połączysz iCloud."
+msgid "Keep this password for as long as you use Synantesis. Revoking it, or changing your Apple ID password, disconnects iCloud, and your booking page offers no times until you reconnect."
+msgstr "Zachowaj to hasło tak długo, jak korzystasz z Synantesis. Unieważnienie go lub zmiana hasła do Apple ID odłącza iCloud, a strona rezerwacji nie oferuje żadnych terminów, dopóki ponownie nie połączysz iCloud."

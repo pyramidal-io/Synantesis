@@ -74,7 +74,7 @@ defmodule TymeslotWeb.Dashboard.CalendarSettings.RemovedCalendarsTest do
       view |> render() |> Floki.parse_document!() |> Floki.find("[data-part='notice']")
 
     assert Enum.map(notices, &Floki.text/1) |> Enum.map(&String.trim/1) |> Enum.at(-1) ==
-             "“Projects” is no longer on your calendar server, so Tymeslot has stopped using it."
+             "“Projects” is no longer on your calendar server, so Synantesis has stopped using it."
 
     assert length(notices) == 2
     assert has_element?(dismiss_button(view, integration))
@@ -87,10 +87,10 @@ defmodule TymeslotWeb.Dashboard.CalendarSettings.RemovedCalendarsTest do
     {:ok, view, html} = live(conn, ~p"/dashboard/integrations?tab=calendars")
 
     assert html =~
-             "“Projects” is no longer on your calendar server, so Tymeslot has stopped using it."
+             "“Projects” is no longer on your calendar server, so Synantesis has stopped using it."
 
     assert html =~
-             "Home server: “Projects” is no longer on your calendar server, so Tymeslot has stopped using it."
+             "Home server: “Projects” is no longer on your calendar server, so Synantesis has stopped using it."
 
     view |> dismiss_button(integration) |> render_click()
 
@@ -158,10 +158,10 @@ defmodule TymeslotWeb.Dashboard.CalendarSettings.RemovedCalendarsTest do
     {:ok, _view, html} = live(conn, ~p"/dashboard/integrations?tab=calendars")
 
     assert html =~
-             "2 calendars are no longer on your calendar server, so Tymeslot has stopped using them: “Projects”, “Team”"
+             "2 calendars are no longer on your calendar server, so Synantesis has stopped using them: “Projects”, “Team”"
 
     assert html =~
-             "Home server: 2 calendars are no longer on your calendar server, so Tymeslot has stopped using them."
+             "Home server: 2 calendars are no longer on your calendar server, so Synantesis has stopped using them."
   end
 
   test "a calendar with nothing removed shows no notice and no Dismiss", %{

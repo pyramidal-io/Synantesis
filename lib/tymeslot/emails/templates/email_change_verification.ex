@@ -47,7 +47,7 @@ defmodule Tymeslot.Emails.Templates.EmailChangeVerification do
     color: Styles.ink(),
     padding: "8px 0 4px 0")}
 
-    #{Text.centered_text(dgettext("emails_account", "You asked to change the email address on your Tymeslot account. Confirm the new address below to finish the switch."),
+    #{Text.centered_text(dgettext("emails_account", "You asked to change the email address on your Synantesis account. Confirm the new address below to finish the switch."),
     font_size: "15px",
     color: Styles.ink_soft(),
     padding: "0 0 22px 0")}
@@ -73,7 +73,7 @@ defmodule Tymeslot.Emails.Templates.EmailChangeVerification do
     TemplateHelper.compile_system_template(
       mjml_content,
       dgettext("emails_account", "Verify your new email address"),
-      dgettext("emails_account", "Confirm the new email address on your Tymeslot account."),
+      dgettext("emails_account", "Confirm the new email address on your Synantesis account."),
       intent: @intent,
       eyebrow: dgettext("emails_account", "Verify"),
       stage_title: dgettext("emails_account", "Confirm your new email"),
@@ -121,7 +121,7 @@ defmodule Tymeslot.Emails.Templates.EmailChangeVerification do
 
     #{Greeting.text(user)}
 
-    #{dgettext("emails_account", "You asked to change the email address on your Tymeslot account to %{new_email}.", new_email: new_email)}
+    #{dgettext("emails_account", "You asked to change the email address on your Synantesis account to %{new_email}.", new_email: new_email)}
 
     #{dgettext("emails_account", "To confirm this change, visit the link below:")}
     #{verification_url}

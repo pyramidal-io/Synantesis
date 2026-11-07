@@ -43,7 +43,7 @@ defmodule TymeslotWeb.Dashboard.CalendarGrid.Modals.ImportIcsModal do
         <.info_box :if={@targets == []} variant={:info}>
           {dgettext(
             "dashboard_calendar_import",
-            "Connect a calendar Tymeslot can write to before importing events."
+            "Connect a calendar Synantesis can write to before importing events."
           )}
         </.info_box>
 

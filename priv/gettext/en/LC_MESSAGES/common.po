@@ -138,7 +138,7 @@ msgstr ""
 
 #: lib/tymeslot_web/components/core_components/brand.ex
 #, elixir-autogen, elixir-format
-msgid "Tymeslot logo"
+msgid "Synantesis logo"
 msgstr ""
 
 #: lib/tymeslot_web/components/timezone_dropdown.ex
@@ -198,7 +198,7 @@ msgstr ""
 
 #: lib/tymeslot_web/components/site_components.ex
 #, elixir-autogen, elixir-format
-msgid "© %{year} Tymeslot. All rights reserved."
+msgid "© %{year} Synantesis. All rights reserved."
 msgstr ""
 
 #: lib/tymeslot_web/components/core_components/containers.ex
@@ -369,4 +369,12 @@ msgstr ""
 #: lib/tymeslot/custom_fields/answer_renderer.ex
 #, elixir-autogen, elixir-format
 msgid "✓ Acknowledged"
+msgstr ""
+
+#: lib/tymeslot_web/components/core_components/brand.ex
+msgid "Source code for this version (AGPLv3)"
+msgstr ""
+
+#: lib/tymeslot_web/components/core_components/brand.ex
+msgid "Source repository (AGPLv3)"
 msgstr ""

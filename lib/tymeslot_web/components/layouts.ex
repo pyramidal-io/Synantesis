@@ -20,6 +20,7 @@ defmodule TymeslotWeb.Layouts do
   alias Tymeslot.Themes.Catalog
   alias TymeslotWeb.Analytics.Providers, as: AnalyticsProviders
   alias TymeslotWeb.AuthLive
+  alias TymeslotWeb.Components.CoreComponents.Brand
   alias TymeslotWeb.Endpoint
   alias TymeslotWeb.MeetingRequestLive
   alias TymeslotWeb.Themes.Core.Dispatcher

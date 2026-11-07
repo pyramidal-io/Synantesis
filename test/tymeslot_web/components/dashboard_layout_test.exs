@@ -27,7 +27,7 @@ defmodule TymeslotWeb.Components.DashboardLayoutTest do
     html = render_component(&DashboardLayout.dashboard_layout/1, component_assigns)
     doc = Floki.parse_document!(html)
 
-    assert html =~ "Tymeslot"
+    assert html =~ "Synantesis"
     assert html =~ "Test User"
     assert html =~ "Main Content"
 
@@ -48,7 +48,7 @@ defmodule TymeslotWeb.Components.DashboardLayoutTest do
     html = render_component(&DashboardLayout.top_navigation/1, assigns)
     doc = Floki.parse_document!(html)
 
-    assert html =~ "Tymeslot"
+    assert html =~ "Synantesis"
     assert html =~ "Test User"
 
     assert Floki.find(doc, "button[aria-label='Toggle sidebar']") != []

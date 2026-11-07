@@ -165,7 +165,7 @@ msgstr ""
 
 #: lib/tymeslot/integrations/calendar/ics/feed.ex
 #, elixir-autogen, elixir-format
-msgid "Calendar subscription sync failed while saving a fetched event. Tymeslot will try again on the next sync."
+msgid "Calendar subscription sync failed while saving a fetched event. Synantesis will try again on the next sync."
 msgstr ""
 
 #: lib/tymeslot/integrations/calendar/shared/error_messages.ex
@@ -491,7 +491,7 @@ msgstr ""
 
 #: lib/tymeslot/workers/sync_exchange_calendar_worker.ex
 #, elixir-autogen, elixir-format
-msgid "The Exchange server answered the free/busy request with nothing Tymeslot could read. Retrying rather than treating your diary as free."
+msgid "The Exchange server answered the free/busy request with nothing Synantesis could read. Retrying rather than treating your diary as free."
 msgstr ""
 
 #: lib/tymeslot/workers/sync_exchange_calendar_worker.ex
@@ -557,17 +557,17 @@ msgstr ""
 
 #: lib/tymeslot/integrations/calendar/shared/error_messages.ex
 #, elixir-autogen, elixir-format
-msgid "The calendar server at %{url} listed more items than Tymeslot can process at once. If this address points at a single calendar, enter your account's server address instead, and Tymeslot will find your calendars there."
+msgid "The calendar server at %{url} listed more items than Synantesis can process at once. If this address points at a single calendar, enter your account's server address instead, and Synantesis will find your calendars there."
 msgstr ""
 
 #: lib/tymeslot/integrations/calendar/caldav/errors.ex
 #, elixir-autogen, elixir-format
-msgid "The calendar server did not respond. Tymeslot will retry automatically."
+msgid "The calendar server did not respond. Synantesis will retry automatically."
 msgstr ""
 
 #: lib/tymeslot/integrations/calendar/caldav/errors.ex
 #, elixir-autogen, elixir-format
-msgid "The calendar server is rate-limiting Tymeslot. Tymeslot will retry automatically."
+msgid "The calendar server is rate-limiting Synantesis. Synantesis will retry automatically."
 msgstr ""
 
 #: lib/tymeslot/integrations/calendar/caldav/errors.ex
@@ -587,23 +587,23 @@ msgstr ""
 
 #: lib/tymeslot/integrations/calendar/caldav/errors.ex
 #, elixir-autogen, elixir-format
-msgid "The calendar server reported an error. Tymeslot will retry automatically."
+msgid "The calendar server reported an error. Synantesis will retry automatically."
 msgstr ""
 
 #: lib/tymeslot/integrations/calendar/caldav/errors.ex
 #, elixir-autogen, elixir-format
-msgid "The calendar server returned a response Tymeslot could not understand."
+msgid "The calendar server returned a response Synantesis could not understand."
 msgstr ""
 
 #: lib/tymeslot/integrations/calendar/caldav/errors.ex
 #: lib/tymeslot/integrations/calendar/shared/error_messages.ex
 #, elixir-autogen, elixir-format
-msgid "The calendar server returned more data than Tymeslot can process at once."
+msgid "The calendar server returned more data than Synantesis can process at once."
 msgstr ""
 
 #: lib/tymeslot/integrations/calendar/caldav/errors.ex
 #, elixir-autogen, elixir-format
-msgid "The calendar server took too long to respond. Tymeslot will retry automatically."
+msgid "The calendar server took too long to respond. Synantesis will retry automatically."
 msgstr ""
 
 #: lib/tymeslot/integrations/calendar/shared/error_handler.ex
@@ -619,7 +619,7 @@ msgstr ""
 
 #: lib/tymeslot/integrations/calendar/caldav/errors.ex
 #, elixir-autogen, elixir-format
-msgid "The event changed on the calendar server since Tymeslot last synced it."
+msgid "The event changed on the calendar server since Synantesis last synced it."
 msgstr ""
 
 #: lib/tymeslot/integrations/calendar/caldav/errors.ex
@@ -669,27 +669,27 @@ msgstr ""
 
 #: lib/tymeslot/integrations/calendar/caldav/errors.ex
 #, elixir-autogen, elixir-format
-msgid "Tymeslot could not complete the request against the calendar server."
+msgid "Synantesis could not complete the request against the calendar server."
 msgstr ""
 
 #: lib/tymeslot/integrations/calendar/caldav/errors.ex
 #, elixir-autogen, elixir-format
-msgid "Tymeslot could not reach the calendar server. Tymeslot will retry automatically."
+msgid "Synantesis could not reach the calendar server. Synantesis will retry automatically."
 msgstr ""
 
 #: lib/tymeslot/integrations/calendar/auth/jobs/token_refresh_job.ex
 #, elixir-autogen, elixir-format
-msgid "Tymeslot could not renew its access to this calendar. It will try again shortly."
+msgid "Synantesis could not renew its access to this calendar. It will try again shortly."
 msgstr ""
 
 #: lib/tymeslot/integrations/calendar/caldav/offline_queue.ex
 #, elixir-autogen, elixir-format
-msgid "Tymeslot could not send this change to the calendar server."
+msgid "Synantesis could not send this change to the calendar server."
 msgstr ""
 
 #: lib/tymeslot/workers/sync_exchange_calendar_worker.ex
 #, elixir-autogen, elixir-format
-msgid "Tymeslot needs the mailbox's email address to read its free/busy time. Please reconnect the integration and provide it."
+msgid "Synantesis needs the mailbox's email address to read its free/busy time. Please reconnect the integration and provide it."
 msgstr ""
 
 #: lib/tymeslot/integrations/calendar/shared/error_messages.ex
@@ -810,7 +810,7 @@ msgstr ""
 
 #: lib/tymeslot/integrations/calendar/domain/management.ex
 #, elixir-autogen, elixir-format
-msgid "Your calendar connection does not allow Tymeslot to add bookings to it. Please reconnect the integration and allow Tymeslot to create and edit events."
+msgid "Your calendar connection does not allow Synantesis to add bookings to it. Please reconnect the integration and allow Synantesis to create and edit events."
 msgstr ""
 
 #: lib/tymeslot/workers/sync_caldav_calendar_worker.ex
