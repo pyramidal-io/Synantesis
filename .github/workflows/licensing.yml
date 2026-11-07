@@ -38,7 +38,7 @@ jobs:
     # Only run on GitHub, not Gitea. 'closed' exists for the signature gate below and
     # carries no new commits to check.
     if: >-
-      github.server_url == 'https://github.com' &&
+      github.repository == 'Tymeslot/tymeslot' && github.server_url == 'https://github.com' &&
       github.event_name == 'pull_request_target' &&
       github.event.action != 'closed'
 
@@ -129,7 +129,7 @@ jobs:
     # comments, so it keeps this job off plain issues rather than letting them fail
     # loudly in front of whoever just commented.
     if: >-
-      github.server_url == 'https://github.com' &&
+      github.repository == 'Tymeslot/tymeslot' && github.server_url == 'https://github.com' &&
       (github.event_name == 'pull_request_target' ||
        (github.event.issue.pull_request &&
         (github.event.comment.body == 'recheck' ||

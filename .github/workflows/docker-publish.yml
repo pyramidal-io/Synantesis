@@ -15,7 +15,7 @@ env:
 jobs:
   build:
     # The inherited publisher targets the upstream registry.
-    if: github.repository == 'Tymeslot/tymeslot'
+    if: github.repository == 'Tymeslot/tymeslot' && github.server_url == 'https://github.com'
     strategy:
       fail-fast: true
       matrix:
@@ -94,7 +94,7 @@ jobs:
           retention-days: 1
 
   merge:
-    if: github.repository == 'Tymeslot/tymeslot'
+    if: github.repository == 'Tymeslot/tymeslot' && github.server_url == 'https://github.com'
     needs: build
     runs-on: ubuntu-latest
 

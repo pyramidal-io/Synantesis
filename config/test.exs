@@ -152,7 +152,7 @@ test_pool_size =
 config :tymeslot, Tymeslot.Repo,
   username: "postgres",
   password: "postgres",
-  hostname: "localhost",
+  hostname: System.get_env("TEST_DB_HOST", "localhost"),
   database: "tymeslot_test#{test_run_suffix}",
   pool: Ecto.Adapters.SQL.Sandbox,
   pool_size: test_pool_size,

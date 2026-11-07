@@ -41,7 +41,7 @@ jobs:
   flake-hunt:
     runs-on: ubuntu-latest
     # Only run on GitHub, not Gitea
-    if: github.server_url == 'https://github.com'
+    if: github.repository == 'Tymeslot/tymeslot' && github.server_url == 'https://github.com'
     # Roughly triple the nightly's ~1 hour, so a slow runner or a manually
     # dispatched N of 20-odd still finishes, while a wedged run is cut at three
     # hours rather than drifting up to the 360-minute platform default. Being

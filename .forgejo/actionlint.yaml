@@ -1,0 +1,4 @@
+self-hosted-runner:
+  labels:
+    - forgejo-untrusted-pr-v1
+    - forgejo-untrusted-heavy-v1

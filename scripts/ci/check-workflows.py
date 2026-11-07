@@ -1,0 +1,102 @@
+#!/usr/bin/env python3
+"""Keep Synantesis candidate workflows within the credentialless runner tier."""
+
+import re
+from pathlib import Path
+
+import yaml
+
+CHECKOUT = (
+    "https://code.forgejo.org/actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683"
+)
+ALLOWED_EXPRESSIONS = {
+    "github.event.pull_request.head.sha || github.sha",
+    "github.event_name",
+    "github.event.pull_request.base.sha",
+    "github.event.before",
+}
+GUARD = "github.event_name == 'pull_request' || github.ref == 'refs/heads/main'"
+GENERAL_RUNNER = "forgejo-untrusted-pr-v1"
+# A cold Dialyzer run exceeds the general 6 GiB cap. The heavy label has no
+# runner-side gate, so this is the only job allowed to select it.
+JOBS = {
+    "verify": ("Verify", GENERAL_RUNNER),
+    "dialyzer": ("Dialyzer", "forgejo-untrusted-heavy-v1"),
+    "policy": ("Policy", GENERAL_RUNNER),
+}
+
+
+def validate(path: Path) -> None:
+    text = path.read_text()
+    workflow = yaml.load(text, Loader=yaml.BaseLoader)
+    if not isinstance(workflow, dict):
+        raise ValueError("workflow must be a mapping")
+    if set(workflow.get("on", {})) - {"push", "pull_request", "workflow_dispatch"}:
+        raise ValueError("unsupported workflow event")
+    if workflow.get("permissions") != {"contents": "read"}:
+        raise ValueError("workflow must request only contents:read")
+    if re.search(
+        r"\bsecrets\s*(?:\.|\[)|\b(?:github|forgejo)\s*(?:\[|\.\s*token\b)", text, re.I
+    ):
+        raise ValueError("candidate workflows cannot reference credentials")
+    for expression in re.findall(r"\$\{\{(.*?)\}\}", text, re.S):
+        if expression.strip() not in ALLOWED_EXPRESSIONS:
+            raise ValueError(
+                "workflow expression is outside the approved metadata inputs"
+            )
+    jobs = workflow.get("jobs", {})
+    if workflow.get("name") != "Synantesis CI" or set(jobs) != set(JOBS):
+        raise ValueError("the Verify, Dialyzer and Policy gates must all exist")
+    for key, job in jobs.items():
+        name, runner = JOBS[key]
+        if job.get("name") != name:
+            raise ValueError("required gate names must remain stable")
+        if job.get("runs-on") != runner or job.get("if") != GUARD:
+            raise ValueError("job must use the isolated tier and main-ref guard")
+        if runner != GENERAL_RUNNER and "services" in job:
+            raise ValueError("heavy jobs cannot use service containers")
+        if not 1 <= int(job.get("timeout-minutes", "0")) <= 180:
+            raise ValueError("job timeout must be bounded")
+        if set(job) & {"uses", "secrets", "container", "permissions"}:
+            raise ValueError("job cannot override execution or credentials")
+        for service in job.get("services", {}).values():
+            if not re.fullmatch(
+                r"[^\s]+@sha256:[0-9a-f]{64}", service.get("image", "")
+            ):
+                raise ValueError("service image must use an immutable digest")
+            if set(service) - {"image", "env"}:
+                raise ValueError("service cannot publish ports or override isolation")
+        for step in job.get("steps", []):
+            if "if" in step:
+                raise ValueError(
+                    "candidate steps must not add implicit context expressions"
+                )
+            if "uses" in step and (
+                step["uses"] != CHECKOUT
+                or step.get("with", {}).get("persist-credentials") != "false"
+            ):
+                raise ValueError("only the pinned credentialless checkout is allowed")
+
+
+def native_paths(root: Path) -> list[Path]:
+    return sorted(
+        path for path in root.iterdir() if path.suffix.lower() in {".yml", ".yaml"}
+    )
+
+
+def main() -> None:
+    paths = native_paths(Path(".forgejo/workflows"))
+    if paths != [Path(".forgejo/workflows/ci.yml")]:
+        raise SystemExit(
+            "the native CI workflow must exist and be the only candidate workflow"
+        )
+    for path in paths:
+        try:
+            validate(path)
+        except (ValueError, TypeError) as error:
+            raise SystemExit(f"{path}: {error}") from error
+        print(f"Validated isolated workflow policy for {path}")
+
+
+if __name__ == "__main__":
+    main()
